@@ -1,11 +1,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Goldydocs – Documentation</title>
-    <link>/docs/</link>
+    <link>https://erc-bpgc.github.io/handbook/docs/</link>
     <description>Recent content in Documentation on Goldydocs</description>
     <generator>Hugo -- gohugo.io</generator>
     
-	  <atom:link href="/docs/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="https://erc-bpgc.github.io/handbook/docs/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -15,10 +15,10 @@
     
     <item>
       <title>Docs: Bed and Chair Metrics</title>
-      <link>/docs/tasks/beds/</link>
+      <link>https://erc-bpgc.github.io/handbook/docs/tasks/beds/</link>
       <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>/docs/tasks/beds/</guid>
+      <guid>https://erc-bpgc.github.io/handbook/docs/tasks/beds/</guid>
       <description>
         
         
@@ -316,10 +316,10 @@ This is a warning with a title.
     
     <item>
       <title>Docs: Configuring Ponycopters</title>
-      <link>/docs/tasks/ponycopters/configuring-ponycopters/</link>
+      <link>https://erc-bpgc.github.io/handbook/docs/tasks/ponycopters/configuring-ponycopters/</link>
       <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>/docs/tasks/ponycopters/configuring-ponycopters/</guid>
+      <guid>https://erc-bpgc.github.io/handbook/docs/tasks/ponycopters/configuring-ponycopters/</guid>
       <description>
         
         
@@ -617,10 +617,10 @@ This is a warning with a title.
     
     <item>
       <title>Docs: Launching Ponycopters</title>
-      <link>/docs/tasks/ponycopters/launching-ponycopters/</link>
+      <link>https://erc-bpgc.github.io/handbook/docs/tasks/ponycopters/launching-ponycopters/</link>
       <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>/docs/tasks/ponycopters/launching-ponycopters/</guid>
+      <guid>https://erc-bpgc.github.io/handbook/docs/tasks/ponycopters/launching-ponycopters/</guid>
       <description>
         
         
@@ -918,10 +918,10 @@ This is a warning with a title.
     
     <item>
       <title>Docs: Multi-Bear Domicile Setup</title>
-      <link>/docs/tutorials/multi-bear/</link>
+      <link>https://erc-bpgc.github.io/handbook/docs/tutorials/multi-bear/</link>
       <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>/docs/tutorials/multi-bear/</guid>
+      <guid>https://erc-bpgc.github.io/handbook/docs/tutorials/multi-bear/</guid>
       <description>
         
         
@@ -1219,10 +1219,10 @@ This is a warning with a title.
     
     <item>
       <title>Docs: Porridge Assessment</title>
-      <link>/docs/tasks/porridge/</link>
+      <link>https://erc-bpgc.github.io/handbook/docs/tasks/porridge/</link>
       <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>/docs/tasks/porridge/</guid>
+      <guid>https://erc-bpgc.github.io/handbook/docs/tasks/porridge/</guid>
       <description>
         
         
@@ -1520,10 +1520,10 @@ This is a warning with a title.
     
     <item>
       <title>Docs: Another Task</title>
-      <link>/docs/tasks/task/</link>
+      <link>https://erc-bpgc.github.io/handbook/docs/tasks/task/</link>
       <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>/docs/tasks/task/</guid>
+      <guid>https://erc-bpgc.github.io/handbook/docs/tasks/task/</guid>
       <description>
         
         
@@ -1821,10 +1821,10 @@ This is a warning with a title.
     
     <item>
       <title>Docs: Another Tutorial</title>
-      <link>/docs/tutorials/tutorial2/</link>
+      <link>https://erc-bpgc.github.io/handbook/docs/tutorials/tutorial2/</link>
       <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>/docs/tutorials/tutorial2/</guid>
+      <guid>https://erc-bpgc.github.io/handbook/docs/tutorials/tutorial2/</guid>
       <description>
         
         
@@ -2122,10 +2122,10 @@ This is a warning with a title.
     
     <item>
       <title>Docs: Example Page</title>
-      <link>/docs/getting-started/example-page/</link>
+      <link>https://erc-bpgc.github.io/handbook/docs/getting-started/example-page/</link>
       <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>/docs/getting-started/example-page/</guid>
+      <guid>https://erc-bpgc.github.io/handbook/docs/getting-started/example-page/</guid>
       <description>
         
         
@@ -2423,10 +2423,10 @@ This is a warning with a title.
     
     <item>
       <title>Docs: Parameter Reference</title>
-      <link>/docs/reference/parameter-reference/</link>
+      <link>https://erc-bpgc.github.io/handbook/docs/reference/parameter-reference/</link>
       <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>/docs/reference/parameter-reference/</guid>
+      <guid>https://erc-bpgc.github.io/handbook/docs/reference/parameter-reference/</guid>
       <description>
         
         

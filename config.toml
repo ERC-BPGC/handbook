@@ -1,4 +1,4 @@
-baseURL = "/handbook/"
+baseURL = "https://erc-bpgc.github.io/handbook/"
 title = "Goldydocs"
 
 publishDir = "docs"
