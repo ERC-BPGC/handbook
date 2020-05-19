@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "/handbook/"
 title = "Goldydocs"
 
 publishDir = "docs"
