@@ -1,5 +1,5 @@
 baseURL = "https://erc-bpgc.github.io/handbook/"
-title = "Docsy"
+title = "Goldydocs"
 
 publishDir = "docs"
 
