@@ -1,11 +1,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ERC Handbook – Electronics</title>
-    <link>https://erc-bpgc.github.io/erc_handbook/docs/electronics/</link>
+    <link>https://erc-bpgc.github.io/handbook/docs/electronics/</link>
     <description>Recent content in Electronics on ERC Handbook</description>
     <generator>Hugo -- gohugo.io</generator>
     
-	  <atom:link href="https://erc-bpgc.github.io/erc_handbook/docs/electronics/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="https://erc-bpgc.github.io/handbook/docs/electronics/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -15,10 +15,10 @@
     
     <item>
       <title>Docs: Arduino Basics</title>
-      <link>https://erc-bpgc.github.io/erc_handbook/docs/electronics/arduino-basics/</link>
+      <link>https://erc-bpgc.github.io/handbook/docs/electronics/arduino-basics/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://erc-bpgc.github.io/erc_handbook/docs/electronics/arduino-basics/</guid>
+      <guid>https://erc-bpgc.github.io/handbook/docs/electronics/arduino-basics/</guid>
       <description>
         
         
@@ -53,10 +53,10 @@
     
     <item>
       <title>Docs: Beginner&#39;s Tutorials</title>
-      <link>https://erc-bpgc.github.io/erc_handbook/docs/electronics/beginners-tutorials/</link>
+      <link>https://erc-bpgc.github.io/handbook/docs/electronics/beginners-tutorials/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://erc-bpgc.github.io/erc_handbook/docs/electronics/beginners-tutorials/</guid>
+      <guid>https://erc-bpgc.github.io/handbook/docs/electronics/beginners-tutorials/</guid>
       <description>
         
         
@@ -91,10 +91,10 @@
     
     <item>
       <title>Docs: Communication Modules</title>
-      <link>https://erc-bpgc.github.io/erc_handbook/docs/electronics/communication-modules/</link>
+      <link>https://erc-bpgc.github.io/handbook/docs/electronics/communication-modules/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://erc-bpgc.github.io/erc_handbook/docs/electronics/communication-modules/</guid>
+      <guid>https://erc-bpgc.github.io/handbook/docs/electronics/communication-modules/</guid>
       <description>
         
         
@@ -129,10 +129,10 @@
     
     <item>
       <title>Docs: Motor Drivers</title>
-      <link>https://erc-bpgc.github.io/erc_handbook/docs/electronics/motor-drivers/</link>
+      <link>https://erc-bpgc.github.io/handbook/docs/electronics/motor-drivers/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://erc-bpgc.github.io/erc_handbook/docs/electronics/motor-drivers/</guid>
+      <guid>https://erc-bpgc.github.io/handbook/docs/electronics/motor-drivers/</guid>
       <description>
         
         
@@ -167,10 +167,10 @@
     
     <item>
       <title>Docs: Motors</title>
-      <link>https://erc-bpgc.github.io/erc_handbook/docs/electronics/motors/</link>
+      <link>https://erc-bpgc.github.io/handbook/docs/electronics/motors/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://erc-bpgc.github.io/erc_handbook/docs/electronics/motors/</guid>
+      <guid>https://erc-bpgc.github.io/handbook/docs/electronics/motors/</guid>
       <description>
         
         
@@ -205,10 +205,10 @@
     
     <item>
       <title>Docs: Sensors</title>
-      <link>https://erc-bpgc.github.io/erc_handbook/docs/electronics/sensors/</link>
+      <link>https://erc-bpgc.github.io/handbook/docs/electronics/sensors/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://erc-bpgc.github.io/erc_handbook/docs/electronics/sensors/</guid>
+      <guid>https://erc-bpgc.github.io/handbook/docs/electronics/sensors/</guid>
       <description>
         
         

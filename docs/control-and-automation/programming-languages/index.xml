@@ -1,11 +1,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ERC Handbook – Programming Languages</title>
-    <link>https://erc-bpgc.github.io/erc_handbook/docs/control-and-automation/programming-languages/</link>
+    <link>https://erc-bpgc.github.io/handbook/docs/control-and-automation/programming-languages/</link>
     <description>Recent content in Programming Languages on ERC Handbook</description>
     <generator>Hugo -- gohugo.io</generator>
     
-	  <atom:link href="https://erc-bpgc.github.io/erc_handbook/docs/control-and-automation/programming-languages/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="https://erc-bpgc.github.io/handbook/docs/control-and-automation/programming-languages/index.xml" rel="self" type="application/rss+xml" />
     
     
       

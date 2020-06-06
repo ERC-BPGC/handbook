@@ -1,11 +1,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ERC Handbook – Control and Automation</title>
-    <link>https://erc-bpgc.github.io/erc_handbook/docs/control-and-automation/</link>
+    <link>https://erc-bpgc.github.io/handbook/docs/control-and-automation/</link>
     <description>Recent content in Control and Automation on ERC Handbook</description>
     <generator>Hugo -- gohugo.io</generator>
     
-	  <atom:link href="https://erc-bpgc.github.io/erc_handbook/docs/control-and-automation/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="https://erc-bpgc.github.io/handbook/docs/control-and-automation/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -15,10 +15,10 @@
     
     <item>
       <title>Docs: AI in Robotics</title>
-      <link>https://erc-bpgc.github.io/erc_handbook/docs/control-and-automation/ai-in-robotics/</link>
+      <link>https://erc-bpgc.github.io/handbook/docs/control-and-automation/ai-in-robotics/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://erc-bpgc.github.io/erc_handbook/docs/control-and-automation/ai-in-robotics/</guid>
+      <guid>https://erc-bpgc.github.io/handbook/docs/control-and-automation/ai-in-robotics/</guid>
       <description>
         
         
@@ -53,10 +53,10 @@
     
     <item>
       <title>Docs: Computer Vision</title>
-      <link>https://erc-bpgc.github.io/erc_handbook/docs/control-and-automation/computer-vision/</link>
+      <link>https://erc-bpgc.github.io/handbook/docs/control-and-automation/computer-vision/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://erc-bpgc.github.io/erc_handbook/docs/control-and-automation/computer-vision/</guid>
+      <guid>https://erc-bpgc.github.io/handbook/docs/control-and-automation/computer-vision/</guid>
       <description>
         
         
@@ -91,10 +91,10 @@
     
     <item>
       <title>Docs: Data Structures</title>
-      <link>https://erc-bpgc.github.io/erc_handbook/docs/control-and-automation/data-structures/</link>
+      <link>https://erc-bpgc.github.io/handbook/docs/control-and-automation/data-structures/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://erc-bpgc.github.io/erc_handbook/docs/control-and-automation/data-structures/</guid>
+      <guid>https://erc-bpgc.github.io/handbook/docs/control-and-automation/data-structures/</guid>
       <description>
         
         
@@ -129,10 +129,10 @@
     
     <item>
       <title>Docs: Linux OS</title>
-      <link>https://erc-bpgc.github.io/erc_handbook/docs/control-and-automation/linux-os/</link>
+      <link>https://erc-bpgc.github.io/handbook/docs/control-and-automation/linux-os/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://erc-bpgc.github.io/erc_handbook/docs/control-and-automation/linux-os/</guid>
+      <guid>https://erc-bpgc.github.io/handbook/docs/control-and-automation/linux-os/</guid>
       <description>
         
         
@@ -167,10 +167,10 @@
     
     <item>
       <title>Docs: Programming Languages</title>
-      <link>https://erc-bpgc.github.io/erc_handbook/docs/control-and-automation/programming-languages/</link>
+      <link>https://erc-bpgc.github.io/handbook/docs/control-and-automation/programming-languages/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://erc-bpgc.github.io/erc_handbook/docs/control-and-automation/programming-languages/</guid>
+      <guid>https://erc-bpgc.github.io/handbook/docs/control-and-automation/programming-languages/</guid>
       <description>
         
         
@@ -205,10 +205,10 @@
     
     <item>
       <title>Docs: Pseudo Code</title>
-      <link>https://erc-bpgc.github.io/erc_handbook/docs/control-and-automation/pseudo-code/</link>
+      <link>https://erc-bpgc.github.io/handbook/docs/control-and-automation/pseudo-code/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://erc-bpgc.github.io/erc_handbook/docs/control-and-automation/pseudo-code/</guid>
+      <guid>https://erc-bpgc.github.io/handbook/docs/control-and-automation/pseudo-code/</guid>
       <description>
         
         
@@ -243,10 +243,10 @@
     
     <item>
       <title>Docs: ROS(Robot Operating System)</title>
-      <link>https://erc-bpgc.github.io/erc_handbook/docs/control-and-automation/rosrobot-operating-system/</link>
+      <link>https://erc-bpgc.github.io/handbook/docs/control-and-automation/rosrobot-operating-system/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://erc-bpgc.github.io/erc_handbook/docs/control-and-automation/rosrobot-operating-system/</guid>
+      <guid>https://erc-bpgc.github.io/handbook/docs/control-and-automation/rosrobot-operating-system/</guid>
       <description>
         
         
