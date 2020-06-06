@@ -1,0 +1,17 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ERC Handbook – Actuators</title>
+    <link>https://erc-bpgc.github.io/erc_handbook/docs/mechanics/actuators/</link>
+    <description>Recent content in Actuators on ERC Handbook</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://erc-bpgc.github.io/erc_handbook/docs/mechanics/actuators/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+  </channel>
+</rss>

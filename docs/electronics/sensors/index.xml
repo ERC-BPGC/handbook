@@ -1,0 +1,17 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ERC Handbook – Sensors</title>
+    <link>https://erc-bpgc.github.io/erc_handbook/docs/electronics/sensors/</link>
+    <description>Recent content in Sensors on ERC Handbook</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://erc-bpgc.github.io/erc_handbook/docs/electronics/sensors/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+  </channel>
+</rss>
