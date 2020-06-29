@@ -4,12 +4,36 @@
   
   <url>
     <loc>https://erc-bpgc.github.io/handbook/docs/computer-science/</loc>
-    <lastmod>2020-06-19T01:22:20+05:30</lastmod>
+    <lastmod>2020-06-28T03:04:18+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://erc-bpgc.github.io/handbook/docs/simulation/gazebo/</loc>
+  </url>
+  
+  <url>
+    <loc>https://erc-bpgc.github.io/handbook/docs/simulation/ignition/</loc>
+  </url>
+  
+  <url>
+    <loc>https://erc-bpgc.github.io/handbook/docs/simulation/other-simulators/</loc>
   </url>
   
   <url>
     <loc>https://erc-bpgc.github.io/handbook/docs/control-and-automation/rosrobot-operating-system/</loc>
     <lastmod>2020-06-19T01:22:20+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://erc-bpgc.github.io/handbook/docs/simulation/</loc>
+  </url>
+  
+  <url>
+    <loc>https://erc-bpgc.github.io/handbook/docs/simulation/simulation-in-gazebo/</loc>
+  </url>
+  
+  <url>
+    <loc>https://erc-bpgc.github.io/handbook/docs/simulation/tutorials/</loc>
   </url>
   
   <url>
