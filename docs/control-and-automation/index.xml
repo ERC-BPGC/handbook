@@ -73,6 +73,100 @@
     </item>
     
     <item>
+      <title>Docs: Preparing your Development Environment</title>
+      <link>https://erc-bpgc.github.io/handbook/docs/control-and-automation/getting-started/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://erc-bpgc.github.io/handbook/docs/control-and-automation/getting-started/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
+&lt;p&gt;One of the most essential and widely used tools for robot automation in &lt;strong&gt;Robot Operating System&lt;/strong&gt; or &lt;strong&gt;ROS&lt;/strong&gt;. This section will guide you through how to setup ROS and other tools on your computer.&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;h2 id=&#34;1-operating-system&#34;&gt;1. Operating System&lt;/h2&gt;
+&lt;p&gt;Robotics Development relies heavily on  &lt;strong&gt;Linux&lt;/strong&gt; . We recommend using  &lt;a href=&#34;https://releases.ubuntu.com/18.04.4/&#34;&gt;Ubuntu 18.04&lt;/a&gt; since it is the most widely used and supported variant of Linux. If you already have Ubuntu 16.04, this is also OK, although for versions older than this we recommend upgrading to 18.04.&lt;/p&gt;
+&lt;p&gt;For those who currently have &lt;strong&gt;Windows&lt;/strong&gt; as the only OS on their machine, the best way to start using Ubuntu would be to &lt;strong&gt;dual boot&lt;/strong&gt;. Here is a guide on how to do &lt;a href=&#34;https://itsfoss.com/install-ubuntu-1404-dual-boot-mode-windows-8-81-uefi/&#34;&gt;this&lt;/a&gt; . For &lt;strong&gt;MacOS&lt;/strong&gt; users, dual booting is an  &lt;a href=&#34;https://www.youtube.com/watch?v=IQIaDO9nR6Y&amp;amp;app=desktop&#34;&gt;option&lt;/a&gt; but we recommend using up a virtual machine.&lt;/p&gt;
+&lt;p&gt;If you are unable to dual boot for any reason, you can try setting up a &lt;strong&gt;virtual machine&lt;/strong&gt;. The first step in this is to install a virtualisation software. For Windows you can use either &lt;a href=&#34;https://www.virtualbox.org/&#34;&gt;VirtualBox&lt;/a&gt; (free) or Vmware Workstation and for MacOS either &lt;a href=&#34;https://www.virtualbox.org/&#34;&gt;VirtualBox&lt;/a&gt; (free),
+Vmware Fusion or Parallels. After getting one of the above, follow the instructions given &lt;a href=&#34;https://ethz.ch/content/dam/ethz/special-interest/mavt/robotics-n-intelligent-systems/rsl-dam/ROS2020/CoursePreparation.pdf&#34;&gt;here&lt;/a&gt; (skip ahead to the &lt;em&gt;Download Image&lt;/em&gt; section). After completing the given procedure you will be equipped with all the basic tools required for Robotics including ROS,
+catkin and git.&lt;/p&gt;
+&lt;p&gt;In the unfortunate case that the &lt;strong&gt;above options do not work&lt;/strong&gt;, for Windows users there is still a way - &lt;a href=&#34;https://ubuntu.com/wsl&#34;&gt;WSL&lt;/a&gt;. Do be warned however, this path is fraught with frustration and much debugging. Only continue if you have exhausted other options. For a guide on setting up WSL for ROS, look &lt;a href=&#34;https://janbernloehr.de/2017/06/10/ros-windows&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;For those whom none of the above are possible, consider using the online browser based &lt;a href=&#34;https://www.theconstructsim.com/&#34;&gt;ROS Development Studio&lt;/a&gt;. Keep in mind that it has a limited access time per week and performance may be questionable.&lt;/p&gt;
+&lt;h2 id=&#34;2-robot-operating-system-ros&#34;&gt;2. Robot Operating System (ROS)&lt;/h2&gt;
+&lt;p&gt;Note that this part is unnecessary if you followed the given instructions to set up a VM. For everyone else, this part is &lt;strong&gt;essential&lt;/strong&gt;. Different versions of Ubuntu need different variants of ROS. Instructions given below -&lt;/p&gt;
+&lt;p&gt;➔ Ubuntu 18.04 :  &lt;a href=&#34;http://wiki.ros.org/melodic/Installation/Ubuntu&#34;&gt;ROS Melodic&lt;/a&gt;  &lt;br&gt;
+➔ Ubuntu 16.04 :  &lt;a href=&#34;http://wiki.ros.org/kinetic/Installation/Ubuntu&#34;&gt;ROS Kinetic&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;3-useful-tools-to-make-your-life-easier&#34;&gt;3. Useful tools to make your life easier&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://rogerdudler.github.io/git-guide/&#34;&gt;Git​&lt;/a&gt; : Fundamental tool in open source software development. Used for version
+control and sharing of code.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;	sudo apt install git
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://terminator-gtk3.readthedocs.io/en/latest/&#34;&gt;Terminator&lt;/a&gt;​ : Terminal Emulator useful for having multiple terminals in a window.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;	sudo apt install terminator 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;Code Editors : A good editor can go a long way in boosting productivity. We recommend ​&lt;a href=&#34;https://code.visualstudio.com/&#34;&gt;VSCode&lt;/a&gt;​ which has plugins for python and ROS. A comprehensive guide for how to integrate ROS into your favourite IDE can be found &lt;a href=&#34;http://wiki.ros.org/IDEs&#34;&gt;​here&lt;/a&gt;​.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;4-ros-packages&#34;&gt;4. ROS Packages&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;You can install already developed ROS packages using the apt (package manager for Ubuntu). Replace &amp;lt;package_name&amp;gt; name of the ROS package&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;	sudo apt install ros-&lt;span style=&#34;color:#000&#34;&gt;$ROS_DISTRO&lt;/span&gt;-&amp;lt;package_name&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;For example in this course you will need to install Turtlebot3 and its related
+packages with the following command -&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;	sudo apt install ros-&lt;span style=&#34;color:#000&#34;&gt;$ROS_DISTRO&lt;/span&gt;-turtlebot3-*
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;Set the default Turtlebot model as  “&lt;em&gt;burger&lt;/em&gt;”  by adding the following line at the
+end of your &lt;em&gt;.bashrc&lt;/em&gt; file-&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;	&lt;span style=&#34;color:#204a87&#34;&gt;export&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;TURTLEBOT3_MODEL&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;burger
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;Test your Turtlebot and Gazebo setup by launching a sample launch file using the following command&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;	roslaunch turtlebot3_gazebo turtlebot3_empty_world.launch
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;If you see the Turtlebot in the gazebo environment, then you may assume that
+the installation is successful!&lt;/p&gt;
+&lt;h2 id=&#34;5-tips-for-getting-things-to-work--some-helpful-facts&#34;&gt;5. Tips for getting things to work + some helpful facts&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Make a habit of running  sudo apt update before installing packages in linux.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;For the uninitiated, your  bashrc  file is the configuration file for your bash terminal (the thing you type commands into). It&amp;rsquo;s usually located in your home directory at ~/.bashrc  For more info, check out &lt;a href=&#34;https://www.youtube.com/watch?v=oxuRxtrO2Ag&#34;&gt;this&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Don’t forget to source the workspace you want to use. For convenience you can source the workspace on startup by editing your .bashrc file to include the
+following line. Replace &amp;lt;workspace_path&amp;gt; with the path of your workspace&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;	&lt;span style=&#34;color:#204a87&#34;&gt;source&lt;/span&gt; &amp;lt;workspace_path&amp;gt;/devel/setup.bash
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;You cannot source two workspaces at the same time.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Anaconda and ROS cannot be used in the same environment because they
+have a conflicting python path. As given  here , to deal with this, edit your
+bashrc  file by commenting the anaconda python path like this -&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;	//  &lt;span style=&#34;color:#204a87&#34;&gt;export&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;PATH&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;/home//anaconda3/bin:&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;$PATH&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt; &amp;#34;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;Use python  pip to install python dependencies. Anaconda should be avoided.&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
       <title>Docs: AI in Robotics</title>
       <link>https://erc-bpgc.github.io/handbook/docs/control-and-automation/ai-in-robotics/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

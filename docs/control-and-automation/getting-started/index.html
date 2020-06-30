@@ -7,7 +7,7 @@
 
 <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
 
-<link rel="alternate" type="application/rss&#43;xml" href="https://erc-bpgc.github.io/handbook/docs/mechanics/wheels/index.xml">
+<link rel="alternate" type="application/rss&#43;xml" href="https://erc-bpgc.github.io/handbook/docs/control-and-automation/getting-started/index.xml">
 
 
 <link rel="shortcut icon" href="/favicons/favicon.ico" >
@@ -21,18 +21,15 @@
 <link rel="icon" type="image/png" href="/handbook/favicons/android-144x144.png" sizes="144x144">
 <link rel="icon" type="image/png" href="/handbook/favicons/android-192x192.png" sizes="192x192">
 
-<title>Wheels | ERC Handbook</title><meta property="og:title" content="Wheels" />
-<meta property="og:description" content="What does your user need to know to try your project?
-" />
+<title>Preparing your Development Environment | ERC Handbook</title><meta property="og:title" content="Preparing your Development Environment" />
+<meta property="og:description" content="Information source" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://erc-bpgc.github.io/handbook/docs/mechanics/wheels/" />
+<meta property="og:url" content="https://erc-bpgc.github.io/handbook/docs/control-and-automation/getting-started/" />
 <meta property="og:site_name" content="ERC Handbook" />
-<meta itemprop="name" content="Wheels">
-<meta itemprop="description" content="What does your user need to know to try your project?
-"><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Wheels"/>
-<meta name="twitter:description" content="What does your user need to know to try your project?
-"/>
+<meta itemprop="name" content="Preparing your Development Environment">
+<meta itemprop="description" content="Information source"><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Preparing your Development Environment"/>
+<meta name="twitter:description" content="Information source"/>
 
 
 
@@ -544,10 +541,10 @@
 
 <ul class="td-sidebar-nav__section pr-md-3">
   <li class="td-sidebar-nav__section-title">
-    <a  href="/handbook/docs/control-and-automation/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Control and Automation</a>
+    <a  href="/handbook/docs/control-and-automation/" class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__section">Control and Automation</a>
   </li>
   <ul>
-    <li class="collapse " id="handbookdocscontrol-and-automation">
+    <li class="collapse show" id="handbookdocscontrol-and-automation">
       
       
       
@@ -607,10 +604,10 @@
 
 <ul class="td-sidebar-nav__section pr-md-3">
   <li class="td-sidebar-nav__section-title">
-    <a  href="/handbook/docs/control-and-automation/getting-started/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Getting Started</a>
+    <a  href="/handbook/docs/control-and-automation/getting-started/" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">Getting Started</a>
   </li>
   <ul>
-    <li class="collapse " id="handbookdocscontrol-and-automationgetting-started">
+    <li class="collapse show" id="handbookdocscontrol-and-automationgetting-started">
       
       
       
@@ -659,10 +656,10 @@
 
 <ul class="td-sidebar-nav__section pr-md-3">
   <li class="td-sidebar-nav__section-title">
-    <a  href="/handbook/docs/mechanics/" class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__section">Mechanics</a>
+    <a  href="/handbook/docs/mechanics/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Mechanics</a>
   </li>
   <ul>
-    <li class="collapse show" id="handbookdocsmechanics">
+    <li class="collapse " id="handbookdocsmechanics">
       
       
       
@@ -791,10 +788,10 @@
 
 <ul class="td-sidebar-nav__section pr-md-3">
   <li class="td-sidebar-nav__section-title">
-    <a  href="/handbook/docs/mechanics/wheels/" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">Wheels</a>
+    <a  href="/handbook/docs/mechanics/wheels/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Wheels</a>
   </li>
   <ul>
-    <li class="collapse show" id="handbookdocsmechanicswheels">
+    <li class="collapse " id="handbookdocsmechanicswheels">
       
       
       
@@ -858,8 +855,8 @@
 
 
 
-<a href="https://github.com/ERC-BPGC/erc_handbook/edit/master/content/en/docs/Mechanics/Wheels/_index.md" target="_blank"><i class="fa fa-edit fa-fw"></i> Edit this page</a>
-<a href="https://github.com/ERC-BPGC/erc_handbook/issues/new?title=Wheels" target="_blank"><i class="fab fa-github fa-fw"></i> Create documentation issue</a>
+<a href="https://github.com/ERC-BPGC/erc_handbook/edit/master/content/en/docs/Control%20and%20Automation/Getting%20Started/_index.md" target="_blank"><i class="fa fa-edit fa-fw"></i> Edit this page</a>
+<a href="https://github.com/ERC-BPGC/erc_handbook/issues/new?title=Preparing%20your%20Development%20Environment" target="_blank"><i class="fab fa-github fa-fw"></i> Create documentation issue</a>
 
 
 <a href="https://github.com/google/docsy/issues/new" target="_blank"><i class="fas fa-tasks fa-fw"></i> Create project issue</a>
@@ -873,10 +870,11 @@
 
 <nav id="TableOfContents">
   <ul>
-    <li><a href="#prerequisites">Prerequisites</a></li>
-    <li><a href="#installation">Installation</a></li>
-    <li><a href="#setup">Setup</a></li>
-    <li><a href="#try-it-out">Try it out!</a></li>
+    <li><a href="#1-operating-system">1. Operating System</a></li>
+    <li><a href="#2-robot-operating-system-ros">2. Robot Operating System (ROS)</a></li>
+    <li><a href="#3-useful-tools-to-make-your-life-easier">3. Useful tools to make your life easier</a></li>
+    <li><a href="#4-ros-packages">4. ROS Packages</a></li>
+    <li><a href="#5-tips-for-getting-things-to-work--some-helpful-facts">5. Tips for getting things to work + some helpful facts</a></li>
   </ul>
 </nav>
 
@@ -908,14 +906,14 @@
 
 
 <li class="breadcrumb-item" >
-	<a href="https://erc-bpgc.github.io/handbook/docs/mechanics/">Mechanics</a>
+	<a href="https://erc-bpgc.github.io/handbook/docs/control-and-automation/">Control and Automation</a>
 </li>
 
 
 
 
 <li class="breadcrumb-item active" aria-current="page">
-	<a href="https://erc-bpgc.github.io/handbook/docs/mechanics/wheels/">Wheels</a>
+	<a href="https://erc-bpgc.github.io/handbook/docs/control-and-automation/getting-started/">Getting Started</a>
 </li>
 
 	</ol>
@@ -923,34 +921,90 @@
 
             
 <div class="td-content">
-	<h1>Wheels</h1>
-        <div class="lead">What does your user need to know to try your project?</div>
+	<h1>Preparing your Development Environment</h1>
+        
 	
 	
 
 <div class="pageinfo pageinfo-primary">
-<p>This is a placeholder page that shows you how to use this template site.</p>
+<p>One of the most essential and widely used tools for robot automation in <strong>Robot Operating System</strong> or <strong>ROS</strong>. This section will guide you through how to setup ROS and other tools on your computer.</p>
 
 </div>
 
-<p>Information in this section helps your user try your project themselves.</p>
+<h2 id="1-operating-system">1. Operating System</h2>
+<p>Robotics Development relies heavily on  <strong>Linux</strong> . We recommend using  <a href="https://releases.ubuntu.com/18.04.4/">Ubuntu 18.04</a> since it is the most widely used and supported variant of Linux. If you already have Ubuntu 16.04, this is also OK, although for versions older than this we recommend upgrading to 18.04.</p>
+<p>For those who currently have <strong>Windows</strong> as the only OS on their machine, the best way to start using Ubuntu would be to <strong>dual boot</strong>. Here is a guide on how to do <a href="https://itsfoss.com/install-ubuntu-1404-dual-boot-mode-windows-8-81-uefi/">this</a> . For <strong>MacOS</strong> users, dual booting is an  <a href="https://www.youtube.com/watch?v=IQIaDO9nR6Y&amp;app=desktop">option</a> but we recommend using up a virtual machine.</p>
+<p>If you are unable to dual boot for any reason, you can try setting up a <strong>virtual machine</strong>. The first step in this is to install a virtualisation software. For Windows you can use either <a href="https://www.virtualbox.org/">VirtualBox</a> (free) or Vmware Workstation and for MacOS either <a href="https://www.virtualbox.org/">VirtualBox</a> (free),
+Vmware Fusion or Parallels. After getting one of the above, follow the instructions given <a href="https://ethz.ch/content/dam/ethz/special-interest/mavt/robotics-n-intelligent-systems/rsl-dam/ROS2020/CoursePreparation.pdf">here</a> (skip ahead to the <em>Download Image</em> section). After completing the given procedure you will be equipped with all the basic tools required for Robotics including ROS,
+catkin and git.</p>
+<p>In the unfortunate case that the <strong>above options do not work</strong>, for Windows users there is still a way - <a href="https://ubuntu.com/wsl">WSL</a>. Do be warned however, this path is fraught with frustration and much debugging. Only continue if you have exhausted other options. For a guide on setting up WSL for ROS, look <a href="https://janbernloehr.de/2017/06/10/ros-windows">here</a>.</p>
+<p>For those whom none of the above are possible, consider using the online browser based <a href="https://www.theconstructsim.com/">ROS Development Studio</a>. Keep in mind that it has a limited access time per week and performance may be questionable.</p>
+<h2 id="2-robot-operating-system-ros">2. Robot Operating System (ROS)</h2>
+<p>Note that this part is unnecessary if you followed the given instructions to set up a VM. For everyone else, this part is <strong>essential</strong>. Different versions of Ubuntu need different variants of ROS. Instructions given below -</p>
+<p>➔ Ubuntu 18.04 :  <a href="http://wiki.ros.org/melodic/Installation/Ubuntu">ROS Melodic</a>  <br>
+➔ Ubuntu 16.04 :  <a href="http://wiki.ros.org/kinetic/Installation/Ubuntu">ROS Kinetic</a></p>
+<h2 id="3-useful-tools-to-make-your-life-easier">3. Useful tools to make your life easier</h2>
+<ul>
+<li><a href="https://rogerdudler.github.io/git-guide/">Git​</a> : Fundamental tool in open source software development. Used for version
+control and sharing of code.</li>
+</ul>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">	sudo apt install git
+</code></pre></div><ul>
+<li><a href="https://terminator-gtk3.readthedocs.io/en/latest/">Terminator</a>​ : Terminal Emulator useful for having multiple terminals in a window.</li>
+</ul>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">	sudo apt install terminator 
+</code></pre></div><ul>
+<li>Code Editors : A good editor can go a long way in boosting productivity. We recommend ​<a href="https://code.visualstudio.com/">VSCode</a>​ which has plugins for python and ROS. A comprehensive guide for how to integrate ROS into your favourite IDE can be found <a href="http://wiki.ros.org/IDEs">​here</a>​.</li>
+</ul>
+<h2 id="4-ros-packages">4. ROS Packages</h2>
+<ul>
+<li>You can install already developed ROS packages using the apt (package manager for Ubuntu). Replace &lt;package_name&gt; name of the ROS package</li>
+</ul>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">	sudo apt install ros-<span style="color:#000">$ROS_DISTRO</span>-&lt;package_name&gt;
+</code></pre></div><ul>
+<li>For example in this course you will need to install Turtlebot3 and its related
+packages with the following command -</li>
+</ul>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">	sudo apt install ros-<span style="color:#000">$ROS_DISTRO</span>-turtlebot3-*
+</code></pre></div><ul>
+<li>Set the default Turtlebot model as  “<em>burger</em>”  by adding the following line at the
+end of your <em>.bashrc</em> file-</li>
+</ul>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">	<span style="color:#204a87">export</span> <span style="color:#000">TURTLEBOT3_MODEL</span><span style="color:#ce5c00;font-weight:bold">=</span>burger
+</code></pre></div><ul>
+<li>Test your Turtlebot and Gazebo setup by launching a sample launch file using the following command</li>
+</ul>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">	roslaunch turtlebot3_gazebo turtlebot3_empty_world.launch
+</code></pre></div><p>If you see the Turtlebot in the gazebo environment, then you may assume that
+the installation is successful!</p>
+<h2 id="5-tips-for-getting-things-to-work--some-helpful-facts">5. Tips for getting things to work + some helpful facts</h2>
 <ul>
 <li>
-<p>What do your users need to do to start using your project? This could include downloading/installation instructions, including any prerequisites or system requirements.</p>
+<p>Make a habit of running  sudo apt update before installing packages in linux.</p>
 </li>
 <li>
-<p>Introductory “Hello World” example, if appropriate. More complex tutorials should live in the Tutorials section.</p>
+<p>For the uninitiated, your  bashrc  file is the configuration file for your bash terminal (the thing you type commands into). It&rsquo;s usually located in your home directory at ~/.bashrc  For more info, check out <a href="https://www.youtube.com/watch?v=oxuRxtrO2Ag">this</a>.</p>
+</li>
+<li>
+<p>Don’t forget to source the workspace you want to use. For convenience you can source the workspace on startup by editing your .bashrc file to include the
+following line. Replace &lt;workspace_path&gt; with the path of your workspace</p>
 </li>
 </ul>
-<p>Consider using the headings below for your getting started page. You can delete any that are not applicable to your project.</p>
-<h2 id="prerequisites">Prerequisites</h2>
-<p>Are there any system requirements for using your project? What languages are supported (if any)? Do users need to already have any software or tools installed?</p>
-<h2 id="installation">Installation</h2>
-<p>Where can your user find your project code? How can they install it (binaries, installable package, build from source)? Are there multiple options/versions they can install and how should they choose the right one for them?</p>
-<h2 id="setup">Setup</h2>
-<p>Is there any initial setup users need to do after installation to try your project?</p>
-<h2 id="try-it-out">Try it out!</h2>
-<p>Can your users test their installation, for example by running a commmand or deploying a Hello World example?</p>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">	<span style="color:#204a87">source</span> &lt;workspace_path&gt;/devel/setup.bash
+</code></pre></div><ul>
+<li>
+<p>You cannot source two workspaces at the same time.</p>
+</li>
+<li>
+<p>Anaconda and ROS cannot be used in the same environment because they
+have a conflicting python path. As given  here , to deal with this, edit your
+bashrc  file by commenting the anaconda python path like this -</p>
+</li>
+</ul>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">	//  <span style="color:#204a87">export</span> <span style="color:#000">PATH</span><span style="color:#ce5c00;font-weight:bold">=</span><span style="color:#4e9a06">&#34;/home//anaconda3/bin:</span><span style="color:#000">$PATH</span><span style="color:#4e9a06"> &#34;</span>
+</code></pre></div><ul>
+<li>Use python  pip to install python dependencies. Anaconda should be avoided.</li>
+</ul>
 
         <div class="section-index">
     
@@ -1028,7 +1082,7 @@
 
 	
 	
-	<div class="text-muted mt-5 pt-3 border-top">Last modified 06.06.2020: <a  href="https://github.com/ERC-BPGC/erc_handbook/commit/d12ab38d20faa8d39c3085f3baf714c34bb2ff3a">content update (d12ab38)</a>
+	<div class="text-muted mt-5 pt-3 border-top">Last modified 01.01.0001
 </div>
 </div>
 

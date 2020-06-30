@@ -1,0 +1,17 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ERC Handbook – Preparing your Development Environment</title>
+    <link>https://erc-bpgc.github.io/handbook/docs/control-and-automation/getting-started/</link>
+    <description>Recent content in Preparing your Development Environment on ERC Handbook</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://erc-bpgc.github.io/handbook/docs/control-and-automation/getting-started/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+  </channel>
+</rss>
