@@ -66,5 +66,6 @@ nav:
   - Simulation:
     - Introduction: simulation/intro.md
     - Key Tools: simulation/key_tools.md
+    - Gazebo: simulation/gazebo.md
 
   - About Us: about.md
