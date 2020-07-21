@@ -9,7 +9,7 @@ ROS also has the advantage of having a large open source community with tons of 
 
 Don't worry if you are still confused, you will start to get a better understanding with some hands on experience. ​To get a better understanding of what ROS is and why it exists, checkout out these videos (​[1](https://www.youtube.com/watch?v=J1qT85pTW0w&feature=youtu.be) ​, [2](https://www.youtube.com/watch?v=UL1_Ue4rUWs)).
 
-[Skeleton](Graph.png)
+![Skeleton](Graph.png)
 
 A ROS system can be visualized as a graph where all the vertices are ​nodes and the edges between them are known as ​topics. In simple terms nodes are programs that perform a particular task and send out/receive data in the form of messages. These messages are exchanged between two nodes over the topic (edge) connecting them. An example of a typical ROS system is given in the figure to the left wherein “robot”, “laser”, “map”, “localisation” and “planner” are the nodes and the arrows connecting the nodes are the topics. An arrow ​*from* A to B indicates that the topic carries messages from node ​A to node B.
 
