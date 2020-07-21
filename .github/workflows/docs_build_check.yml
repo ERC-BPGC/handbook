@@ -16,7 +16,11 @@ jobs:
     steps:
     - uses: actions/checkout@v2
 
-    - name: Build documentation
+    - name: Install dependencies
       run: |
-        python3 -m pip install mkdocs
+        python -m pip install --upgrade pip
+        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+
+    - name: Build docs
+      run: |
         mkdocs build
