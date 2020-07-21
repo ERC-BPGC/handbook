@@ -9,7 +9,7 @@ ROS also has the advantage of having a large open source community with tons of 
 
 Don't worry if you are still confused, you will start to get a better understanding with some hands on experience. ​To get a better understanding of what ROS is and why it exists, checkout out these videos (​[1](https://www.youtube.com/watch?v=J1qT85pTW0w&feature=youtu.be) ​, [2](https://www.youtube.com/watch?v=UL1_Ue4rUWs)).
 
-<img src="Graph.png" alt="Structure" style="float:left;height:300px">
+[Skeleton](Graph.png)
 
 A ROS system can be visualized as a graph where all the vertices are ​nodes and the edges between them are known as ​topics. In simple terms nodes are programs that perform a particular task and send out/receive data in the form of messages. These messages are exchanged between two nodes over the topic (edge) connecting them. An example of a typical ROS system is given in the figure to the left wherein “robot”, “laser”, “map”, “localisation” and “planner” are the nodes and the arrows connecting the nodes are the topics. An arrow ​*from* A to B indicates that the topic carries messages from node ​A to node B.
 
@@ -34,7 +34,7 @@ Now let’s get familiar with some very commonly used terms in ROS development. 
 
 **ROS Package:** ​ All the codes and software in ROS is organised in the form of packages. A package may contain ROS Nodes, libraries used in those codes, message and service definitions and all the dependencies. Follow ​[this](http://wiki.ros.org/ROS/Tutorials/CreatingPackage)​ tutorial to know how to create a ROS package. (Note: Follow the ‘catkin’ way instead of ‘rosbuild’). After creating the package you’ll see two files ​CMakeLists.txt and package.xml. We’ll be using (editing) these files many times as we proceed to work with ROS. Apart from these files there is a directory “src”. This is the place where the code for ROS nodes of the package lives (as mentioned before, nodes are nothing but programs that perform specific tasks). Once you have created your ROS package you have to build it so that you can use it. Follow ​[this](http://wiki.ros.org/ROS/Tutorials/BuildingPackages)​ tutorial to see how to build your package.
 
-<b>ROS Nodes and Packages:</b>​ A ​node is an executable file (could be python or C++) which performs a specific task and communicates with other nodes through ​ topics. ​Two main
+**ROS Nodes and Packages:** A ​node is an executable file (could be python or C++) which performs a specific task and communicates with other nodes through ​ topics. ​Two main
 ways this is done is through publisher-subscriber relationship or services. All of the programming involved in creating a ROS based project is done while writing these nodes.
 
 Topics are​ the channels over which the messages of different kinds are transmitted between nodes, read ​[this](http://wiki.ros.org/Topics)​ wiki to know more. ROS messages have to be specially defined for each user defined topic. Apart from the standard message types that come with ROS like ​string, int32, etc. you can also define your custom message types in ROS for custom uses. Refer to parts 2 and 3 [this](http://wiki.ros.org/ROS/Tutorials/CreatingMsgAndSrv)​ tutorial to see how you can define and use a custom message type.
@@ -52,7 +52,7 @@ will be a publisher which publishes data about the signs it detects to a specifi
 perform a certain task whenever it receives a message on this topic.
 
 - **Publisher:** The publisher object of a ROS node publishes the data in the form of messages over a topic. There is a particular rate (which the user defines) at which the messages get published.
-- <b>Subscriber:</b>​ The data published by the publisher of one ROS node can be received or ‘subscribed’ through the Subscriber object of a ROS node. The Subscriber object subscribes to the topic over which any publisher publishes the messages. Every Subscriber object is associated with a callback function which gets called everytime a message is published over the topic.
+- **Subscriber:** The data published by the publisher of one ROS node can be received or ‘subscribed’ through the Subscriber object of a ROS node. The Subscriber object subscribes to the topic over which any publisher publishes the messages. Every Subscriber object is associated with a callback function which gets called everytime a message is published over the topic.
 
 You can check out how to implement a basic server-client for [C++​](http://wiki.ros.org/ROS/Tutorials/WritingPublisherSubscriber%28c%2B%2B%29#roscpp_tutorials.2FTutorials.2FWritingPublisherSubscriber.Writing_the_Publisher_Node) or ​[pytho​n](http://wiki.ros.org/ROS/Tutorials/WritingPublisherSubscriber%28c%2B%2B%29#roscpp_tutorials.2FTutorials.2FWritingPublisherSubscriber.Writing_the_Publisher_Node) in the ROS wiki or ​Chapter 3​ of Morgan Quigley.
 
