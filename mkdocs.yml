@@ -1,0 +1,69 @@
+site_name: ERC Handbook
+
+site_description: A beginners guide to all things robotics
+site_author: Electronics and Robotics Club (ERC), BITS Goa
+
+copyright: 'Copyright &copy; 2020 Electronics and Robotics Club (ERC), BITS Goa'
+
+theme:
+  name: 'material'
+  language: en
+  icon:
+    logo: material/book-open-page-variant
+  favicon: images/erc_logo.png
+  features:
+    - tabs
+
+repo_name: 'handbook'
+repo_url: 'https://github.com/ERC-BPGC/handbook'
+
+extra:
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/erc_bpgc
+
+    - icon: fontawesome/brands/facebook
+      link: https://www.facebook.com/ElectronicsAndRoboticsClub
+
+    - icon: fontawesome/brands/github
+      link: https://github.com/ERC-BPGC
+
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/erc-bitsgoa/
+
+
+markdown_extensions:
+  - admonition
+  - codehilite
+
+google_analytics:
+  - UA-173174352-1
+  - auto
+  
+  
+nav:
+  - Home: index.md
+
+  - Overview:
+    - What is Robotics?: overview/what_is_robotics.md
+    - Key Areas: overview/key_areas.md
+    - Reference Material: overview/reference_material.md
+
+  - Automation:
+    - Introduction: automation/intro.md
+    - Setting Up: automation/setting_up.md
+    - ROS: automation/ros.md
+
+  - Electronics:
+    - Introduction: electronics/intro.md
+    - Key Tools: electronics/key_tools.md
+
+  - Mechanical:
+    - Introduction: mechanical/intro.md
+    - Key Tools: mechanical/key_tools.md
+
+  - Simulation:
+    - Introduction: simulation/intro.md
+    - Key Tools: simulation/key_tools.md
+
+  - About Us: about.md

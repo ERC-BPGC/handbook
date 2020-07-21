@@ -1,0 +1,3 @@
+# The ERC Handbook
+
+Welcome!

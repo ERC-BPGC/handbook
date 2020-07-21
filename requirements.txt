@@ -1,4 +1,1 @@
-sphinx
-sphinxcontrib-napoleon
-sphinx-rtd-theme
-recommonmark
+mkdocs-material
