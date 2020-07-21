@@ -78,4 +78,8 @@ git commit -m "Added stuff"
 git push
 ```
 
-After this all you have to do is [open a pull request](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request). One of the team will review it, suggest any changes if requires and finally merge your contribution to the `master` branch of the handbook.
+After this all you have to do is [open a pull request](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request). Here, we have set up an automated test to see if the docs in the PR build, so make sure your contribution passes that.
+
+One of the team will review your PR, suggest any changes if requires and finally merge your contribution to the `master` branch of the handbook. 
+
+Since, we are using a GitHub Action to deploy the docs, whenever there are any updates to the `master` branch, the website will be automatically updated.
