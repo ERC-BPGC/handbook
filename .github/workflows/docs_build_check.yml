@@ -16,7 +16,8 @@ jobs:
     steps:
     - uses: actions/checkout@v2
 
-    - name: Run a one-line script
+    - name: Build documentation
       run: |
-        python -m pip install --upgrade pip
-        python -m pip install -r requirements.txt
+        python3 -m pip install --upgrade pip
+        python3 -m pip install -r requirements.txt
+        mkdocs build
