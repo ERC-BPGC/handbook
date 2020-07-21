@@ -11,13 +11,12 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        python-version: [3.6]
+        python-version: [3.8]
 
     steps:
     - uses: actions/checkout@v2
 
     - name: Build documentation
       run: |
-        python3 -m pip install --upgrade pip
-        python3 -m pip install -r requirements.txt
+        python3 -m pip install mkdocs
         mkdocs build
