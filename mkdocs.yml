@@ -52,20 +52,17 @@ nav:
 
   - Automation:
     - Introduction: automation/intro.md
-    - Setting Up: automation/setting_up.md
-    - ROS: automation/ros.md
+      - ROS:
+        - Setting Up: automation/ROS/setting_up.md
+        - Getting Started with ROS: automation/ROS/ros.md
 
   - Electronics:
     - Introduction: electronics/intro.md
-    - Key Tools: electronics/key_tools.md
 
   - Mechanical:
     - Introduction: mechanical/intro.md
-    - Key Tools: mechanical/key_tools.md
 
   - Simulation:
     - Introduction: simulation/intro.md
-    - Key Tools: simulation/key_tools.md
-    - Gazebo: simulation/gazebo.md
 
   - About Us: about.md
