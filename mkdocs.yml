@@ -14,6 +14,9 @@ theme:
   favicon: images/erc_logo.png
   features:
     - tabs
+  palette:
+    primary: green
+    accent: green
 
 repo_name: 'handbook'
 repo_url: 'https://github.com/ERC-BPGC/handbook'
