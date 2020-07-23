@@ -66,7 +66,15 @@ All the documentation is written in the form of [markdown](https://www.markdowng
 
 Adding a new page to the handbook involves two steps -
 1. Create the `.md` file for the page in the relevant section.
-2. Modify the `nav` section of `mkdocs.yml` to contain a reference to the name of the new file.
+2. Modify the `nav` section of `mkdocs.yml` to contain a reference to the name of the new file. As an example, if you want to add content to the _Getting started with ROS_ subsection of the _ROS_ sub-section of _Automation_, the `nav` segement will look something like this :
+
+```
+nav :
+  - Automation :
+    - Introduction:path/to/intro.md
+    - ROS :
+      - Getting Started with ROS:path/to/getting_started.md
+```
 
 To check how your page looks when built, you can run `mkdocs serve` from the root directory of the project. The cool thing is the page will autoupdate as you make changes to the `.md` source file.
 

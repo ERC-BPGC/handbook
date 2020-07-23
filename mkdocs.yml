@@ -52,9 +52,9 @@ nav:
 
   - Automation:
     - Introduction: automation/intro.md
-      - ROS:
-        - Setting Up: automation/ROS/setting_up.md
-        - Getting Started with ROS: automation/ROS/ros.md
+    - ROS:
+      - Setting Up: automation/ROS/setting_up.md
+      - Getting Started with ROS: automation/ROS/ros.md
 
   - Electronics:
     - Introduction: electronics/intro.md
