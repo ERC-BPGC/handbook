@@ -22,8 +22,8 @@ jobs:
           CI_USER: ${{ secrets.YOUR_GITHUB_USER }}
           CI_EMAIL: ${{ secrets.YOUR_GITHUB_EMAIL }}
         run: |
-          git config --local user.email "$CI_EMAIL"
-          git config --local user.name "$CI_USER"
+          git config --local user.email "vedantshah2012@gmail.com"
+          git config --local user.name "veds12"
           git add CHANGELOG.md && git commit -m 'Updated CHANGELOG.md' && echo ::set-env name=push::1 || echo "No changes to CHANGELOG.md"
 
       - name: Push changes
