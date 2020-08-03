@@ -1,22 +1,18 @@
 name: Generate Changelog
 on: 
   push:
-    branches: [ master ]
-  pull_request:
-    branches: [ master ]
+    branches:
+      - master
 
 jobs:
   build:
     name: Update Changelog
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout master
-      uses: actions/checkout@v1
+      - name: Checkout master
+        uses: actions/checkout@v2
 
-    - name: Set up changelog
-      uses: heinrichreimer/github-changelog-generator-action@v2.1.1
-      with:
-        token: ${{ secrets.GITHUB_TOKEN }}
-
-
-
+      - name: Set up changelog
+        uses: heinrichreimer/github-changelog-generator-action@v2.1.1
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
