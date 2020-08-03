@@ -1,6 +1,6 @@
 # Gazebo
 
-Gazebo is the most popular physics simulator (meaning you can model laws of physics in it) for robotics development. It can simulate robots in a
+Gazebo is the most popular physics simulator for robotics development. It can simulate robots in a
 3D environment and can be fully integrated into ROS integrated with Gazebo using the
 **gazebo_ros** ROS package. You can interface your robots in the simulation using ROS
 and control them using ROS messages and services.
