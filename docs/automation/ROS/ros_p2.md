@@ -8,7 +8,7 @@ Parameters can be accessed, modified or deleted using the `rosparam` command lin
 1) To list all the parameters : <br/> 
     ```rosparam list```
     
-   Or to list all the parameters in a specific namespace : <br/> 
+   Or to list all the parameters in a specific [namespace](https://www.theconstructsim.com/ros-5-mins-046-ros-namespace/) : <br/> 
     ```rosparam list </namespace>```
         
 2) To assign a value to an already existing parameter or to set a new one : <br/>
