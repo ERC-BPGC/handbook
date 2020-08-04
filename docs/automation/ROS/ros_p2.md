@@ -1,6 +1,6 @@
 ## ROS Parameters and Parameter Server
 
-Parameter server is a collection of values or parameters that can be retrieved or modified by the nodes during runtime upon requests through command prompt, nodes or launch files. Parameters are intended to be static, globally available values like integers, floats, strings and boolen values and can be stored independently or within a YAML file. Parameters are meant to be gloablly viewable so nodes can easily inspect the configuration state of the system and modify if necessary.
+Parameter server is a collection of values or parameters that can be retrieved or modified by the nodes during runtime upon requests through command prompt, nodes or launch files. Parameters are intended to be static, globally available values like integers, floats, strings and boolean values and can be stored independently or within a YAML file. Parameters are meant to be gloablly viewable so nodes can easily inspect the configuration state of the system and modify if necessary.
 
 ### Accessing and setting Parameters
 #### Via command line 
