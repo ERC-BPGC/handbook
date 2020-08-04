@@ -58,6 +58,7 @@ nav:
     - ROS:
       - Setting Up: automation/ROS/setting_up.md
       - Getting Started with ROS: automation/ROS/ros.md
+      - ROS Parameters: automation/ROS/ros_p2.md
 
   - Electronics:
     - Introduction: electronics/intro.md
