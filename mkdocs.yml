@@ -59,6 +59,9 @@ nav:
       - Setting Up: automation/ROS/setting_up.md
       - Getting Started with ROS: automation/ROS/ros.md
       - ROS Parameters: automation/ROS/ros_p2.md
+    - Control Theory:
+      - What is Control Theory: automation/Control Theory/Controller_intro.md
+      - PID Controllers: automation/Control Theory/PID_Controller.md
 
   - Electronics:
     - Introduction: electronics/intro.md
