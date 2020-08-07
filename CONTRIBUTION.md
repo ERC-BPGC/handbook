@@ -47,7 +47,7 @@ You can open issues from the issues page of the repo. Issues can be opened if yo
 
 ### 2. Solving Issues
 
-You can start working on an unsolved issue by requesting to take it up in the [Issues Section](https://github.com/ERC-BPGC/gennav/issues) of the repo on github. The issue will then be assigned to it and you are good to go.
+You can start working on an unsolved issue by requesting to take it up in the [Issues Section](https://github.com/ERC-BPGC/handbook/issues) of the repo on github. The issue will then be assigned to it and you are good to go.
 
 After the issue is assigned to you, you can start working on it by setting up a local
 repo by following the steps giving in the configuration section.
@@ -86,7 +86,7 @@ git commit -m "Added stuff"
 git push
 ```
 
-After this all you have to do is [open a pull request](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request). Here, we have set up an automated test to see if the docs in the PR build, so make sure your contribution passes that.
+After this all you have to do is [open a pull request](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request). While opening a pull request please make sure that the title of your PR is of the form ```[DD/MM/YY] Nice framed message describing the changes```. Here, we have set up an automated test to see if the docs in the PR build, so make sure your contribution passes that. 
 
 One of the team will review your PR, suggest any changes if requires and finally merge your contribution to the `master` branch of the handbook. 
 
