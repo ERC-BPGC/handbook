@@ -62,10 +62,9 @@ At this stage you will be ready to make your changes.
 
 We are using the [mkdocs-material](https://squidfunk.github.io/mkdocs-material/getting-started/#configuration) theme of [mkdocs](https://www.mkdocs.org/) to build the handbook. The documentations of both tools have many details regarding further configuration etc.
 
-All the documentation is written in the form of [markdown](https://www.markdownguide.org/getting-started/) files which are contained within the `/docs/` directory and are sorted according to the field of robotics that the content of the file pertains to. For ways on how to do cool things with markdown like the note below and many more, check out [this](https://squidfunk.github.io/mkdocs-material/reference/admonitions/) page.
+All the documentation is written in the form of [markdown](https://www.markdownguide.org/getting-started/) files which are contained within the `/docs/` directory and are sorted according to the field of robotics that the content of the file pertains to. For ways to do cool things with markdown like callouts, tables, emojis etc. check out [this](https://squidfunk.github.io/mkdocs-material/reference/admonitions/) page.
 
-!!! info "mathjax integration"
-    We are using [Python Markdown](https://facelessuser.github.io/pymdown-extensions/extensions/)'s [Arithmatex](https://facelessuser.github.io/pymdown-extensions/extensions/arithmatex/) extention for rendering [mathjax](https://www.mathjax.org/) (this includes [latex](https://www.latex-project.org/)) for which you can find more details [here](https://squidfunk.github.io/mkdocs-material/reference/mathjax/).
+We are using [Python Markdown](https://facelessuser.github.io/pymdown-extensions/extensions/)'s [Arithmatex](https://facelessuser.github.io/pymdown-extensions/extensions/arithmatex/) extention for rendering [mathjax](https://www.mathjax.org/) (this includes [latex](https://www.latex-project.org/)) for which you can find more details [here](https://squidfunk.github.io/mkdocs-material/reference/mathjax/).
 
 Adding a new page to the handbook involves two steps -
 
