@@ -12,6 +12,7 @@
 
 - Add colcon under catkin [\#14](https://github.com/ERC-BPGC/handbook/issues/14)
 - Website build error [\#9](https://github.com/ERC-BPGC/handbook/issues/9)
+- Arrange the subtopics of automation, electronics and mechanics in a logical order [\#8](https://github.com/ERC-BPGC/handbook/issues/8)
 - Fix the security dependency issue [\#6](https://github.com/ERC-BPGC/handbook/issues/6)
 - Add a suitable picture for the home page [\#4](https://github.com/ERC-BPGC/handbook/issues/4)
 - Create initial subsections using the Summer Assignment resources section [\#3](https://github.com/ERC-BPGC/handbook/issues/3)
