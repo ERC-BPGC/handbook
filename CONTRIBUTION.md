@@ -2,35 +2,34 @@
 
 Follow this guide to start contributing to the ERC handbook
 
-
 ## Setting up
 
 * Fork the repository to your github account by pressing the 'Fork' button on the top right corner of the screen when you open the repo
 
 * Clone your fork to your computer using :
-	
-	```
-	git clone https://github.com/your-github-username/handbook.git
-	```
+
+    ```bash
+    git clone https://github.com/your-github-username/handbook.git
+    ```
 
 * Set the remotes :
 
-	```bash
-	git remote add origin https://www.github.com/your-github-username/handbook.git
-	git remote add upstream https://www.github.com/ERC-BPGC/handbook.git
-	```
+    ```bash
+    git remote add origin https://www.github.com/your-github-username/handbook.git
+    git remote add upstream https://www.github.com/ERC-BPGC/handbook.git
+    ```
 
 * Updating the forks:
 
-	```bash
-	git fetch upstream
-	```
+    ```bash
+    git fetch upstream
+    ```
 
 * Installing dependencies:
-	```bash
-	python3 -m pip install -r requirements.txt
-	```
 
+    ```bash
+    python3 -m pip install -r requirements.txt
+    ```
 
 ## Ways of Contributing
 
@@ -44,7 +43,6 @@ You can open issues from the issues page of the repo. Issues can be opened if yo
 
 * General suggestion on how the handbook can be improved
 
-
 ### 2. Solving Issues
 
 You can start working on an unsolved issue by requesting to take it up in the [Issues Section](https://github.com/ERC-BPGC/handbook/issues) of the repo on github. The issue will then be assigned to it and you are good to go.
@@ -53,22 +51,28 @@ After the issue is assigned to you, you can start working on it by setting up a 
 repo by following the steps giving in the configuration section.
 
 Remember to update your local repo before starting the work everytime by using :
-```
+
+```bash
 git pull upstream master
 ```
+
 At this stage you will be ready to make your changes.
 
 ## Modifying the handbook
 
-We are using the [mkdocs-material](https://squidfunk.github.io/mkdocs-material/getting-started/#configuration) theme of [mkdocs](https://www.mkdocs.org/) to build the handbook. The documentations of both tools have many 
+We are using the [mkdocs-material](https://squidfunk.github.io/mkdocs-material/getting-started/#configuration) theme of [mkdocs](https://www.mkdocs.org/) to build the handbook. The documentations of both tools have many details regarding further configuration etc.
 
-All the documentation is written in the form of [markdown](https://www.markdownguide.org/getting-started/) files. All of these are contained within the `/docs/` directory and are sorted according to the field of robotics that the content of the file pertains to.
+All the documentation is written in the form of [markdown](https://www.markdownguide.org/getting-started/) files which are contained within the `/docs/` directory and are sorted according to the field of robotics that the content of the file pertains to. For ways on how to do cool things with markdown like the note below and many more, check out [this](https://squidfunk.github.io/mkdocs-material/reference/admonitions/) page.
+
+!!! info "mathjax integration"
+    We are using [Python Markdown](https://facelessuser.github.io/pymdown-extensions/extensions/)'s [Arithmatex](https://facelessuser.github.io/pymdown-extensions/extensions/arithmatex/) extention for rendering [mathjax](https://www.mathjax.org/) (this includes [latex](https://www.latex-project.org/)) for which you can find more details [here](https://squidfunk.github.io/mkdocs-material/reference/mathjax/).
 
 Adding a new page to the handbook involves two steps -
+
 1. Create the `.md` file for the page in the relevant section.
 2. Modify the `nav` section of `mkdocs.yml` to contain a reference to the name of the new file. As an example, if you want to add content to the _Getting started with ROS_ subsection of the _ROS_ sub-section of _Automation_, the `nav` segement will look something like this :
 
-```
+```yaml
 nav :
   - Automation :
     - Introduction:path/to/intro.md
@@ -86,8 +90,8 @@ git commit -m "Added stuff"
 git push
 ```
 
-After this all you have to do is [open a pull request](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request). While opening a pull request please make sure that the title of your PR is of the form ```[DD/MM/YY] Nice framed message describing the changes```. Here, we have set up an automated test to see if the docs in the PR build, so make sure your contribution passes that. 
+After this all you have to do is [open a pull request](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request). While opening a pull request please make sure that the title of your PR is of the form ```[DD/MM/YY] Nice framed message describing the changes```. Here, we have set up an automated test to see if the docs in the PR build, so make sure your contribution passes that.
 
-One of the team will review your PR, suggest any changes if requires and finally merge your contribution to the `master` branch of the handbook. 
+One of the team will review your PR, suggest any changes if requires and finally merge your contribution to the `master` branch of the handbook.
 
 Since, we are using a GitHub Action to deploy the docs, whenever there are any updates to the `master` branch, the website will be automatically updated.
