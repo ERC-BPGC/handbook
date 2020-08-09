@@ -1,3 +1,5 @@
+# Website details
+
 site_name: ERC Handbook
 site_url: https://erc-bpgc.github.io/handbook/
 
@@ -5,6 +7,9 @@ site_description: A beginners guide to all things robotics
 site_author: Electronics and Robotics Club (ERC), BITS Goa
 
 copyright: 'Copyright &copy; 2020 Electronics and Robotics Club (ERC), BITS Goa'
+
+
+# mkdocs setup
 
 theme:
   name: 'material'
@@ -35,16 +40,26 @@ extra:
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/company/electronics-robotics-club-bits-goa/
 
-
 markdown_extensions:
+  - smarty
   - admonition
   - codehilite
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+
+extra_javascript:
+  - javascripts/config.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
 google_analytics:
   - UA-173174352-1
   - auto
-  
-  
+
+
+# navigation bar
+
 nav:
   - Home: index.md
 
