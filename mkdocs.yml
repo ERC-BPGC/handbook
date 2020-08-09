@@ -87,5 +87,7 @@ nav:
       - Basics of Gazebo: simulation/gazebo/basics.md
 
   - About Us: about.md
+  
+  - Miscellaneous Resources: misc.md
 
   - Updates: CHANGELOG.md
