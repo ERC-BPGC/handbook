@@ -28,6 +28,7 @@
 - \[01/08/20\] Test1 for auto changelog generator [\#18](https://github.com/ERC-BPGC/handbook/pull/18) ([veds12](https://github.com/veds12))
 - \[01/08/20\] Added information about colcon in GETTING STARTED WITH ROS [\#17](https://github.com/ERC-BPGC/handbook/pull/17) ([veds12](https://github.com/veds12))
 - Update mkdocs.yml [\#12](https://github.com/ERC-BPGC/handbook/pull/12) ([Ashutosh781](https://github.com/Ashutosh781))
+- Structured the documentation [\#7](https://github.com/ERC-BPGC/handbook/pull/7) ([veds12](https://github.com/veds12))
 
 
 
