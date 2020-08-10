@@ -21,6 +21,7 @@
 
 **Merged pull requests:**
 
+- \[09/08/2020\] Added miscellaneous resources [\#26](https://github.com/ERC-BPGC/handbook/pull/26) ([hardesh](https://github.com/hardesh))
 - \[04/08/20\] Added information about ROS Parameters [\#21](https://github.com/ERC-BPGC/handbook/pull/21) ([adbidwai](https://github.com/adbidwai))
 - \[03/08/20\] Changelog Test 2 [\#20](https://github.com/ERC-BPGC/handbook/pull/20) ([veds12](https://github.com/veds12))
 - changelog test [\#19](https://github.com/ERC-BPGC/handbook/pull/19) ([veds12](https://github.com/veds12))
