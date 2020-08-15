@@ -77,6 +77,8 @@ nav:
 
   - Electronics:
     - Introduction: electronics/intro.md
+    - Development Boards:
+      - Arduino: electronics/Development_Boards/Arduino.md   
 
   - Mechanical:
     - Introduction: mechanical/intro.md
