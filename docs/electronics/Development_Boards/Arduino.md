@@ -173,4 +173,4 @@ The analogRead function reads the voltage at an analog pin and linearly converts
 
   
 
-For more tutorials on using Arduino IDE refer to the \[Basics of Electronics\]() section.
+For more tutorials on using Arduino IDE refer to the [Basics of Electronics]() section.
