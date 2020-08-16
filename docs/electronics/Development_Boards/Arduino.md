@@ -1,5 +1,5 @@
-What is Arduiono?
-=================
+What is Arduino?
+================
 
   
 
@@ -71,7 +71,7 @@ You can copy the code from [here](https://github.com/schacon/blink/blob/master/b
 
   
 
-![](https://t3311072.p.clickup-attachments.com/t3311072/fdd1b334-a286-4ff6-9eed-b38bd8fb61e1/2020-08-16%20(1).png)
+![](https://lh6.googleusercontent.com/mri9lJTkuLXyWzkNUJxzAsINOLwJXiBiyYzuUfpeSlChjSVkzf88TDfZFsD0VknkkrpSZLlGJ5J1ENuY8_E7lf9at0Dw3k8CRBp8aoaw-g_P1cx-gjh5d_7W3swyW8X2vZeXnGAK)
 
   
 
@@ -168,3 +168,9 @@ Serial.begin(9600);
   
 
 The analogRead function reads the voltage at an analog pin and linearly converts it to a value between 0 and 1023. The Serial.println() function prints a variable to the serial monitor, followed by a newline (using Serial.print() to print data without the newline). The delay(1) is to limit the amount of data printed to the serial monitor.
+
+  
+
+  
+
+For more tutorials on using Arduino IDE refer to the \[Basics of Electronics\]() section.
