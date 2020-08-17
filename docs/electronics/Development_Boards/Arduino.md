@@ -1,24 +1,14 @@
-What is Arduino?
-================
+# Arduino
+
+  The Arduino is basically a very accessible and easy to program microcontroller. Unlike other microcontrollers, which need knowledge of registers and ports, the Arduino is programmed by a very basic C-derived language. [This](https://www.youtube.com/watch?v=CqrQmQqpHXc) [video](https://www.youtube.com/watch?v=CqrQmQqpHXc) explains what an Arduino is, what it is capable of, and the numerous projects one can use it for.
 
   
 
-The Arduino is basically a very accessible and easy to program microcontroller. Unlike other microcontrollers, which need knowledge of registers and ports, the Arduino is programmed by a very basic C-derived language. [This](https://www.youtube.com/watch?v=CqrQmQqpHXc) [video](https://www.youtube.com/watch?v=CqrQmQqpHXc) explains what an Arduino is, what it is capable of, and the numerous projects one can use it for.
-
-  
-
-Arduino Board Layout
-====================
-
-  
+## Arduino Board Layout
 
 ![](https://lh4.googleusercontent.com/dTiwlU9NMU_qftjOKYto76U3rq5i6ZklSa_GeX2x6uH5VCYZqZ1y-ULYAQQjCAmPXfwLqTStv3cILsh-o3lXY1ibe6Uhy6SGtfF_9itAKa594QmB1LxsJkDm7dLlBdISfwPffpmN)
 
-  
-
-The above diagram shows an Arduino UNO board with all the parts labelled and explained below.
-
-  
+The above diagram shows an Arduino UNO board with all the parts labelled and explained below:
 
 1.  **USB Port:** Arduino can be powered by connecting it to your computer using a USB cable. It is also used for uploading code and communicating via the serial port.
 2.  **Power Jack:** Used to power an arduino directly from a wall adaptor.
@@ -38,29 +28,17 @@ The above diagram shows an Arduino UNO board with all the parts labelled and exp
 16.  **Analog Reference(AREF):** Can be used to set an external reference voltage(0-5V) as the upper limit for analog input pins.
 17.  **Reset Button:** Pressing it causes the Arduino to restart its code.
 
-  
-
-The Blink Sketch
-================
-
-  
+## The Blink Sketch
 
 The Blink sketch is like the “Hello World” program in the Arduino world. It simply consists of blinking the onboard LED (labeled ‘L’). No actual circuit connections are required!
 
-  
-
 ![](https://lh5.googleusercontent.com/8PcCFp1STQDxD7q9_hMhPLJ88FFi-ZTXa3RZQkN0Mo8BJky0KbbB9sRP66FrSIz4dlT2TuTr7_1lw-l2Tz76R4TOUTlpwWf5mrRH3Sx0_Romvf_qNRzRjCgoi4SrRktyM48lBzT_)
 
-  
-
-Code
-----
+### Code
 
 You can copy the code from [here](https://github.com/schacon/blink/blob/master/blink.ino).
 
-  
-
-### How to code an Arduino in Arduino IDE
+## How to code an Arduino in Arduino IDE
 
 1.  Download and install Arduino Software (IDE) from [here](https://www.arduino.cc/en/main/software). The Integrated Development Environment (IDE) is a common coding environment for all arduino boards.
 2.  Open the IDE and a new sketch will open up which would look like the image below. Sketch is just a name arduino uses for a program.
@@ -69,38 +47,24 @@ You can copy the code from [here](https://github.com/schacon/blink/blob/master/b
 5.  Click on the "tick" button in upper left corner to compile the code and check for errors. After resolving any and all errors click on the "arrow" button next to it to upload the code to the board.
 6.  After successful upload the Arduino Uno will start executing the code while drawing power from the PC through the USB cable.
 
-  
-
 ![](https://lh6.googleusercontent.com/mri9lJTkuLXyWzkNUJxzAsINOLwJXiBiyYzuUfpeSlChjSVkzf88TDfZFsD0VknkkrpSZLlGJ5J1ENuY8_E7lf9at0Dw3k8CRBp8aoaw-g_P1cx-gjh5d_7W3swyW8X2vZeXnGAK)
-
-  
 
 ### Explanation
 
 Every Arduino sketch **must** have two particular functions:
-
-  
 
 1.  void setup()
     1.  The setup() function is called when a sketch starts and will only run once, after each powerup or reset of the Arduino board.
 2.  void loop()
     1.  This function does precisely what its name suggests, that is loops consecutively, allowing your program to change and respond. Whatever code you write inside loop() will keep running as long as the Arduino is receiving power.
 
-  
-
 Let us examine the [Blink](https://github.com/schacon/blink/blob/master/blink.ino) sketch now, line by line.
-
-  
 
 ```cpp
 int led = 13;
 ```
 
-  
-
 This line assigns a name to the pin that the LED is attached to, i.e. pin 13.
-
-  
 
 Then we have the setup() function, which runs only once. It includes the following line.
 
@@ -108,11 +72,7 @@ Then we have the setup() function, which runs only once. It includes the followi
 pinMode(led, OUTPUT);
 ```
 
-  
-
 This tells the Arduino to configure that pin as an output.
-
-  
 
 Then we have the following loop() function.
 
@@ -126,36 +86,19 @@ void loop()
 }
 ```
 
-  
-
 The digitalWrite() function tells a pin to either switch on (HIGH, or +5V) or off (LOW, or 0V).  The delay() function tells the Arduino to wait for a specified number of milliseconds.
 
-  
-
-Reading Analog Values
-=====================
-
-  
+## Reading Analog Values
 
 The following circuit reads the voltage from a potentiometer and sends it via USB to the serial port.
 
-  
-
-Schematic
----------
-
-  
+### Schematic
 
 ![](https://lh3.googleusercontent.com/AZzU_IbmAeE8aoIJjLG9o-zziRFjad8DRpkug2cT90-hOpMUmzGK83ftjvlMXgMFVfsD5g9-5Oak0cwrV-8hO2V_xx5ZTeKIN5hOtbAFnaOBFfPrnY03gdokQHgT_OJi_pX4HRwg)
 
-  
-
-Code
-----
+### Code
 
 Copy the code from [here](https://create.arduino.cc/example/builtin/01.Basics%5CAnalogReadSerial/AnalogReadSerial/preview) and paste it into a new sketch in the Arduino IDE and upload the code to the board. After successful uploading open the serial monitor in the IDE by clicking on its button on top right corner. Trying varying the potentiometer’s knob - you should see the stream of values of the serial monitor change.
-
-  
 
 ### Explanation
 
@@ -165,12 +108,6 @@ Whenever the serial port is to be used, it should be initialised with the follow
 Serial.begin(9600);
 ```
 
-  
-
 The analogRead function reads the voltage at an analog pin and linearly converts it to a value between 0 and 1023. The Serial.println() function prints a variable to the serial monitor, followed by a newline (using Serial.print() to print data without the newline). The delay(1) is to limit the amount of data printed to the serial monitor.
 
-  
-
-  
-
-For more tutorials on using Arduino IDE refer to the [Basics of Electronics]() section.
+For more tutorials on using Arduino IDE refer to the [Basics of Electronics]() section
