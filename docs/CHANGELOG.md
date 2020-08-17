@@ -21,7 +21,7 @@
 
 **Merged pull requests:**
 
-- \[16/08/2020\] Added Arduino section under Dev Boards [\#27](https://github.com/ERC-BPGC/handbook/pull/27) ([Ashutosh781](https://github.com/Ashutosh781))
+- \[16/08/2020\]Added Arduino section under Dev Boards [\#27](https://github.com/ERC-BPGC/handbook/pull/27) ([Ashutosh781](https://github.com/Ashutosh781))
 - \[09/08/2020\] Added miscellaneous resources [\#26](https://github.com/ERC-BPGC/handbook/pull/26) ([hardesh](https://github.com/hardesh))
 - \[04/08/20\] Added information about ROS Parameters [\#21](https://github.com/ERC-BPGC/handbook/pull/21) ([adbidwai](https://github.com/adbidwai))
 - \[03/08/20\] Changelog Test 2 [\#20](https://github.com/ERC-BPGC/handbook/pull/20) ([veds12](https://github.com/veds12))
