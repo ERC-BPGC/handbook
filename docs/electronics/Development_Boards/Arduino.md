@@ -6,7 +6,7 @@
 
 ## Arduino Board Layout
 
-![](https://lh4.googleusercontent.com/dTiwlU9NMU_qftjOKYto76U3rq5i6ZklSa_GeX2x6uH5VCYZqZ1y-ULYAQQjCAmPXfwLqTStv3cILsh-o3lXY1ibe6Uhy6SGtfF_9itAKa594QmB1LxsJkDm7dLlBdISfwPffpmN)
+<img src='images/arduino1.png' width=400>
 
 The above diagram shows an Arduino UNO board with all the parts labelled and explained below:
 
@@ -32,7 +32,7 @@ The above diagram shows an Arduino UNO board with all the parts labelled and exp
 
 The Blink sketch is like the “Hello World” program in the Arduino world. It simply consists of blinking the onboard LED (labeled ‘L’). No actual circuit connections are required!
 
-![](https://lh5.googleusercontent.com/8PcCFp1STQDxD7q9_hMhPLJ88FFi-ZTXa3RZQkN0Mo8BJky0KbbB9sRP66FrSIz4dlT2TuTr7_1lw-l2Tz76R4TOUTlpwWf5mrRH3Sx0_Romvf_qNRzRjCgoi4SrRktyM48lBzT_)
+<img src='images/arduino2.png' width=450>
 
 ### Code
 
@@ -47,7 +47,8 @@ You can copy the code from [here](https://github.com/schacon/blink/blob/master/b
 5.  Click on the "tick" button in upper left corner to compile the code and check for errors. After resolving any and all errors click on the "arrow" button next to it to upload the code to the board.
 6.  After successful upload the Arduino Uno will start executing the code while drawing power from the PC through the USB cable.
 
-![](https://lh6.googleusercontent.com/mri9lJTkuLXyWzkNUJxzAsINOLwJXiBiyYzuUfpeSlChjSVkzf88TDfZFsD0VknkkrpSZLlGJ5J1ENuY8_E7lf9at0Dw3k8CRBp8aoaw-g_P1cx-gjh5d_7W3swyW8X2vZeXnGAK)
+<img src='images/arduinoide.png' width=400>
+
 
 ### Explanation
 
@@ -94,7 +95,8 @@ The following circuit reads the voltage from a potentiometer and sends it via US
 
 ### Schematic
 
-![](https://lh3.googleusercontent.com/AZzU_IbmAeE8aoIJjLG9o-zziRFjad8DRpkug2cT90-hOpMUmzGK83ftjvlMXgMFVfsD5g9-5Oak0cwrV-8hO2V_xx5ZTeKIN5hOtbAFnaOBFfPrnY03gdokQHgT_OJi_pX4HRwg)
+<img src='images/arduinopot.png' width=270>
+
 
 ### Code
 
