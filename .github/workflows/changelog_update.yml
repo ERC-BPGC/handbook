@@ -1,6 +1,6 @@
 name: Generate Changelog
 on: 
-  push:
+  pull_request:
     branches:
       - master
 
