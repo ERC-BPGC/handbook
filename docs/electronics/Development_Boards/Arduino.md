@@ -6,7 +6,7 @@
 
 ## Arduino Board Layout
 
-<img src='images/arduino1.png' width=400>
+![arduino](images/arduino1.png)
 
 The above diagram shows an Arduino UNO board with all the parts labelled and explained below:
 
@@ -32,7 +32,7 @@ The above diagram shows an Arduino UNO board with all the parts labelled and exp
 
 The Blink sketch is like the “Hello World” program in the Arduino world. It simply consists of blinking the onboard LED (labeled ‘L’). No actual circuit connections are required!
 
-<img src='images/arduino2.png' width=450>
+![arduino2](images/arduino2.png)
 
 ### Code
 
@@ -47,7 +47,7 @@ You can copy the code from [here](https://github.com/schacon/blink/blob/master/b
 5.  Click on the "tick" button in upper left corner to compile the code and check for errors. After resolving any and all errors click on the "arrow" button next to it to upload the code to the board.
 6.  After successful upload the Arduino Uno will start executing the code while drawing power from the PC through the USB cable.
 
-<img src='images/arduinoide.png' width=400>
+![arduinoide](images/arduinoide.png)
 
 
 ### Explanation
@@ -95,7 +95,7 @@ The following circuit reads the voltage from a potentiometer and sends it via US
 
 ### Schematic
 
-<img src='images/arduinopot.png' width=270>
+![arduinopot](images/arduinopot.png)
 
 
 ### Code
