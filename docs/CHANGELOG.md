@@ -8,6 +8,10 @@
 
 - Make Contribution Guidelines [\#5](https://github.com/ERC-BPGC/handbook/issues/5)
 
+**Fixed bugs:**
+
+- Development boards/arduino images cannot be displayed [\#28](https://github.com/ERC-BPGC/handbook/issues/28)
+
 **Closed issues:**
 
 - Add colcon under catkin [\#14](https://github.com/ERC-BPGC/handbook/issues/14)
