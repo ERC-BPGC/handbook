@@ -13,7 +13,7 @@
 
   
 
-<img src = "images/gears1.png" height = "350px"/>
+![gears1](images/gears1.png){: style="height:350px"}
 
 _Transmission of Power_
 
@@ -23,7 +23,7 @@ _Transmission of Power_
 
   
 
-<img src = "images/gears2.png" height = "350px"/>
+![gears2](images/gears2.png){: style="height:350px"}
 
   
 
@@ -92,7 +92,7 @@ Spur gears are a type of cylindrical gear, with shafts that are parallel and cop
 
   
 
-<img src = "images/gears3.png" height = "350px"/>
+![gears3](images/gears3.png){: style="height:350px"}
 
 
 
@@ -100,7 +100,7 @@ The teeth of a spur gear have an involute profile and mesh one tooth at a time. 
 
   
 
-<img src = "images/gears4.png" height = "250px"/>
+![gears4](images/gears4.png){: style="height:350px"}
 
   
 
@@ -136,7 +136,7 @@ Bevel gears are gears where the axes of the two shafts intersect and the t
 
   
 
-<img src = "images/gears6.png" height = "350px"/>
+![gears6](images/gears6.png){: style="height:350px"}
 
   
 
@@ -172,7 +172,7 @@ Worm gears are constructed of a worm and a gear (sometimes referred to as a worm
 
   
 
-<img src = "images/gears7.png" height = "350px"/>
+![gears7](images/gears7.png){: style="height:350px"}
 
   
 
