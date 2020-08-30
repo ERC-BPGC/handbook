@@ -82,6 +82,7 @@ nav:
 
   - Mechanical:
     - Introduction: mechanical/intro.md
+    - Gears: mechanical/Gears.md
 
   - Simulation:
     - Introduction: simulation/intro.md
