@@ -41,6 +41,7 @@ extra:
       link: https://www.linkedin.com/company/electronics-robotics-club-bits-goa/
 
 markdown_extensions:
+  - attr_list
   - smarty
   - admonition
   - codehilite
@@ -77,6 +78,8 @@ nav:
 
   - Electronics:
     - Introduction: electronics/intro.md
+    - Basic Electronic Components: 
+      - Breadboard: electronics/Basic_Electronic_Components/breadboard.md
     - Development Boards:
       - Arduino: electronics/Development_Boards/Arduino.md   
 
