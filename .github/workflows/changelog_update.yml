@@ -1,6 +1,6 @@
 name: Generate Changelog
 on: 
-  pull_request:
+  push:
     branches:
       - master
 
@@ -26,7 +26,6 @@ jobs:
           git config --local user.email "vedantshah2012@gmail.com"
           git config --local user.name "veds12"
           git add docs/CHANGELOG.md && git commit -m 'Updated CHANGELOG.md' && echo ::set-env name=push::1 || echo "No changes to CHANGELOG.md"
-
       - name: Push changes
         if:  env.push == 1
         env:
