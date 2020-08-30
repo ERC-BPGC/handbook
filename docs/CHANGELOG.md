@@ -25,6 +25,7 @@
 
 **Merged pull requests:**
 
+- added breadboard.md, attr\_list for image resizing [\#29](https://github.com/ERC-BPGC/handbook/pull/29) ([enceladus2000](https://github.com/enceladus2000))
 - \[16/08/2020\]Added Arduino section under Dev Boards [\#27](https://github.com/ERC-BPGC/handbook/pull/27) ([Ashutosh781](https://github.com/Ashutosh781))
 - \[09/08/2020\] Added miscellaneous resources [\#26](https://github.com/ERC-BPGC/handbook/pull/26) ([hardesh](https://github.com/hardesh))
 - \[04/08/20\] Added information about ROS Parameters [\#21](https://github.com/ERC-BPGC/handbook/pull/21) ([adbidwai](https://github.com/adbidwai))
