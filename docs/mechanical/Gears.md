@@ -100,7 +100,7 @@ The teeth of a spur gear have an involute profile and mesh one tooth at a time. 
 
   
 
-<img src = "images/gears4.png" height = "350px"/>
+<img src = "images/gears4.png" height = "250px"/>
 
   
 
