@@ -25,6 +25,8 @@
 
 **Merged pull requests:**
 
+- \[31/08/2020\] Added Dynamics and Kinematics [\#36](https://github.com/ERC-BPGC/handbook/pull/36) ([pranavgo](https://github.com/pranavgo))
+- test [\#33](https://github.com/ERC-BPGC/handbook/pull/33) ([veds12](https://github.com/veds12))
 - \[30/08/2020\] Added Gears.md [\#31](https://github.com/ERC-BPGC/handbook/pull/31) ([Ashutosh781](https://github.com/Ashutosh781))
 - added breadboard.md, attr\_list for image resizing [\#29](https://github.com/ERC-BPGC/handbook/pull/29) ([enceladus2000](https://github.com/enceladus2000))
 - \[16/08/2020\]Added Arduino section under Dev Boards [\#27](https://github.com/ERC-BPGC/handbook/pull/27) ([Ashutosh781](https://github.com/Ashutosh781))
