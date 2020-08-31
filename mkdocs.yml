@@ -41,6 +41,7 @@ extra:
       link: https://www.linkedin.com/company/electronics-robotics-club-bits-goa/
 
 markdown_extensions:
+  - attr_list
   - smarty
   - admonition
   - codehilite
@@ -77,16 +78,14 @@ nav:
 
   - Electronics:
     - Introduction: electronics/intro.md
+    - Basic Electronic Components: 
+      - Breadboard: electronics/Basic_Electronic_Components/breadboard.md
     - Development Boards:
       - Arduino: electronics/Development_Boards/Arduino.md   
 
   - Mechanical:
     - Introduction: mechanical/intro.md
-    - Position and Orientation: mechanical/POSITION AND ORIENTATION REPRESENTATION.md
-    - Joint Kinematics: mechanical/Joint Kinematics.md
-    - Forward and Inverse Kinematics: mechanical/Forward and Inverse Kinematics.md
-    - Introduction to Dynamics : mechanical/Introduction to Dynamics.md
-    
+    - Gears: mechanical/Gears.md
 
   - Simulation:
     - Introduction: simulation/intro.md
