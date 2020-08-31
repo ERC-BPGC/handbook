@@ -7,27 +7,20 @@ A-star is a graph-based, path search algorithm. It is used in many fields of com
 ### Idea of Hueristics Functions
 - Hueristic functions are used to map every node in the graph to a *non-negative* value.
 - #### Criteria for Hueristics Functions
-    - Should be a `monotonic function`
-    - Should satisfy ```H(goal) = 0```
-    - For any two adjacent nodes `x` and `y`:
-        ```
-            H(x) <= H(y) + d(x, y)
-            d(x,y) = weight/length of edge from x to y
-        ```
-    - These properties ensure that for all nodes n:
-        ```
-            H(n) <= Length of Shortese Path from node n to goal
-        ```
+    - Should be a _monotonic function_
+    - Should satisfy $H(goal) = 0$
+    - For any two adjacent nodes $x$ and $y$:
+    	- $H(x, y) \leq H(y) + d(x, y)$  
+    	- $d(x, y) = EdgeCost(x, y)$
+    - These properties ensure that for all nodes $n$:
+    	- $H(n) \leq length of Shortest Path(n, GOAL)$
 - #### For path Planning on a grid:
-    - **Euclidean Distance**
-    ```
-        H(xn, yn) = sqrt((xn-xg)^2 + (yn-yg)^2)
-    ```
-    - **Manhattan Distance**
-    ```
-        H(xn, yn) = abs((xn - xg) + (yn - yg))
-    ```
-where `xn, yn` and `xg, yg` are the `x, y` coordinates of a the node and the goal respectively.
+    - **Euclidean Distance:**
+        $H(x_n, y_n) = \sqrt{(x_n-x_g)^2 + (y_n-y_g)^2}$
+    - **Manhattan Distance:**
+        $H(x_n, y_n) = \lvert(x_n - x_g) + (y_n - y_g)\rvert$
+
+Where $x_n$, $y_n$ and $x_g$, $y_g$ are the $x$, $y$ coordinates of a the node and the goal respectively.
 ### Psuedo Code for the Algorithm
 ```python
 def Astar(start, goal, graph):
