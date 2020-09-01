@@ -3,7 +3,7 @@
 The forward kinematics problem for a serial-chain manipulator is to find the position and orientation of the end-effector relative to the base given the positions of all of the joints and the values of all of the geometric link parameters. Often, a frame fixed in the end-effector is referred to as the tool frame, and while fixed in the final link N, it in general has a constant offset in both position and orientation from frame N. Likewise, a station frame is often located in the base to establish the location of the task to be performed. This frame generally has a constant offset in its pose relative to frame 0, which is also fixed in the base. In practice, the forward kinematics problem is solved by calculating the transformation between a coordinate frame fixed in the end-effector and another coordinate frame fixed in the base, i.e., between the tool and station frames. This is straightforward for a serial chain since the transformation describing the position of the end-effector relative to the base is obtained by
 simply concatenating transformations between frames fixed in adjacent links of the chain.
 
-<img src = 'images/forward kinematics.jpg'/>
+![](images/forward_kinematics.jpg){: style="height:500px align=centre"}
 
 # Inverse Kinematics
 
@@ -12,7 +12,7 @@ two members of a mechanism, find the values of all of the joint positions. This 
 
 
 
-<img src = 'images/inverse kinematics.png' width = "450px" /><img src = 'images/why ik.png' width = "400px"/>
+![](images/Inverse_Kinematics.jpg){: style="width:400px"}![](images/why_ik.png){: style="width:350px"}
 
 To get a more detailed idea of solving inverse and forward kinematics problems for robotic system do checkout this 3 part video series from milfordrobotics 
 
