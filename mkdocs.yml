@@ -86,7 +86,7 @@ nav:
   - Mechanical:
     - Introduction: mechanical/intro.md
     - Gears: mechanical/Gears.md
-    - Position and Orientation: mechanical/POSITION AND ORIENTATION REPRESENTATION.md
+    - Position and Orientation: mechanical/position and orientation.md
     - Joint Kinematics: mechanical/Joint Kinematics.md
     - Forward and Inverse Kinematics: mechanical/Forward and Inverse Kinematics.md
     - Introduction to Dynamics : mechanical/Introduction to Dynamics.md
