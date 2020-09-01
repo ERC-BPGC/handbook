@@ -25,6 +25,7 @@
 
 **Merged pull requests:**
 
+- \[01/09/2020\] Fixed image and math issues [\#39](https://github.com/ERC-BPGC/handbook/pull/39) ([pranavgo](https://github.com/pranavgo))
 - \[31/08/2020\] Added Dynamics and Kinematics [\#36](https://github.com/ERC-BPGC/handbook/pull/36) ([pranavgo](https://github.com/pranavgo))
 - \[30/08/2020\] Added Gears.md [\#31](https://github.com/ERC-BPGC/handbook/pull/31) ([Ashutosh781](https://github.com/Ashutosh781))
 - added breadboard.md, attr\_list for image resizing [\#29](https://github.com/ERC-BPGC/handbook/pull/29) ([enceladus2000](https://github.com/enceladus2000))
