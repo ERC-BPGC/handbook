@@ -13,7 +13,7 @@
 
   
 
-![gears1](images/gears1.png){: style="height:350px"}
+![gears1](images/gears1.png){: style="height:350px align=centre"}
 
 _Transmission of Power_
 
@@ -23,7 +23,7 @@ _Transmission of Power_
 
   
 
-![gears2](images/gears2.png){: style="height:350px"}
+![gears2](images/gears2.png){: style="height:350px align=centre"}
 
   
 
@@ -92,7 +92,7 @@ Spur gears are a type of cylindrical gear, with shafts that are parallel and cop
 
   
 
-![gears3](images/gears3.png){: style="height:350px"}
+![gears3](images/gears3.png){: style="height:350px align=centre"}
 
 
 
@@ -100,7 +100,7 @@ The teeth of a spur gear have an involute profile and mesh one tooth at a time. 
 
   
 
-![gears4](images/gears4.png){: style="height:350px"}
+![gears4](images/gears4.png){: style="height:350px align=centre"}
 
   
 
@@ -120,7 +120,7 @@ One of the most noticeable benefits of helical gears over spur gears is less noi
 
   
 
-![gears5](images/gears5.png)
+![gears5](images/gears5.png){: style="align=centre"}
 
   
 
@@ -136,7 +136,7 @@ Bevel gears are gears where the axes of the two shafts intersect and the t
 
   
 
-![gears6](images/gears6.png){: style="height:350px"}
+![gears6](images/gears6.png){: style="height:350px align=centre"}
 
   
 
@@ -172,7 +172,7 @@ Worm gears are constructed of a worm and a gear (sometimes referred to as a worm
 
   
 
-![gears7](images/gears7.png){: style="height:350px"}
+![gears7](images/gears7.png){: style="height:350px align=centre"}
 
   
 
@@ -188,7 +188,7 @@ The herringbone gear consists of two sets of gear teeth on the same gear, one ri
 
   
 
-![gears8](images/gears8.png)
+![gears8](images/gears8.png){: style="align=centre"}
 
   
 
@@ -200,7 +200,7 @@ A rack and pinion drive system consists of a rack (or a “linear gear”) and a
 
   
 
-![gears9](images/gears9.png)
+![gears9](images/gears9.png){: style="align=centre"}
 
   
 
@@ -212,7 +212,7 @@ A planetary gear set is made up of three types of gears; a sun gear, planet gear
 
   
 
-![gears10](images/gears10.png)
+![gears10](images/gears10.png){: style="height:350px align=centre"}
 
   
 
