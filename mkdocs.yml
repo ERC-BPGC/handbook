@@ -89,10 +89,17 @@ nav:
       - Breadboard: electronics/Basic_Electronic_Components/breadboard.md
     - Development Boards:
       - Arduino: electronics/Development_Boards/Arduino.md   
-
+ 
   - Mechanical:
     - Introduction: mechanical/intro.md
     - Gears: mechanical/Gears.md
+    - Kinematics and Dynamics:
+          - Position and Orientation: mechanical/position and orientation.md
+          - Kinematics:
+                - Joint Kinematics: mechanical/Joint Kinematics.md
+                - Forward and Inverse Kinematics: mechanical/Forward and Inverse Kinematics.md
+          - Dynamics:
+                - Introduction to Dynamics: mechanical/Introduction to Dynamics.md
 
   - Simulation:
     - Introduction: simulation/intro.md
