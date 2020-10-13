@@ -108,6 +108,8 @@ nav:
     - Introduction: simulation/intro.md
     - Gazebo:
       - Basics of Gazebo: simulation/gazebo/basics.md
+    - STDR Simulator:
+      - Basics of STDR: simulation/stdr/Basics.md
 
   - About Us: about.md
   
