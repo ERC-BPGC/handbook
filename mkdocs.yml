@@ -16,7 +16,7 @@ theme:
   language: en
   icon:
     logo: material/book-open-page-variant
-  favicon: images/erc_logo.png
+  favicon: images/logo.png
   features:
     - tabs
   palette:
