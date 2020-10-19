@@ -1,4 +1,8 @@
-# Miscellaneous Resources 
+# Miscellaneous 
+
+## Wesbites with resources
+
+- [The Robotics Back-End](https://roboticsbackend.com/)
 
 ## Talk Series / Seminars / Podcasts:
 - [Artificial Intelligence Podcast by Lex Fridman](https://www.youtube.com/playlist?list=PLrAXtmErZgOdP_8GztsuKi9nrraNbKKp4)
