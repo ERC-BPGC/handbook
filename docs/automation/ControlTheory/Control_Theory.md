@@ -112,10 +112,9 @@ Rearranging the above gives us the closed-loop transfer function of:
 
 ## Controllability
 
-![](images\controlablity.png)
+![](images\controlablity.png)<br><br>
 
-![](images\controlablity_1.jpg){: style="height:200px align=centre"}
-
+![](images\controlablity_1.jpg)
 ## Types of Feedback Control
 
 #### Positive Feedback
