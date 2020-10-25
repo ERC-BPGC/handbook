@@ -75,22 +75,43 @@ nav:
       - Setting Up: automation/ROS/setting_up.md
       - Getting Started with ROS: automation/ROS/ros.md
       - ROS Parameters: automation/ROS/ros_p2.md
-
+    - Path Planning:
+      - Introduction to Path Planning in Robotics: automation/PathPlanners/intro.md
+      - Graph Based Algorithms:
+        - A Star: automation/PathPlanners/Astar.md
+        - Dijkstra's Algorithm: automation/PathPlanners/Dijkstra.md
+      - Sampling Based Algorithms:
+        - RRT: automation/PathPlanners/RRT.md
+    - Control Theory:
+      - Introduction to Control Theory: automation/ControlTheory/Control_Theory.md
+      - PID Controller: automation/ControlTheory/PID_Controller.md
+      - Linear Quadratic Regulator: automation/ControlTheory/LQR.md
+      - Model Predictive Control: automation/ControlTheory/MPC.md
+      
   - Electronics:
     - Introduction: electronics/intro.md
     - Basic Electronic Components: 
       - Breadboard: electronics/Basic_Electronic_Components/breadboard.md
     - Development Boards:
       - Arduino: electronics/Development_Boards/Arduino.md   
-
+ 
   - Mechanical:
     - Introduction: mechanical/intro.md
     - Gears: mechanical/Gears.md
+    - Kinematics and Dynamics:
+          - Position and Orientation: mechanical/position and orientation.md
+          - Kinematics:
+                - Joint Kinematics: mechanical/Joint Kinematics.md
+                - Forward and Inverse Kinematics: mechanical/Forward and Inverse Kinematics.md
+          - Dynamics:
+                - Introduction to Dynamics: mechanical/Introduction to Dynamics.md
 
   - Simulation:
     - Introduction: simulation/intro.md
     - Gazebo:
       - Basics of Gazebo: simulation/gazebo/basics.md
+    - STDR Simulator:
+      - Basics of STDR: simulation/stdr/Basics.md
 
   - About Us: about.md
   
