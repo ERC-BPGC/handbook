@@ -3,7 +3,7 @@
 | Parameter              | STM32F103C8T6 (Blue Pill) | Arduino UNO |
 |------------------------|---------------------------|-------------|
 | Processor              | STM32F103C8T6             | ATMega328P  |
-| Operating/Input Voltage|3.3V|5V|
+| Operating Voltage|3.3V|5V|
 |CPU Speed|72 MHz|16 MHz|
 |Analog pins|10|8|
 |Digital I/O or PWM|37|14|
