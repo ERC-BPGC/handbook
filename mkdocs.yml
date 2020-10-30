@@ -103,6 +103,7 @@ nav:
   - Mechanical:
     - Introduction: mechanical/intro.md
     - Gears: mechanical/Gears.md
+    - Drive Mechanism: mechanical/drive_mechanism.md
     - Kinematics and Dynamics:
           - Position and Orientation: mechanical/position and orientation.md
           - Kinematics:
