@@ -12,7 +12,7 @@ If we want to prescribe the robot’s movements in the environment, we need to k
 
 Generally Omni wheeled robots use either a three wheeled platform or a four wheeled platform. Each design has its own advantages and disadvantages. In a three wheel design, wheels are at $120^{\circ}$ from each other and they offers greater traction as any reactive force is distributed through only three points and the robot is well balanced even on uneven terrain.
 
-![drive0](images/drive0.png){: style="height:250px align=centre"}
+<center>![drive0](images/drive0.png)</center>
 
 The configuration of a robot is defined in the form $q = (x,y,\theta)$, $d$ is the distance between wheels and the center of the robot $v_i$ and $\omega_i$ are the linear and angular velocity of the $i^{th}$ wheel respectively. $v, v_n$ are the two components of the linear velocity of the robot and $\omega$ is the angular velocity. The well known kinematic model of an omnidirectional robot located a $(x,y,\theta)$ can be written as $v_x(t) = dx(t)/dt , v_y(t) = dy(t)/dt$ and $\omega(t) = d\theta(t)/dt$. For a three wheeled robot
 
@@ -36,7 +36,7 @@ A nonholomic robot is modelled in differnet ways which will then dictate the dri
 
 The simplest wheeled mobile robot is a single upright rolling wheel, or unicycle. The configuration of a robot with a wheel of radius $r$ can be written in the form $q = (\phi,x,y,\theta)$, where $(x,y)$ is the contact point, $\phi$ is the heading direction, and $\theta$ is the rolling angle of the wheel. The kinematic equations can be written as
 
-![drive1](images/drive1.png){: style="height:250px align=centre"}
+<center>![drive1](images/drive1.png)</center>
 
 $$ \dot{q} = \begin{bmatrix} \dot{\phi}\\ \dot{x}\\ \dot{y}\\ \dot{\theta} \end{bmatrix} = \begin{bmatrix} 0 & 1\\ rcos\phi & 0\\ rsin\phi & 0\\ 1 & 0 \end{bmatrix}  \begin{bmatrix} u_1\\ u_2 \end{bmatrix} = G(q)u = g_1(q)u_1 + g_2(q)u_2 $$
 
@@ -50,11 +50,11 @@ A differential drive is the most basic drive, which consists of two sets of whee
 
 A differential drive robot consists of two independently driven wheels of radius $r$ that rotate about the same axis, as well as one or more caster wheels, ball casters, or low-friction sliders that keep the robot horizontal. If both the wheels are driven in the same direction and speed, the robot will go in a straight line.
 
-![drive2](images/drive2.jpg){: style="height:250px align=centre"}
+<center>![drive2](images/drive2.jpg)</center>
 
 If both wheels are turned with equal speed in opposite directions, as is clear from the diagram shown, the robot will rotate about the central point of the axis. Otherwise, depending on the speed of rotation and its direction, the center of rotation may fall anywhere on the line defined by the two contact points of the tires.
 
-![drive3](images/drive3.png){: style="height:250px align=centre"}
+<center>![drive3](images/drive3.png)</center>
 
 Let the distance between the driven wheels be $2d$ and choose the $(x,y)$ reference point halfway between the wheels. Writing the configuration as $q = (\phi,x,y,\theta_L,\theta_R)$, where $\theta_L$ and $\theta_R$ are the rolling angles of the left and right wheels, respectively, the kinematic equations are
 
@@ -75,17 +75,13 @@ A differential drive robot cannot move in the direction along the axis - this is
 
 Drawbacks of the differential drive are its reliance on a caster wheel, which performs poorly at high speeds, and difficulties in driving straight lines as this requires both motors to drive at the exact same speed. These drawbacks are mitigated by car-like mechanisms, which are driven by a single motor and can steer their front wheels. This mechanism is known as Ackermann steering.
 
-![drive4](images/drive4.png){: style="height:150px align=centre"}
+<center>![drive4](images/drive4.png)</center>
 
 To define the configuration of the car, we ignore the rolling angles of the four wheels and write $q = (\phi,x,y,\psi)$, where $(x,y)$ is the location of the midpoint between the rear wheels, $\phi$ is the car's heading direction, and $\psi$ is the steering angle of the car, defined at a virtual wheel at the midpoint between the front wheels. The controls are the forward speed $v$ of the car at its reference point and the angular speed $\omega$ of the steering angle. The car's kinematics are
 
 $$ \dot{q} = \begin{bmatrix} \dot{\phi}\\ \dot{x}\\ \dot{y}\\ \dot{\psi} \end{bmatrix} = \begin{bmatrix} (tan\psi)/l & 0\\ cos\phi & 0\\ sin\phi & 0\\ 0 & 1 \end{bmatrix} \begin{bmatrix} v\\ \omega \end{bmatrix} $$
 
 Disadvantages Of Ackermann Steering : The turning mechanism must be accurately controlled. A slight inaccuracy may cause large odometry errors The system is Non – Holonomic hence path planning is extremely difficult as well as inaccurate There are no direct directional actuators.
-
-<br>
-
-For more details on these drive mechanisms refer Chapter 13 of the **Modern Robotics - Mechanics, Planning, And Control** by *Kevin M. Lynch and Frank C. Park*.
 
 ## Other type of Drive Mechanism
 
@@ -96,3 +92,10 @@ There are many different ways in which a robot can be modelled and controlled, s
 * **Synchronous Drive -** This system uses synchronous rotation of its wheels to achieve motion & turns. It is made up of a system of motors. One set of which drive the wheels and the other set turns the wheels in a synchronous fashion The two sets can be directly mechanically coupled as they always move in the same direction with same speed.
 
 * **Articulated Drive -** Similar to Ackerman Steering concept, Articulated method drives a robot by deforming the entire chassis or frame to turn instead of just the wheels. This is generally used for industrial robots where a four wheeled robot is split into two, the front part and the rear part which is connected by a vertical hinge. A motor changes the angle of front part of chassis which turns the robot in a required direction and other motor drives it.
+
+## References
+
+1. A 4-wheel omni drive robot - **Omnibase** developed by ERC, applying the concepts of omnidrive can be found [here](https://github.com/ERC-BPGC/omnibase).
+2. For more details on these drive mechanisms refer Chapter 13 of the **Modern Robotics - Mechanics, Planning, And Control** by *Kevin M. Lynch and Frank C. Park*, a video playlist of the same can be found [here](https://www.youtube.com/playlist?list=PLggLP4f-rq00uzTEwsywVcTF2fJ2YqAXX).
+3. A video on Differential Drive mechanism from **Control of Mobile Robots** course by *Dr. Magnus Egerstedt* can be found [here](https://youtu.be/wqUwmnKskJU).
+4. More information on Designing of Ackermann Steering can be read from this [paper](https://www.researchgate.net/publication/265755401_Design_of_an_Ackermann_Type_Steering_Mechanism).
