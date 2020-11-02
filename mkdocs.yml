@@ -16,7 +16,7 @@ theme:
   language: en
   icon:
     logo: material/book-open-page-variant
-  favicon: images/erc_logo.png
+  favicon: images/logo.png
   features:
     - tabs
   palette:
@@ -32,10 +32,13 @@ extra:
       link: https://twitter.com/erc_bpgc
 
     - icon: fontawesome/brands/facebook
-      link: https://www.facebook.com/ElectronicsAndRoboticsClub
+      link: https://www.facebook.com/ElectronicsAndRoboticsClub   
 
     - icon: fontawesome/brands/github
       link: https://github.com/ERC-BPGC
+
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/erc_bitsgoa/  
 
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/company/electronics-robotics-club-bits-goa/
@@ -100,6 +103,7 @@ nav:
   - Mechanical:
     - Introduction: mechanical/intro.md
     - Gears: mechanical/Gears.md
+    - Drive Mechanism: mechanical/drive_mechanism.md
     - Kinematics and Dynamics:
           - Position and Orientation: mechanical/position and orientation.md
           - Kinematics:

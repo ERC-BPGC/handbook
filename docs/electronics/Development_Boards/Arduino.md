@@ -1,12 +1,10 @@
 # Arduino
 
-  The Arduino is basically a very accessible and easy to program microcontroller. Unlike other microcontrollers, which need knowledge of registers and ports, the Arduino is programmed by a very basic C-derived language. [This](https://www.youtube.com/watch?v=CqrQmQqpHXc) [video](https://www.youtube.com/watch?v=CqrQmQqpHXc) explains what an Arduino is, what it is capable of, and the numerous projects one can use it for.
-
-  
+The Arduino is basically a very accessible and easy to program microcontroller. Unlike other microcontrollers, which need knowledge of registers and ports, the Arduino is programmed by a very basic C-derived language. [This](https://www.youtube.com/watch?v=CqrQmQqpHXc) [video](https://www.youtube.com/watch?v=CqrQmQqpHXc) explains what an Arduino is, what it is capable of, and the numerous projects one can use it for.
 
 ## Arduino Board Layout
 
-![arduino](images/arduino1.png)
+<center>![arduino](images/arduino1.png)</center>
 
 The above diagram shows an Arduino UNO board with all the parts labelled and explained below:
 
@@ -32,7 +30,7 @@ The above diagram shows an Arduino UNO board with all the parts labelled and exp
 
 The Blink sketch is like the “Hello World” program in the Arduino world. It simply consists of blinking the onboard LED (labeled ‘L’). No actual circuit connections are required!
 
-![arduino2](images/arduino2.png)
+<center>![arduino2](images/arduino2.png)</center>
 
 ### Code
 
@@ -47,8 +45,7 @@ You can copy the code from [here](https://github.com/schacon/blink/blob/master/b
 5.  Click on the "tick" button in upper left corner to compile the code and check for errors. After resolving any and all errors click on the "arrow" button next to it to upload the code to the board.
 6.  After successful upload the Arduino Uno will start executing the code while drawing power from the PC through the USB cable.
 
-![arduinoide](images/arduinoide.png)
-
+<center>![arduinoide](images/arduinoide.png)</center>
 
 ### Explanation
 
@@ -95,8 +92,7 @@ The following circuit reads the voltage from a potentiometer and sends it via US
 
 ### Schematic
 
-![arduinopot](images/arduinopot.png)
-
+<center>![arduinopot](images/arduinopot.png)</center>
 
 ### Code
 
