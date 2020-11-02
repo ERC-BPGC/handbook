@@ -112,7 +112,7 @@ Rearranging the above gives us the closed-loop transfer function of:
 
 ## Controllability
 
-![](images\controlablity.png)<br><br>
+![](images\controlablity.png)<br>
 
 ![](images\controlablity_1.jpg)
 
