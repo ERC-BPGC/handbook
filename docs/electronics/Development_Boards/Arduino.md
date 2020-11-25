@@ -108,4 +108,10 @@ Serial.begin(9600);
 
 The analogRead function reads the voltage at an analog pin and linearly converts it to a value between 0 and 1023. The Serial.println() function prints a variable to the serial monitor, followed by a newline (using Serial.print() to print data without the newline). The delay(1) is to limit the amount of data printed to the serial monitor.
 
-For more tutorials on using Arduino IDE refer to the [Basics of Electronics]() section
+## References
+
+1. For more lessons and material on Arduino, check out the QSTP - [Introduction to Mechatronics](https://github.com/ERC-BPGC/QSTP-Introduction-to-Mechatronics/tree/master/Module%201%20-%20Electronics%20and%20Arduino), designed by ERC.
+2. For some more detailed tutorials do read the documentation of [Arduino](https://www.arduino.cc/en/Tutorial/HomePage).
+3. For some video tutorials check out Jeremy Blum's [playlist](https://www.youtube.com/playlist?list=PLA567CE235D39FA84) for Arduino.
+4. For more DIY project ideas and inspirations check out [Great Scott's](https://www.youtube.com/c/greatscottlab/featured) youtube channel.
+5. To read more about the projects made by people using Arduino, check out Arduino's [blog](https://blog.arduino.cc/) as well.
