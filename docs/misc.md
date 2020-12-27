@@ -1,5 +1,15 @@
 # Miscellaneous 
 
+## Online Courses 
+
+- [Underactuated robotics](https://www.youtube.com/channel/UChfUOAhz7ynELF-s_1LPpWg/videos)
+- [Programming for Robotics](https://rsl.ethz.ch/education-students/lectures/ros.html)
+- [Introduction to Aerial Robotics](http://www.kostasalexis.com/introduction-to-aerial-robotics.html)
+- [SLAM Course](https://www.youtube.com/playlist?list=PLgnQpQtFTOGQrZ4O5QzbIHgl3b1JHimN_)
+- [Robotics Specialization - Coursera](https://www.coursera.org/specializations/robotics)
+- [Modern Robotics Specialization - Coursera](https://www.coursera.org/specializations/modernrobotics)
+- [Compiled list of other courses/resources](https://github.com/mithi/robotics-coursework)
+
 ## Wesbites with resources
 
 - [The Robotics Back-End](https://roboticsbackend.com/)
