@@ -12,7 +12,7 @@ ROS packages necessary for running Gazebo simulations are installed
 
 `sudo apt-get install ros-melodic-gazebo-*`
 
-Gazebo can also be installed independently of ROS by using the command 
+Gazebo can also be installed independently of ROS by using the command
 
 `curl -sSL http://get.gazebosim.org | sh`
 

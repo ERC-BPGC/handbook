@@ -6,4 +6,3 @@ While robots are becoming more accessible all the time, it is still not at the s
 you can test your code directly on them. In fact, running code in simulations will always
 be more convenient. For a more thorough introduction on simulators and the robots
 you can find in them, go through **Chapter 6** of Morgan Quigley.
-
