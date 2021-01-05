@@ -66,12 +66,6 @@ google_analytics:
 
 nav:
   - Home: index.md
-
-  - Overview:
-    - What is Robotics?: overview/what_is_robotics.md
-    - Key Areas: overview/key_areas.md
-    - Reference Material: overview/reference_material.md
-
   - Automation:
     - Introduction: automation/intro.md
     - ROS:
