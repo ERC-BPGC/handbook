@@ -4,11 +4,7 @@ A robot can exhibit a number of different behaviors, depending on the task and i
 
 In each of these cases, it is the job of the robot controller to convert the task specification to forces and torques at the actuators. Control strategies that achieve the behaviors described above are known as **motion control**, **force control**, **hybrid motion-force control**, or **impedance control**.
 
-
-
-![](images\controller.png)
-
-
+<center>![](images/controller.png)</center>
 
 A typical control block diagram is shown above The sensors are typically: potentiometers, encoders, or resolvers for joint position and angle sensing; tachometers for joint velocity sensing; joint force-torque sensors; and/or multi-axis force-torque sensors.
 
@@ -18,11 +14,7 @@ A typical control block diagram is shown above The sensors are typically: potent
 
 A control system in which the control action is totally independent of output of the system then it is called **open loop control system**. A manual control system is also an open loop control system. The figure below shows a control system block diagram of an open loop control system in which process output is totally independent of the controller action.
 
-
-
-![](images\controller_1.png)
-
-
+<center>![](images/controller_1.png)</center>
 
 **Practical examples of Open loop control system:**
 
@@ -34,11 +26,7 @@ A control system in which the control action is totally independent of output of
 
 Control system in which the output has an effect on the input quantity in such a manner that the input quantity will adjust itself based on the output generated is called **closed loop control system**. **Open loop control system** can be converted in to closed loop control system by providing a feedback. Figure below shows the block diagram of closed loop control system in which feedback is taken from output and fed in to input.
 
-
-
-![](images\controller_2.png)
-
-
+<center>![](images/controller_2.png)</center>
 
 **Practical example of Closed loop control system:**
 
@@ -60,13 +48,11 @@ Before we design any controller, we have to consider the key factors that will d
 
 5.**Optimality :** It is a set of differential equations that describe the paths of the control variables that minimize the cost function.
 
-
-
 ## Laplace transform
 
 The Laplace transform plays a important role in control theory. It appears in the description of linear time invariant systems, where it changes convolution operators into multiplication operators and allows to define the transfer function of a system. The properties of systems can be then translated into properties of the transfer function. It allows the use of graphical methods to predict system performance without solving the differential equations of the system. These include response, steady state behavior, and transient behavior.
 
-#### Laplace Vs Fourier transform
+### Laplace Vs Fourier transform
 
 Laplace transform:<br>
 $F(s)=\int_{0}^{\infty}f(t)e^{-st}dt  \qquad f^{'}(t)\Rightarrow sF(s)$<br><br>
@@ -76,13 +62,11 @@ Laplace transforms often depend on the initial value of the function whereas Fou
 
 To understand Laplace transform in detail read [this](https://www.electrical4u.com/laplace-transformation/) article
 
-##  Closed Loop Transfer Function
+## Closed Loop Transfer Function
 
 A **closed-loop transfer function** in control theory is a mathematical expression describing the net result of the effects of a closed feedback loop on the input signal to the circuits enclosed by the loop.
 
-
-
-![](images\controller_4.png)
+<center>![](images/controller_4.png)</center>
 
 Where: block G represents the open-loop gains of the controller or system and is the forward path, and block H represents the gain of the sensor, transducer or measurement system in the feedback path.
 
@@ -106,30 +90,24 @@ Therefore:  G x Input = Output + G x H x Output
 
 Rearranging the above gives us the closed-loop transfer function of:
 
-![](images\controller_5.png)
-
-
+<center>![](images/controller_5.png)</center>
 
 ## Controllability
 
-![](images\controlablity.png)<br>
+<center>![](images/controlablity.png)
 
-![](images\controlablity_1.jpg)
+![graph](images/controlablity_1.jpg) </center>
 
 ## Types of Feedback Control
 
-#### Positive Feedback
+### Positive Feedback
 
 In a “positive feedback control system”, the set point and output values are added together by the controller as the feedback is “in-phase” with the input. The effect of positive (or regenerative) feedback is to “increase” the systems gain, i.e, the overall gain with positive feedback applied will be greater than the gain without feedback]
 
-#### Negative Feedback
+### Negative Feedback
 
 In a “negative feedback control system”, the set point and output values are subtracted from each other as the feedback is “out-of-phase” with the original input. The effect of negative (or degenerative) feedback is to “reduce” the gain. As a rule negative feedback systems are more stable than positive feedback systems. Negative feedback also makes systems more immune to random variations in component values and inputs.
 
+<center>![](images/whatis-feedback_loop_mobile.jpg)</center>
 
-
-![](images\whatis-feedback_loop_mobile.jpg)
-
-
-
-To know more about different types of control systems you can read [this](https://www.electrical4u.com/types-of-systems-linear-and-non-linear-system/) article
+To know more about different types of control systems you can read [this](https://www.electrical4u.com/types-of-systems-linear-and-non-linear-system/) article.
