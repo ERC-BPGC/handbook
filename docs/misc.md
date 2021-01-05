@@ -1,6 +1,6 @@
-# Miscellaneous 
+# Miscellaneous
 
-## Online Courses 
+## Online Courses
 
 - [Underactuated robotics](https://www.youtube.com/channel/UChfUOAhz7ynELF-s_1LPpWg/videos)
 - [Programming for Robotics](https://rsl.ethz.ch/education-students/lectures/ros.html)
@@ -15,7 +15,8 @@
 - [The Robotics Back-End](https://roboticsbackend.com/)
 - [RoboticsKnowledgeBase](https://roboticsknowledgebase.com/)
 
-## Talk Series / Seminars / Podcasts:
+## Talk Series / Seminars / Podcasts
+
 - [Artificial Intelligence Podcast by Lex Fridman](https://www.youtube.com/playlist?list=PLrAXtmErZgOdP_8GztsuKi9nrraNbKKp4)
 - [Robotics Today](https://roboticstoday.github.io/index.html)
 - [MIT RoboSeminars](https://www.youtube.com/channel/UCK2tKzmSFFnpFhUXtRKjvnQ)
@@ -31,9 +32,9 @@
 
 - [AI Robotics](https://groups.google.com/forum/#!forum/ai-robotics)
 
-- [Systems Neuroscience](https://groups.google.com/group/systems-neuroscience/subscribe) 
+- [Systems Neuroscience](https://groups.google.com/group/systems-neuroscience/subscribe)
 
-- [ML-news](https://groups.google.com/forum/?hl=en#!forum/ML-news) 
+- [ML-news](https://groups.google.com/forum/?hl=en#!forum/ML-news)
 
 - [Connectionists](https://mailman.srv.cs.cmu.edu/mailman/listinfo/connectionists)
 
@@ -50,4 +51,3 @@
 - [Artificial Life](http://lists.idyll.org/listinfo/alife-announce)
 
 - [Genetic Programming](http://tech.groups.yahoo.com/group/genetic_programming/)
-

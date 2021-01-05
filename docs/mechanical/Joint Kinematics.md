@@ -27,11 +27,10 @@ variables.
 
 The geometry of a robotic mechanism is conveniently defined by attaching coordinate frames to each link. While these frames could be located arbitrarily, it is advantageous both for consistency and computational efficiency to adhere to a convention for locating the frames on the links. A commonly used convention for selecting frames of reference in robotic applications is the Denavit-Hartenberg, or D-H convention. In this convention, each homogeneous transformation $A_{i}$ is represented as a product of four basic transformations
 
-![](images/link_2.png){: style="height:250px"}
+<center>![](images/link_2.png){: style="height:250px"}</center>
 
 where the four quantities $\theta_{i} , a_{i} , d_{i} , \alpha_{i}$ are parameters associated with link i and joint i. The four parameters $a_{i} ,\alpha_{i} ,d_{i} , and \: \theta_{i}$ in are generally given the names link length, link twist, link offset, and joint angle, respectively, three of the above four quantities are constant for a given link, while the fourth parameter, $\theta i$ for a revolute joint and $d_{i}$ for a prismatic joint, is the joint variable.
 
 Check out this [video](https://www.youtube.com/watch?v=FiKEAdednuo) to know more about how to use DH parameters for geometric representation or go [here](https://robotacademy.net.au/lesson/denavit-hartenberg-notation/) for know about DH notation in more detail.
 
-![](images/dh_parameters.jpg){: style="height:350px align:center"}
-
+<center>![](images/dh_parameters.jpg){: style="height:350px align:center"}</center>
