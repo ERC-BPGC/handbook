@@ -21,6 +21,7 @@ jobs:
         env: 
           CI_USER: ${{ secrets.YOUR_GITHUB_USER }}
           CI_EMAIL: ${{ secrets.YOUR_GITHUB_EMAIL }}
+          ACTIONS_ALLOW_UNSECURE_COMMANDS: true
         run: |
           mv CHANGELOG.md docs/CHANGELOG.md
           git config --local user.email "vedantshah2012@gmail.com"
