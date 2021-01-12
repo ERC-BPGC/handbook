@@ -1,4 +1,4 @@
-# Dikstra's Algorithm
+# Dijkstra's Algorithm
 Dijkstra's Algorithm is an algorithm for finding the shortest path between one source node and all the other nodes in a graph, thereby producing a `shortest-path-tree`.
 ### Psuedo Code
 ```python
