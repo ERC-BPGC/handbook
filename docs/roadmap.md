@@ -136,6 +136,4 @@ To get started with it check out [official tutorials](https://help.autodesk.com/
 
 SOLIDWORKS by Dassault Systems is a major CAD platform that is used for 3D design and basic simulations. It has slightly more functionalities than F360 and is very good for the design of manufactured goods and design engineering. You can easily find SW tutorials on Youtube, however, this Lynda tutorial series on SW is very nice- [Lynda Tutorials SolidWorks](https://drive.google.com/drive/folders/1j9J3IEnAwjRMRvQAYGQYorKHM698ScX9?usp=sharing). [Use BITS mail]
 
-SW is generally a paid software, but you may use this link [(Solidworks)](https://drive.google.com/drive/folders/1z8KxkTZAbILNORRtlUxhGIA0RFSRERb-?usp=sharing) to get a crack version ;) [Use BITS mail and also make sure that you have 12 to 13 GBs of data before you start the download process ^_^].
-
-This youtube video can help you with the installation process [How to Install Solidworks 2018 | 100% works](https://www.youtube.com/watch?v=mZGWI6tAPgQ)
+For more information on how to get Solidworks, get in touch with an ERC member.
