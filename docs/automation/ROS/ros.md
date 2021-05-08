@@ -65,7 +65,7 @@ and a *client*.
 
 For example consider in your self driving car, you have one node to control the movement of the car and another to plan an optimal route to your destination. In such a scenario, the
 main control node would be the ​*client* ​for the route planning ​ *server*. This means that whenever the controller requires a route to be planned, supposed it finds out the route is
-blocked up ahead, then it would send a request to the server. This request would consist of the current location, the destination as well as any preferences the controller might have (like faster/more comfortable). The server would then compute an optimal route and return it to the server as the response.
+blocked up ahead, then it would send a request to the server. This request would consist of the current location, the destination as well as any preferences the controller might have (like faster/more comfortable). The server would then compute an optimal route and return it to the client as the response.
 
 - **Client:** ​This is the node which sends requests to a server. In the client code, you can create a special function which acts as a proxy between the client and server. Whenever you call the function, it sends a request to the server with the arguments passed to it as parameters.
 - **Server:** ​This node constantly monitors for requests from the client. Whenever it receives one, it carries out the required task independently of the client and sends
