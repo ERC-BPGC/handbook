@@ -14,6 +14,7 @@
 
 **Closed issues:**
 
+- Add introductions to each sections [\#50](https://github.com/ERC-BPGC/handbook/issues/50)
 - Fix Changelog [\#49](https://github.com/ERC-BPGC/handbook/issues/49)
 - Fix image rendering problem in Control Theory [\#48](https://github.com/ERC-BPGC/handbook/issues/48)
 - fix images and equation in kinematics and dynamics section [\#37](https://github.com/ERC-BPGC/handbook/issues/37)
@@ -31,6 +32,7 @@
 
 **Merged pull requests:**
 
+- \[08/05/21\] Fixed a typo in ROS.md [\#54](https://github.com/ERC-BPGC/handbook/pull/54) ([Satyam0988](https://github.com/Satyam0988))
 - \[12/01/2021\] Roadmap for Robotics [\#53](https://github.com/ERC-BPGC/handbook/pull/53) ([Ashutosh781](https://github.com/Ashutosh781))
 - \[05/01/2021\] Images Fixed [\#52](https://github.com/ERC-BPGC/handbook/pull/52) ([Ashutosh781](https://github.com/Ashutosh781))
 - \[05/01/2021\] Image issue in control theory fixed [\#51](https://github.com/ERC-BPGC/handbook/pull/51) ([Ashutosh781](https://github.com/Ashutosh781))
