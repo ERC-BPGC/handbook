@@ -66,6 +66,7 @@ google_analytics:
 
 nav:
   - Home: index.md
+  - Roadmap: roadmap.md
   - Automation:
     - Introduction: automation/intro.md
     - ROS:
