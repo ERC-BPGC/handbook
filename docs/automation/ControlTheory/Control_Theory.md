@@ -98,7 +98,6 @@ Rearranging the above gives us the closed-loop transfer function of:
 
 ![graph](images/controlablity_1.jpg) </center>
 
-![](images\controlablity_1.jpg)
 ## Types of Feedback Control
 
 ### Positive Feedback
