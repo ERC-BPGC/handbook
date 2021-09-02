@@ -33,6 +33,8 @@
 
 **Merged pull requests:**
 
+- \[02/02/2021\] Revert "\[02/09/2021\] Added content in introduction pages" [\#58](https://github.com/ERC-BPGC/handbook/pull/58) ([pranavgo](https://github.com/pranavgo))
+- \[02/09/2021\] Added content in introduction pages [\#57](https://github.com/ERC-BPGC/handbook/pull/57) ([pranavgo](https://github.com/pranavgo))
 - \[25/05/2021\] Changelog Test PR \# 1 [\#56](https://github.com/ERC-BPGC/handbook/pull/56) ([veds12](https://github.com/veds12))
 - \[08/05/21\] Fixed a typo in ROS.md [\#54](https://github.com/ERC-BPGC/handbook/pull/54) ([Satyam0988](https://github.com/Satyam0988))
 - \[12/01/2021\] Roadmap for Robotics [\#53](https://github.com/ERC-BPGC/handbook/pull/53) ([Ashutosh781](https://github.com/Ashutosh781))
