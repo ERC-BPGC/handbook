@@ -14,7 +14,14 @@
 
 **Closed issues:**
 
+- Changelog Test Issue \#1 [\#55](https://github.com/ERC-BPGC/handbook/issues/55)
+- Add introductions to each sections [\#50](https://github.com/ERC-BPGC/handbook/issues/50)
+- Fix Changelog [\#49](https://github.com/ERC-BPGC/handbook/issues/49)
+- Fix image rendering problem in Control Theory [\#48](https://github.com/ERC-BPGC/handbook/issues/48)
 - fix images and equation in kinematics and dynamics section [\#37](https://github.com/ERC-BPGC/handbook/issues/37)
+- Add a section about STM \(ARM\) programming [\#25](https://github.com/ERC-BPGC/handbook/issues/25)
+- Restructure the contents related to ROS [\#22](https://github.com/ERC-BPGC/handbook/issues/22)
+- Restructure navigation sub-section  [\#15](https://github.com/ERC-BPGC/handbook/issues/15)
 - Add colcon under catkin [\#14](https://github.com/ERC-BPGC/handbook/issues/14)
 - Website build error [\#9](https://github.com/ERC-BPGC/handbook/issues/9)
 - Arrange the subtopics of automation, electronics and mechanics in a logical order [\#8](https://github.com/ERC-BPGC/handbook/issues/8)
@@ -26,6 +33,17 @@
 
 **Merged pull requests:**
 
+- \[25/05/2021\] Changelog Test PR \# 1 [\#56](https://github.com/ERC-BPGC/handbook/pull/56) ([veds12](https://github.com/veds12))
+- \[08/05/21\] Fixed a typo in ROS.md [\#54](https://github.com/ERC-BPGC/handbook/pull/54) ([Satyam0988](https://github.com/Satyam0988))
+- \[12/01/2021\] Roadmap for Robotics [\#53](https://github.com/ERC-BPGC/handbook/pull/53) ([Ashutosh781](https://github.com/Ashutosh781))
+- \[05/01/2021\] Images Fixed [\#52](https://github.com/ERC-BPGC/handbook/pull/52) ([Ashutosh781](https://github.com/Ashutosh781))
+- \[05/01/2021\] Image issue in control theory fixed [\#51](https://github.com/ERC-BPGC/handbook/pull/51) ([Ashutosh781](https://github.com/Ashutosh781))
+- \[28/12/20\] Added 'RoboticsKnowledgeBase' in 'Miscellaneous Resources' section  [\#47](https://github.com/ERC-BPGC/handbook/pull/47) ([adbidwai](https://github.com/adbidwai))
+- \[27/12/2020\] Added list of MOOCs [\#46](https://github.com/ERC-BPGC/handbook/pull/46) ([veds12](https://github.com/veds12))
+- \[25/11/2020\] Added References in Arduino [\#45](https://github.com/ERC-BPGC/handbook/pull/45) ([Ashutosh781](https://github.com/Ashutosh781))
+- \[31/10/2020\] Added Drive Mechanism [\#44](https://github.com/ERC-BPGC/handbook/pull/44) ([Ashutosh781](https://github.com/Ashutosh781))
+- \[25/10/2020\] Added a section about STM32  [\#43](https://github.com/ERC-BPGC/handbook/pull/43) ([adbidwai](https://github.com/adbidwai))
+- \[25/10/20\] added control theory [\#41](https://github.com/ERC-BPGC/handbook/pull/41) ([pranavgo](https://github.com/pranavgo))
 - \[25/09/2020\]Added STDR Simulator [\#40](https://github.com/ERC-BPGC/handbook/pull/40) ([SuhrudhSarathy](https://github.com/SuhrudhSarathy))
 - \[01/09/2020\] Fixed image and math issues [\#39](https://github.com/ERC-BPGC/handbook/pull/39) ([pranavgo](https://github.com/pranavgo))
 - \[31/08/2020\] Added Dynamics and Kinematics [\#36](https://github.com/ERC-BPGC/handbook/pull/36) ([pranavgo](https://github.com/pranavgo))

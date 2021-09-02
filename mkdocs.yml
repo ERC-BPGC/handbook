@@ -16,7 +16,7 @@ theme:
   language: en
   icon:
     logo: material/book-open-page-variant
-  favicon: images/erc_logo.png
+  favicon: images/logo.png
   features:
     - tabs
   palette:
@@ -32,10 +32,13 @@ extra:
       link: https://twitter.com/erc_bpgc
 
     - icon: fontawesome/brands/facebook
-      link: https://www.facebook.com/ElectronicsAndRoboticsClub
+      link: https://www.facebook.com/ElectronicsAndRoboticsClub   
 
     - icon: fontawesome/brands/github
       link: https://github.com/ERC-BPGC
+
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/erc_bitsgoa/  
 
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/company/electronics-robotics-club-bits-goa/
@@ -63,12 +66,7 @@ google_analytics:
 
 nav:
   - Home: index.md
-
-  - Overview:
-    - What is Robotics?: overview/what_is_robotics.md
-    - Key Areas: overview/key_areas.md
-    - Reference Material: overview/reference_material.md
-
+  - Roadmap: roadmap.md
   - Automation:
     - Introduction: automation/intro.md
     - ROS:
@@ -93,11 +91,14 @@ nav:
     - Basic Electronic Components: 
       - Breadboard: electronics/Basic_Electronic_Components/breadboard.md
     - Development Boards:
-      - Arduino: electronics/Development_Boards/Arduino.md   
+      - Arduino: electronics/Development_Boards/Arduino.md
+      - BluePill (STM32F103C8T6) : electronics/Development_Boards/STM32.md
+      - Arduino vs STM32 : electronics/Development_Boards/STM32vsArduinoUNO.md
  
   - Mechanical:
     - Introduction: mechanical/intro.md
     - Gears: mechanical/Gears.md
+    - Drive Mechanism: mechanical/drive_mechanism.md
     - Kinematics and Dynamics:
           - Position and Orientation: mechanical/position and orientation.md
           - Kinematics:
