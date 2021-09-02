@@ -6,9 +6,7 @@ Linear Control technique is the most widely used technique for designing control
 
 PID control is the most popular technique used in industries because it is relatively easy and simple to design and implement. Most importantly, it works in most practical situations, although its performance is somewhat limited owing to its restricted structure.
 
-
-
-![](images\Pid.jpg)
+<center>![](images/Pid.jpg)</center>
 
 Hence, a PID control law has the following general form for the input command:<br><br>
 $u(t) = K~p~e(t) + K~i~\int e(t) + K~d~\frac{de(t)}{dt}$<br><br>
@@ -24,23 +22,19 @@ The proportional factor is easiest to understand: The output of the proportional
 
 The downside to a proportional-only loop is that when error becomes too small, loop output becomes negligible. Therefore, even when the proportional loop reaches steady state, there is still error. The larger the proportional gain, the smaller the steady state error — but the larger the proportional gain, the more likely the loop is to become unstable. This dilemma leads to inevitable steady-state error called *offset*.
 
-
-
-![](images\propotional.png)
+<center>![](images/propotional.png)</center>
 
 ### Integral Factor
 
 The main function of an integral control is to eliminate the steady state error and make the system follow the set point at steady state conditions. The integral controller leads to an increasing control command for a positive error, and a decreasing control command for a negative error. The downside to the integral factor is that it strongly contributes to controller output overshoot past the target setpoint. The shorter the integral time, the more aggressively the integral works.
 
-
-
-![](images\integral.png)
+<center>![](images/integral.png)</center>
 
 ### Derivative Factor
 
 The purpose of derivative control is to improve the closed-loop stability of a system. A derivative controller has a predicting action by extrapolating the error using a tangent to the error curve. The derivative factor is the least understood and used of the three factors. In fact, a majority of PID loops in the real world are really just PI loops. A properly used derivative allows for more aggressive proportional and integral factors.
 
-![](images\derivative.png)
+<center>![](images/derivative.png)</center>
 
 ## PID Tuning Method
 
@@ -62,25 +56,23 @@ It is another popular method for tuning PID controllers. Ziegler and Nichols pre
 
 - Obtain a unit step response of the plant experimentally and it may look‘s’ shaped curve as shown in figure below. This method applies, if obtained response exhibit s-shaped curve for unit step input otherwise it cannot be applied. This curve can also be obtained by dynamic simulation of the plant.
 
-![](images\tuning_1.png)
+<center>![](images/tuning_1.png)</center>
 
 - Obtain two constants, delay time L and time constant T by drawing a tangent line at the inflection point of the s-shaped curve.
 - Set the parameters of K<sub>p</sub>, T<sub>i</sub> , and T<sub>d<sub> values from the table given below for three types of controllers.
 
-![](images\tuning_2.png)
+<center>![](images/tuning_2.png)</center>
 
 #### Second Method
 
 - It is very similar to the trial and error method where integral and derivative terms are set to the zero, i.e., making Ti infinity and Td zero.
 - Increase the proportional gain such that the output exhibits sustained oscillations. If the system does not produce sustained oscillations then this method cannot be applied. The gain at which sustained oscillations produced is called as critical gain.
 
-![](images\tuning_3.png)
+<center>![](images/tuning_3.png)</center>
 
 - Once the sustain oscillations are produced, set the values of Ti and Td as per the given table for P, PI and PID controllers based on critical gain and critical period.
 
-![](images\tuning_4.png)
-
+<center>![](images/tuning_4.png)</center>
 
 <br><br>
 Recently many intelligent methods have also been developed for tuning PID controllers one of such method is using genetic algorithms. To learn more about this method watch [this](https://www.youtube.com/watch?v=3yU2k8R9JeU&t=308s) 2 part video by Steve Brunton.
-

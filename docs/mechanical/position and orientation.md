@@ -21,7 +21,7 @@ between them, the components are commonly referred to as direction cosines. An e
 
 $R_{z}(\theta) = \begin{pmatrix} \cos(\theta) & -\sin(\theta) & 0\\ \sin(\theta) & \cos(\theta) & 0\\ 0 & 0 & 1\end{pmatrix}$
 
-while the same rotation about $\hat y_{j}$ axis is 
+while the same rotation about $\hat y_{j}$ axis is
 
 $R_{Y}(\theta) = \begin{pmatrix} \cos(\theta) & 0 & \sin(\theta)\\ 0 & 1 & 0\\ -\sin(\theta) & 0 & \cos(\theta)\end{pmatrix}$
 
@@ -49,19 +49,14 @@ $^{j}r = ^{j}R_{i} ^{i}r +  ^{j}p_{i}$
 
 where $^{j}p_{i}$ is the position of the origin of coordinate frame i relative to coordinate frame j and  $^{j}R_{i}$ is the orientation of frame i relative to frame j .
 
-The above equation can be written as 
+The above equation can be written as
 
 $\begin{pmatrix} ^{j}r \\ 1 \end{pmatrix}$ = $\begin{pmatrix}  ^{j}R_{i}  &  ^{j}p_{i}\\ 0^{T} & 1 \end{pmatrix}\begin{pmatrix} ^{i}r \\ 1 \end{pmatrix}$
 
-where 
+where
 
 $^{j}T_{i} = \begin{pmatrix}  ^{j}R_{i}  &  ^{j}p_{i}\\ 0^{T} & 1 \end{pmatrix}$
 
 is the 4X4 homogeneous transformation matrix . Just like Rotation matrices, homogeneous transformation matrices can also be transformed using matrix cross-multiplication.
 
 $^{k}T_{i} = ^{k}T_{j} ^{j}T_{i}$
-
-
-
-
-
