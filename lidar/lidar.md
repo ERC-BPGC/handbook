@@ -4,7 +4,7 @@ Lidar is a method for calculating distances between objects with the help of a l
 
 ## Lidar Sensor
 
-A Lidar sensor emits pulsed light waves into the surrounding environment. These pulses bounce off of    obstacles and the surrounding environment as a whole and then return to the sensor. The sensor then,   keeps a track of time it took for the light to bounce off and thus calculating the distance between   obstacles. Repeating this process constantly creates a real-time map of the environment.
+A Lidar sensor emits pulsed light waves into the surrounding environment. These pulses bounce off of    obstacles and the surrounding environment and then return to the sensor. The sensor then, keeps a track of time it took for the light to bounce off and thus calculating the distance between obstacles. Repeating this process constantly creates a real-time map of the environment.
 
 ### Types of Lidar Systems
 
