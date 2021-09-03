@@ -19,7 +19,7 @@ A Lidar sensor emits pulsed light waves into the surrounding environment. These 
 
 ### Components of a basic Lidar Sensor
 
-<center>![](images/lidar-components_of_lidar.png){: style="height:350px"}</center>
+<center>![image](images/lidar-components_of_lidar.png){: style="height:350px"}</center>
 
 A lidar sensor generally consists of 4 main components: 
 1) Light source - Generally a laser (or anything that emits light in pulses)
@@ -55,6 +55,6 @@ Sources used -
 3) https://velodynelidar.com/what-is-lidar/
 4) https://www.sentech.nl/en/sensor-technology/revealing-science-behind-lidar-technology/
 5) https://www.isprs.org/proceedings/XXXVII/congress/3b_pdf/50.pdf
-6)https://www.geospatialworld.net/blogs/what-is-lidar-technology-and-how-does-it-work/
+6) https://www.geospatialworld.net/blogs/what-is-lidar-technology-and-how-does-it-work/
 7) https://www.microdrones.com/en/content/5-compelling-applications-for-lidar-technology/
 8) https://blog.cloudfactory.com/interesting-lidar-applications
