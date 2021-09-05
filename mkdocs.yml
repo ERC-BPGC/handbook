@@ -80,6 +80,7 @@ nav:
         - Dijkstra's Algorithm: automation/PathPlanners/Dijkstra.md
       - Sampling Based Algorithms:
         - RRT: automation/PathPlanners/RRT.md
+        - RRT_Star: automation/PathPlanners/RRT_Star.md
     - Control Theory:
       - Introduction to Control Theory: automation/ControlTheory/Control_Theory.md
       - PID Controller: automation/ControlTheory/PID_Controller.md
