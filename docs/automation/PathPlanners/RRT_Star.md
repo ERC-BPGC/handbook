@@ -17,6 +17,7 @@ However, the difference is where the connection is made. We assign every node a 
 We then rearrange the connections such that they **minimize the cost function** and optimize the path. This can rearrange the graph in such a way that we get the shortest path to the new node.
 
 ![](https://1.bp.blogspot.com/-ERv_gsPPQEs/TWu6Qf1eEdI/AAAAAAAAAOg/qOrAou32pUc/s1600/rrt04.png)
+*Courtesy: [Joon's lectures](https://joonlecture.blogspot.com/2011/02/improving-optimality-of-rrt-rrt.html)*
 
 &nbsp;
 
