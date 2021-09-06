@@ -84,7 +84,7 @@ This function is used to return the nearest node in the graph.
 
 Let's say that our tree is a graph $G=(V,E)$ where $V$ and $E$ are sets of vertices and edges of our tree, where $V\subset \mathcal{X}$. We take a point $x\in \mathcal{X}$ such that the function $Nearest:(G,x)\mapsto v \in V$ returns the node $v$ in $V$ that is closest to the point $x$ in terms of a distance function, such as Euclidean distance, i.e.,
 
-<center>$Nearest(G=(V,E),x):= argmin_{v \in V} ||x-v||$<center>
+<center>$Nearest(G=(V,E),x):= argmin_{v \in V} ||x-v||$</center>
 
 where $argmin_{v \in V} ||x-v||$ means that the value $v$ is returned such that the distance $||x-v||$ is minimum.
 
