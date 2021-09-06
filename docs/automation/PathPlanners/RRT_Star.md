@@ -74,7 +74,7 @@ The function `SampleFree()` is used to return a randomly sampled node. The sampl
 
 Suppose the set of sample space is given as $\Omega$ and for each $\omega \in \Omega$,
 
-$SampleFree:\omega \mapsto \{SampleFree_i(\omega)\}_{i\in \mathbb{N}_0} \subset \mathcal{X_{free}}$
+<center>$SampleFree:\omega \mapsto \{SampleFree_i(\omega)\}_{i\in \mathbb{N}_0} \subset \mathcal{X_{free}}$</center>
 
 is a map from $\Omega$ to a sequence of points $\mathcal{X_{free}}$ is the obstacle-free space.
 
@@ -94,7 +94,7 @@ This function is used to find the node in the graph in a fixed radius in order t
 
 Let's say the radius is $r$ such that $r\in \mathbb{R}$. The function $Near:(G,x,r)\mapsto V'\subseteq V$ returns the vertices $V'$ in $V$ that are contained in a circle of radius $r$ centred $x$, i.e.,
 
-$Near(G=(V,E),x,r):=\{v\in V:v\in \mathfrak{B}_{x,r}\}$
+<center>$Near(G=(V,E),x,r):=\{v\in V:v\in \mathfrak{B}_{x,r}\}$</center>
 
 where $\mathfrak{B}_{x,r}$ is the set of all points within the fixed radius $r$ centred at $x$.
 
@@ -104,13 +104,13 @@ This function is the one that creates a new node that is at a maximal distance f
 
 Suppose we have two points $x,y\in \mathcal{X}$. The function $Steer:(x,y)\mapsto z$ returns a point $z \in \mathcal{X}$ such that $z$ is closer to $y$ than $x$ is. This will be such that $z$ minimizes the distance $||z-y||$ and at the same time maintains the distance $||z-x||\leq\eta$ for the predefined maximal distance $\eta > 0$, i.e.,
 
-$Steer(x,y):=argmin_{z\in \mathfrak{B}_{x,\eta}}||z-y||$
+<center>$Steer(x,y):=argmin_{z\in \mathfrak{B}_{x,\eta}}||z-y||$</center>
 
 ### `Line()`
 
 The `Line()` function is used to denote a straight line, i.e., given two points $x_1,x_2\in \mathbb{R}^d$,
 
-$Line(x_1,x_2):[0,s]\mapsto\mathcal{X}$
+<center>$Line(x_1,x_2):[0,s]\mapsto\mathcal{X}$</center>
 
 ### `Parent()`
 
@@ -122,7 +122,7 @@ Note that if $v_0 \in V$ is the start node of $G$, then, by convention, $Parent(
 
 This is function that makes RRT* different from RRT. As mentioned before, we assign each node a cost that is a function of the distance along the path from the start node. It's given as follows.If $Cost:V\mapsto \mathbb{R}^+$ is a function that maps the vertex $v_0\mapsto V$ to the cost of the unique path from the root of the tree to $v$, then
 
-$Cost(v)=Cost(Parent(v))+c(Line(Parent(v),v))$
+<center>$Cost(v)=Cost(Parent(v))+c(Line(Parent(v),v))$</center>
 
 where $c$ is a function that transforms the length value of the $Line$ into a cost
 
