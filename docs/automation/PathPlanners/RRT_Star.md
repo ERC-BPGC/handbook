@@ -74,9 +74,9 @@ The function `SampleFree()` is used to return a randomly sampled node. The sampl
 
 Suppose the set of sample space is given as $\Omega$ and for each $\omega \in \Omega$,
 $$
-	SampleFree:\omega \mapsto \{SampleFree\_i(\omega)\}\_{i\in \mathbb{N}\_0} \subset \mathcal{X\_{free}}
+	SampleFree:\omega \mapsto \{SampleFree_i(\omega)\}_{i\in \mathbb{N}_0} \subset \mathcal{X_{free}}
 $$
-is a map from $\Omega$ to a sequence of points $\mathcal{X\_{free}}$ is the obstacle-free space.
+is a map from $\Omega$ to a sequence of points $\mathcal{X_{free}}$ is the obstacle-free space.
 
 ### `Nearest()`
 
@@ -84,9 +84,9 @@ This function is used to return the nearest node in the graph.
 
 Let's say that our tree is a graph $G=(V,E)$ where $V$ and $E$ are sets of vertices and edges of our tree, where $V\subset \mathcal{X}$. We take a point $x\in \mathcal{X}$ such that the function $Nearest:(G,x)\mapsto v \in V$ returns the node $v$ in $V$ that is closest to the point $x$ in terms of a distance function, such as Euclidean distance, i.e.,
 $$
-	Nearest(G=(V,E),x):= argmin\_{v \in V} ||x-v||
+	Nearest(G=(V,E),x):= argmin_{v \in V} ||x-v||
 $$
-where $argmin\_{v \in V} ||x-v||$ means that the value $v$ is returned such that the distance $||x-v||$ is minimum.
+where $argmin_{v \in V} ||x-v||$ means that the value $v$ is returned such that the distance $||x-v||$ is minimum.
 
 ### `Near()`
 
@@ -94,9 +94,9 @@ This function is used to find the node in the graph in a fixed radius in order t
 
 Let's say the radius is $r$ such that $r\in \mathbb{R}$. The function $Near:(G,x,r)\mapsto V'\subseteq V$ returns the vertices $V'$ in $V$ that are contained in a circle of radius $r$ centred $x$, i.e.,
 $$
-	Near(G=(V,E),x,r):=\{v\in V:v\in \mathfrak{B}\_{x,r}\}
+	Near(G=(V,E),x,r):=\{v\in V:v\in \mathfrak{B}_{x,r}\}
 $$
-where $\mathfrak{B}\_{x,r}$ is the set of all points within the fixed radius $r$ centred at $x$.
+where $\mathfrak{B}_{x,r}$ is the set of all points within the fixed radius $r$ centred at $x$.
 
 ### `Steer()`
 
@@ -104,30 +104,30 @@ This function is the one that creates a new node that is at a maximal distance f
 
 Suppose we have two points $x,y\in \mathcal{X}$. The function $Steer:(x,y)\mapsto z$ returns a point $z \in \mathcal{X}$ such that $z$ is closer to $y$ than $x$ is. This will be such that $z$ minimizes the distance $||z-y||$ and at the same time maintains the distance $||z-x||\leq\eta$ for the predefined maximal distance $\eta > 0$, i.e.,
 $$
-	Steer(x,y):=argmin\_{z\in \mathfrak{B}\_{x,\eta}}||z-y||
+	Steer(x,y):=argmin_{z\in \mathfrak{B}_{x,\eta}}||z-y||
 $$
 
 ### `Line()`
 
-The `Line()` function is used to denote a straight line, i.e., given two points $x\_1,x\_2\in \mathbb{R}^d$,
+The `Line()` function is used to denote a straight line, i.e., given two points $x_1,x_2\in \mathbb{R}^d$,
 $$
-	Line(x\_1,x\_2):[0,s]\mapsto\mathcal{X}
+	Line(x_1,x_2):[0,s]\mapsto\mathcal{X}
 $$
 
 ### `Parent()`
 
 The `Parent()` function is used to denote the parent node of a given node in a tree, i.e., given a tree $G=(V,E)$, $Parent:V\mapsto V$ is a function that maps a vertex $v\in V$ to the unique vertex $u\in V$ such that $(u,v)\in E$.
 
-Note that if $v\_0 \in V$ is the start node of $G$, then, by convention, $Parent(v\_0)=v\_0$.
+Note that if $v_0 \in V$ is the start node of $G$, then, by convention, $Parent(v_0)=v_0$.
 
 ### `Cost()`
 
-This is function that makes RRT* different from RRT. As mentioned before, we assign each node a cost that is a function of the distance along the path from the start node. It's given as follows.If $Cost:V\mapsto \mathbb{R}^+$ is a function that maps the vertex $v\_0\mapsto V$ to the cost of the unique path from the root of the tree to $v$, then
+This is function that makes RRT* different from RRT. As mentioned before, we assign each node a cost that is a function of the distance along the path from the start node. It's given as follows.If $Cost:V\mapsto \mathbb{R}^+$ is a function that maps the vertex $v_0\mapsto V$ to the cost of the unique path from the root of the tree to $v$, then
 $$Cost(v)=Cost(Parent(v))+c(Line(Parent(v),v))$$
 where $c$ is a function that transforms the length value of the $Line$ into a cost
 
 
-Note that if $v\_0$ is the start node or root vertex of $G$, then, by convention, $Cost(v\_0)=0$.
+Note that if $v_0$ is the start node or root vertex of $G$, then, by convention, $Cost(v_0)=0$.
 
 ### `CollisionFree()`
 
