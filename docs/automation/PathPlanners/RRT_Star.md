@@ -74,9 +74,7 @@ The function `SampleFree()` is used to return a randomly sampled node. The sampl
 
 Suppose the set of sample space is given as $\Omega$ and for each $\omega \in \Omega$,
 
-$
-	SampleFree:\omega \mapsto \{SampleFree_i(\omega)\}_{i\in \mathbb{N}_0} \subset \mathcal{X_{free}}
-$
+$SampleFree:\omega \mapsto \{SampleFree_i(\omega)\}_{i\in \mathbb{N}_0} \subset \mathcal{X_{free}}$
 
 is a map from $\Omega$ to a sequence of points $\mathcal{X_{free}}$ is the obstacle-free space.
 
