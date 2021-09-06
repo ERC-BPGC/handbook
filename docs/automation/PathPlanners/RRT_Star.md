@@ -140,7 +140,7 @@ This function is defined in the same way as the `CollisionCheck()` function in R
 
 &nbsp;
 
-### Visual comparison between RRT and RRT*
+## Visual comparison between RRT and RRT*
 
 The following image shows the RRT and RRT* algorithms applied on a 2D graph with obstacles. The plot on the left is RRT and the plot on the right is RRT*. As one can see, the RRT* algorithm provides a more optimal solution to the path planning problem.
 
@@ -149,7 +149,7 @@ The following image shows the RRT and RRT* algorithms applied on a 2D graph with
 
 &nbsp;
 
-### A flowchart summary of the RRT* algorithm
+## A flowchart summary of the RRT* algorithm
 
 The following flowchart provides a visual summary of the optimal rapidly exploring random trees algorithm.
 
