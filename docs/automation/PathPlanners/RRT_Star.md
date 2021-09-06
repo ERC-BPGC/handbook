@@ -6,6 +6,11 @@ The most popular algorithm among these is the RRT* algorithm, that is heavily ba
 
 Let's now look at the RRT* algorithm that was originally proposed in the paper along with the pseudo code. All the mathematical notations and functions in the paper are clearly explained here.
 
+The following images shows the RRT* algorithm applied on a 2D graph.
+
+![](https://www.mathworks.com/matlabcentral/mlc-downloads/downloads/submissions/60993/versions/2/screenshot.png)
+*Courtesy: [SAI VEMPRALA](https://www.mathworks.com/matlabcentral/profile/authors/4026649)*
+
 &nbsp;
 
 ## Intuition
@@ -132,6 +137,24 @@ Note that if $v_0$ is the start node or root vertex of $G$, then, by convention,
 ### `CollisionFree()`
 
 This function is defined in the same way as the `CollisionCheck()` function in RRT.
+
+&nbsp;
+
+### Visual comparison between RRT and RRT*
+
+The following image shows the RRT and RRT* algorithms applied on a 2D graph with obstacles. The plot on the left is RRT and the plot on the right is RRT*. As one can see, the RRT* algorithm provides a more optimal solution to the path planning problem.
+
+![A Comparison of the RRT (a) and RRT* (b) algorithms on an example (Karaman and Frazzoli, 2011)  ](https://www.researchgate.net/profile/Andras-Gyimesi/publication/289366294/figure/fig2/AS:333011515133957@1456407540665/A-Comparison-of-the-RRT-a-and-RRT-b-algorithms-on-an-example-Karaman-and-Frazzoli.png)
+*Courtesy: [András Gyimesi](https://www.researchgate.net/profile/Andras-Gyimesi)*
+
+&nbsp;
+
+### A flowchart summary of the RRT* algorithm
+
+The following flowchart provides a visual summary of the optimal rapidly exploring random trees algorithm.
+
+![MEAQR RRT* Algorithm Flowchart ](https://www.researchgate.net/profile/Nir-Rikovitch/publication/268469501/figure/fig4/AS:614123901558785@1523429956120/4-MEAQR-RRT-Algorithm-Flowchart.png)
+*Courtesy: [Nir Rikovitch](https://www.researchgate.net/profile/Nir-Rikovitch)*
 
 &nbsp;
 
