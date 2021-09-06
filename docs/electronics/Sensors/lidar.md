@@ -6,6 +6,37 @@ Lidar is a method for calculating distances between objects with the help of a l
 
 A Lidar sensor emits pulsed light waves into the surrounding environment. These pulses bounce off of    obstacles and the surrounding environment and then return to the sensor. The sensor then, keeps a track of time it took for the light to bounce off and thus calculating the distance between obstacles. Repeating this process constantly creates a real-time map of the environment.
 
+<center>![image](images/lidar-lidar.jpg){: style="height:350px"}</center>
+
+As an example of how a lidar sensor calculates the distance between the sensor and an obstacle,
+
+Let's define the following variables,
+1) Speed of light, $c = 3 × 10^8 m/s$
+2) time taken for light to travel from the lidar sensor, hitting the obstacle and returning back to the sensor, $t$
+3) Distance between the obstacle and the sensor, $d$
+
+Say that the time taken, $t = 5 × 10^{-8} sec$ (Observe the order of magnitude $t$)
+
+So, to calculate the distance $d$, we use the Newton's second law of motion
+
+$
+\begin{align*}
+S & = u \cdot t + \frac{1}{2} \cdot a \cdot t^2\\
+\end{align*}
+$
+
+Since, speed of light constant, replacing, $a = 0$, $u = c$, and, $S = d$  we get,
+
+$
+\begin{align*}
+d & = c \cdot t\\
+d & = 3 × 10^8 × 5 * 10^{-8}\\
+d &= 15m
+\end{align*}
+$
+
+Therfore, the distance between the sensor and the obstacle is calculated to be 15 meters. This is the basic calculation that goes into calculating the distances.
+
 ### Types of Lidar Systems
 
 1) Airborne Lidar - This is installed on aerial drones or vehicles like helicopters. It emits light towards the ground surface giving a fairly detailed and quick map of the terrain above which the vehicle or drone is flying. It is also used for topographic survey.
@@ -31,7 +62,57 @@ For a more indepth explaination of a Lidar sensor and the different factors that
 
 ## Lidar usage
 
-For details on how to setup different types of lidar sensors, use [this link.](https://www.generationrobots.com/blog/en/lidar-integration-with-ros-quickstart-guide-and-projects-ideas) This shows a fairly detailed explaination on how to setup your lidar to interact with ROS and display the results in rviz. It also has some examples of implementation and different repositories that would help you to code.
+To implement Lidar into your ros program, these are the following steps you must follow:
+* Connect your Lidar sensor to a power supply, and connect a data transmitter to the Lidar sensor and the computer.
+* You need to give permissions to the on data input port of the computer. To check the permissions, type
+```bash
+ls -l /dev/tty
+```
+* If your permissions are set properly, you should get an output like shown below. Just focus on the starting part, ```crw-rw-rw```. If instead, it is something of the form ```crw-rw--```, then your permissions are not set properly.
+```bash
+crw-rw-rw- 1 root dialout 5, 0 Sep  6 23:50 /dev/ttyACM0
+```
+* To set permissions, (replace ```ACM0``` with whatever your ports are)
+```bash
+sudo chmod a+rw /dev/ttyACM0
+```
+* Next, you need to download the package of your Lidar manufacturer. Following are the common packages and their github links. You need to clone these github repositories in the src directory of your catkin workspace.
+
+    1) [Slamtec](https://github.com/Slamtec/rplidar_ros)
+    2) [YDLiDAR](https://github.com/EAIBOT/ydlidar)
+    3) [Hokuyo](https://github.com/ros-drivers/urg_node)
+    4) [ROS SICK](https://github.com/SICKAG/sick_scan)
+    5) [ROS2 SICK](https://github.com/SICKAG/sick_scan2)
+    6) [RoboSense](https://github.com/RoboSense-LiDAR/rslidar_sdk)
+* After you have cloned the ros packages, go into your workspace directory,
+```bash
+catkin_make
+source devel/setup.bash
+```
+* Now just run the launch file according to your Lidar manufacturer package. For the above 6 manufacturers, run the following launch files. (If you are getting package not found error, please give appropriate permissions to the launch files using chmod).
+
+    1) Slamtec
+        ```bash
+        roslaunch rplidar_ros rplidar.launch
+        ```
+    2) YDLiDAR
+        ```bash
+        roslaunch ydlidar lidar_view.launch
+        ```
+    3) Hokuyo
+        ```bash
+        roslaunch urg_node urg_lidar.launch
+        ```
+    4) ROS SICK - Read the README file in the [github repo](https://github.com/SICKAG/sick_scan) for which launch file you need for your specific model.
+
+    5) ROS2 SICK - Read the README file in the [github repo](https://github.com/SICKAG/sick_scan2) for which launch file you need for your specific model.
+
+    6) RoboSense
+        ```bash
+        roslaunch rslidar_sdk start.launch
+        ```
+
+For a much more detailed guide, use [this link.](https://www.generationrobots.com/blog/en/lidar-integration-with-ros-quickstart-guide-and-projects-ideas) This shows a fairly detailed explaination on how to setup your lidar to interact with ROS and display the results in rviz. It also has some examples of implementation and different repositories that would help you to code.
 
 You can also check out [this link](https://maker.pro/ros/tutorial/how-to-use-a-lidar-sensor-with-robot-operating-system-ros) which provides a simple explaination for setting up a YDLiDAR X4 Sensor.
 
