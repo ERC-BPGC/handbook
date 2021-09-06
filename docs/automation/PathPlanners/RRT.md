@@ -15,6 +15,8 @@ There are a few key things to note here. Firstly, the points aren't joined direc
 
 ![Joon&#39;s Lectures: Improving the Optimality of RRT: RRT*](http://4.bp.blogspot.com/-llC0qka-mpc/TWu6P9HjzZI/AAAAAAAAAOI/8i62sqfRUFE/s1600/rrt01.png)
 
+*Courtesy: [Joon's Lectures](https://joonlecture.blogspot.com/2011/02/improving-optimality-of-rrt-rrt.html)*
+
 In the above image, $q_{rand}$ is the randomly sampled point, $q_{nearest}$ is the nearest (to $q_{rand}$) point in the tree. Since the distance between $q_{rand}$ and $q_{nearest}$ is greater than the maximum distance $v$, we connect $q_{nearest}$ to $q_{new}$, which is at a distance of $v$ from $q_{nearest}$.
 
 This process is continuously carried out for many iterations until the goal is reached. The tree expands rapidly, and hence the name.
