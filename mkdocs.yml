@@ -90,6 +90,8 @@ nav:
     - Introduction: electronics/intro.md
     - Basic Electronic Components: 
       - Breadboard: electronics/Basic_Electronic_Components/breadboard.md
+    - Sensors:
+      - Lidar: electronics/Sensors/lidar.md
     - Development Boards:
       - Arduino: electronics/Development_Boards/Arduino.md
       - BluePill (STM32F103C8T6) : electronics/Development_Boards/STM32.md
