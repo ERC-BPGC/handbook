@@ -19,21 +19,14 @@ Say that the time taken, $t = 5 × 10^{-8} sec$ (Observe the order of magnitude 
 
 So, to calculate the distance $d$, we use the Newton's second law of motion
 
-$
-\begin{align*}
-S & = u \cdot t + \frac{1}{2} \cdot a \cdot t^2\\
-\end{align*}
-$
+$$ S = u \cdot t + \frac{1}{2} \cdot a \cdot t^2 $$
 
 Since, speed of light constant, replacing, $a = 0$, $u = c$, and, $S = d$  we get,
 
-$
-\begin{align*}
-d & = c \cdot t\\
-d & = 3 × 10^8 × 5 * 10^{-8}\\
-d &= 15m
-\end{align*}
-$
+$$ d = c \cdot t $$
+$$ d = 3 × 10^8 × 5 * 10^{-8} $$
+$$ d = 15m $$
+
 
 Therfore, the distance between the sensor and the obstacle is calculated to be 15 meters. This is the basic calculation that goes into calculating the distances.
 
@@ -130,12 +123,18 @@ You can also check out [this link](https://maker.pro/ros/tutorial/how-to-use-a-l
 2) [AEye](https://www.aeye.ai/) - Develops advanced vision hardware, software and algorithms for autonomous vehicles.
 3) [SiLC Technologies](https://www.silc.com/) - Is a leading provider of highly integrated FMCW (Frequency Modulated Continuous Wave) Lidar solutions, which include their FMCW integration chip.
 
-Sources used - 
-1) https://en.wikipedia.org/wiki/Lidar
-2) https://oceanservice.noaa.gov/facts/lidar.html
-3) https://velodynelidar.com/what-is-lidar/
-4) https://www.sentech.nl/en/sensor-technology/revealing-science-behind-lidar-technology/
-5) https://www.isprs.org/proceedings/XXXVII/congress/3b_pdf/50.pdf
-6) https://www.geospatialworld.net/blogs/what-is-lidar-technology-and-how-does-it-work/
-7) https://www.microdrones.com/en/content/5-compelling-applications-for-lidar-technology/
-8) https://blog.cloudfactory.com/interesting-lidar-applications
+References - 
+1) Lidar - [Wikipedia](https://en.wikipedia.org/wiki/Lidar)
+2) "What is Lidar" - [Oceanservice](https://oceanservice.noaa.gov/facts/lidar.html)
+3) "What is Lidar? Learn how Lidar works" - [Velodyne Lidar](https://velodynelidar.com/what-is-lidar/)
+4) "The Revealing science behind Lidar technology" - [Sentech](https://www.sentech.nl/en/sensor-technology/revealing-science-behind-lidar-technology/)
+5) [Research paper](https://www.isprs.org/proceedings/XXXVII/congress/3b_pdf/50.pdf) on the application and analysis of airborne Lidar technology in topographic survey of tidal flat and coastal zone
+6) "What is Lidar Technology and how does it work" - [Geospatial World](https://www.geospatialworld.net/blogs/what-is-lidar-technology-and-how-does-it-work/)
+7) "Compelling Applications for LiDAR technology" - [Microdrones](https://www.microdrones.com/en/content/5-compelling-applications-for-lidar-technology/)
+8) "11 interesting Lidar applications" - [CloudFactory](https://blog.cloudfactory.com/interesting-lidar-applications)
+9) Image - Lidar environment map example - [Accurizemarketresearch](https://www.accurizemarketresearch.com/blog-list/u-s--airborne-lidar-market)
+9) Image - How airborne lidar works - [Newport](https://www.newport.com/n/lidar)
+10) Image - How terrestrial Lidar works - [ResearchGate](https://www.researchgate.net/figure/Diagram-of-the-mobile-terrestrial-laser-scanner-and-its-components_fig7_308694817)
+11) Image - Components of a Lidar sensor - [Renishaw](https://www.renishaw.com/en/optical-encoders-and-lidar-scanning--39244)
+
+
