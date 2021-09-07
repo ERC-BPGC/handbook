@@ -123,18 +123,31 @@ You can also check out [this link](https://maker.pro/ros/tutorial/how-to-use-a-l
 2) [AEye](https://www.aeye.ai/) - Develops advanced vision hardware, software and algorithms for autonomous vehicles.
 3) [SiLC Technologies](https://www.silc.com/) - Is a leading provider of highly integrated FMCW (Frequency Modulated Continuous Wave) Lidar solutions, which include their FMCW integration chip.
 
-References - 
-1) Lidar - [Wikipedia](https://en.wikipedia.org/wiki/Lidar)
-2) "What is Lidar" - [Oceanservice](https://oceanservice.noaa.gov/facts/lidar.html)
-3) "What is Lidar? Learn how Lidar works" - [Velodyne Lidar](https://velodynelidar.com/what-is-lidar/)
-4) "The Revealing science behind Lidar technology" - [Sentech](https://www.sentech.nl/en/sensor-technology/revealing-science-behind-lidar-technology/)
-5) [Research paper](https://www.isprs.org/proceedings/XXXVII/congress/3b_pdf/50.pdf) on the application and analysis of airborne Lidar technology in topographic survey of tidal flat and coastal zone
-6) "What is Lidar Technology and how does it work" - [Geospatial World](https://www.geospatialworld.net/blogs/what-is-lidar-technology-and-how-does-it-work/)
-7) "Compelling Applications for LiDAR technology" - [Microdrones](https://www.microdrones.com/en/content/5-compelling-applications-for-lidar-technology/)
-8) "11 interesting Lidar applications" - [CloudFactory](https://blog.cloudfactory.com/interesting-lidar-applications)
-9) Image - Lidar environment map example - [Accurizemarketresearch](https://www.accurizemarketresearch.com/blog-list/u-s--airborne-lidar-market)
-9) Image - How airborne lidar works - [Newport](https://www.newport.com/n/lidar)
-10) Image - How terrestrial Lidar works - [ResearchGate](https://www.researchgate.net/figure/Diagram-of-the-mobile-terrestrial-laser-scanner-and-its-components_fig7_308694817)
-11) Image - Components of a Lidar sensor - [Renishaw](https://www.renishaw.com/en/optical-encoders-and-lidar-scanning--39244)
+## References - 
+
+* Accurizemarketresearch.com. 2021. U.S. Airborne LiDAR Market. [online] Available at: <https://www.accurizemarketresearch.com/blog-list/u-s--airborne-lidar-market> [Accessed 7 September 2021].
+
+* En.wikipedia.org. 2021. Lidar - Wikipedia. [online] Available at: <https://en.wikipedia.org/wiki/Lidar> [Accessed 7 September 2021].
+
+* George, N., 2021. 11 Interesting LiDAR Applications. [online] Blog.cloudfactory.com. Available at: <https://blog.cloudfactory.com/interesting-lidar-applications> [Accessed 7 September 2021].
+
+* Geospatial World. 2021. What is LiDAR technology and how does it work?. [online] Available at: <https://www.geospatialworld.net/blogs/what-is-lidar-technology-and-how-does-it-work/> [Accessed 7 September 2021].
+
+* Isprs.org. 2021. [online] Available at: <https://www.isprs.org/proceedings/XXXVII/congress/3b_pdf/50.pdf> [Accessed 7 September 2021].
+
+* Microdrones.com. 2021. 5 Compelling Applications for LiDAR Technology. [online] Available at: <https://www.microdrones.com/en/content/5-compelling-applications-for-lidar-technology/> [Accessed 7 September 2021].
+
+* Newport.com. 2021. Light Detection and Ranging (LiDAR) System Design. [online] Available at: <https://www.newport.com/n/lidar> [Accessed 7 September 2021].
+
+* Oceanservice.noaa.gov. 2021. What is lidar?. [online] Available at: <https://oceanservice.noaa.gov/facts/lidar.html> [Accessed 7 September 2021].
+
+* plc, R., 2021. Renishaw: Application note: Optical encoders and LiDAR scanning. [online] Renishaw. Available at: <https://www.renishaw.com/en/optical-encoders-and-lidar-scanning--39244> [Accessed 7 September 2021].
+
+* researchgate.net. 2021. Diagram of Mobile Terrestrial Scanner. [online] Available at: <https://www.researchgate.net/figure/Diagram-of-the-mobile-terrestrial-laser-scanner-and-its-components_fig7_308694817/> [Accessed 7 September 2021].
+
+* Sentech. 2021. The revealing science behind Lidar technology. [online] Available at: <https://www.sentech.nl/en/sensor-technology/revealing-science-behind-lidar-technology/> [Accessed 7 September 2021].
+
+* Velodyne Lidar. 2021. What is Lidar? Learn How Lidar Works | Velodyne Lidar. [online] Available at: <https://velodynelidar.com/what-is-lidar/> [Accessed 7 September 2021].
+
 
 
