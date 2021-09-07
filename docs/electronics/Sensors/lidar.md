@@ -24,9 +24,10 @@ $$ S = u \cdot t + \frac{1}{2} \cdot a \cdot t^2 $$
 Since, speed of light constant, replacing, $a = 0$, $u = c$, and, $S = d$  we get,
 
 $$ d = c \cdot t $$
-$$ d = 3 × 10^8 × 5 * 10^{-8} $$
-$$ d = 15m $$
 
+$$ d = 3 × 10^8 × 5 * 10^{-8} $$
+
+$$ d = 15m $$
 
 Therfore, the distance between the sensor and the obstacle is calculated to be 15 meters. This is the basic calculation that goes into calculating the distances.
 
@@ -125,25 +126,11 @@ You can also check out [this link](https://maker.pro/ros/tutorial/how-to-use-a-l
 
 ## References - 
 
-* Accurizemarketresearch.com. 2021. U.S. Airborne LiDAR Market. [online] Available at: <https://www.accurizemarketresearch.com/blog-list/u-s--airborne-lidar-market> [Accessed 7 September 2021].
-
-* En.wikipedia.org. 2021. Lidar - Wikipedia. [online] Available at: <https://en.wikipedia.org/wiki/Lidar> [Accessed 7 September 2021].
-
 * George, N., 2021. 11 Interesting LiDAR Applications. [online] Blog.cloudfactory.com. Available at: <https://blog.cloudfactory.com/interesting-lidar-applications> [Accessed 7 September 2021].
 
 * Geospatial World. 2021. What is LiDAR technology and how does it work?. [online] Available at: <https://www.geospatialworld.net/blogs/what-is-lidar-technology-and-how-does-it-work/> [Accessed 7 September 2021].
 
-* Isprs.org. 2021. [online] Available at: <https://www.isprs.org/proceedings/XXXVII/congress/3b_pdf/50.pdf> [Accessed 7 September 2021].
-
 * Microdrones.com. 2021. 5 Compelling Applications for LiDAR Technology. [online] Available at: <https://www.microdrones.com/en/content/5-compelling-applications-for-lidar-technology/> [Accessed 7 September 2021].
-
-* Newport.com. 2021. Light Detection and Ranging (LiDAR) System Design. [online] Available at: <https://www.newport.com/n/lidar> [Accessed 7 September 2021].
-
-* Oceanservice.noaa.gov. 2021. What is lidar?. [online] Available at: <https://oceanservice.noaa.gov/facts/lidar.html> [Accessed 7 September 2021].
-
-* plc, R., 2021. Renishaw: Application note: Optical encoders and LiDAR scanning. [online] Renishaw. Available at: <https://www.renishaw.com/en/optical-encoders-and-lidar-scanning--39244> [Accessed 7 September 2021].
-
-* researchgate.net. 2021. Diagram of Mobile Terrestrial Scanner. [online] Available at: <https://www.researchgate.net/figure/Diagram-of-the-mobile-terrestrial-laser-scanner-and-its-components_fig7_308694817/> [Accessed 7 September 2021].
 
 * Sentech. 2021. The revealing science behind Lidar technology. [online] Available at: <https://www.sentech.nl/en/sensor-technology/revealing-science-behind-lidar-technology/> [Accessed 7 September 2021].
 
