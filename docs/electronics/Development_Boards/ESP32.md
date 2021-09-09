@@ -43,7 +43,7 @@ Now that we have seen the ESP32 Pinout , let us now focus on some of the importa
 * 2, 8-bit Digital to Analog converters.
 * 10 capacitive touch switch sensors.
 * 4 SPI channels.
-* 2 I2C interfaces.
+* 2 I²C interfaces.
 * 2 I2S interfaces (for digital audio).
 * 3 UARTs for communications.
 * Up to 8 channels of IR remote control.
@@ -75,7 +75,7 @@ The following two GPIO Pins are associated with DAC functionalities.
 * ### SPI
 three SPI blocks (SPI, HSPI and VSPI) are present in both master and slave modes. SPI is used to interface with Flash Memory. So, you have two SPI interfaces.
 
-* ### I2C
+* ### I²C
 There are two I2C interfaces in ESP32 with complete flexibility on assigning pins, i.e., SCL and SDA pins for both I2C interfaces can be assigned in the program by the user.If you are using Arduino IDE, then the default I2C pins are:
 SDA – GPIO21
 SCL – GPIO22
