@@ -57,7 +57,7 @@ Let's now look at the pseudocode that describes the algorithm. The functions use
 The following pseudocode only performs the learning phase for the PRM algorithm. The query phase has not been included in the pseudocode.
 
 ```python
-def PRM(n, r, x_init, x_goal):
+def PRM(n, r):
 	V = []
 	E = []
 	for i in range(n):
@@ -69,17 +69,7 @@ def PRM(n, r, x_init, x_goal):
 			if [[x_rand, u], [u, x_rand]] not in E:
 				if CollisionFree(x_rand, u):
 					E.append([[x_rand, u], [u, x_rand]])
-
-	start_and_goal = [x_init, x_goal]
-	for j in start_and_goal:
-		U = Near(V, E, j, r)
-		V.append(j)
-		U.Sort(distance(j))
-		u = U[0]
-		if [[j, u], [u, j]] not in E:
-			if CollisionFree(j, u):
-				E.append([[j, u], [u, j]])
-
+					
 	return V, E
 ```
 
