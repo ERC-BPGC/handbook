@@ -28,7 +28,8 @@ In a given space, the first step is to **randomly generate a point**. It is then
 
 If it is in C-space, we add this point to the graph by connecting it to all the points in the graph that are within a specific radius from the generated point by a straight line. It also checks whether this line is in free space, and only forms this connection if it is.
 
-![Adaptation Algorithm of Geometric Graphs for Robot Motion Planning in  Dynamic Environments](https://static-01.hindawi.com/articles/mpe/volume-2016/3973467/figures/3973467.fig.007a.svgz)
+<center>![Adaptation Algorithm of Geometric Graphs for Robot Motion Planning in  Dynamic Environments](https://static-01.hindawi.com/articles/mpe/volume-2016/3973467/figures/3973467.fig.007a.svgz)</center>
+
 *Source: [Mathematical Problems in Engineering](https://www.hindawi.com/journals/mpe/2016/3973467/)*
 
 In the above diagram, a node $q_i$ was randomly generated. Nodes within the radius $r_{\eta}$ are searched for and connected to $q_i$ through edges.
