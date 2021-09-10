@@ -81,6 +81,7 @@ nav:
       - Sampling Based Algorithms:
         - RRT: automation/PathPlanners/RRT.md
         - RRT Star: automation/PathPlanners/RRT_Star.md
+        - PRM: automation/PathPlanners/PRM.md
     - Control Theory:
       - Introduction to Control Theory: automation/ControlTheory/Control_Theory.md
       - PID Controller: automation/ControlTheory/PID_Controller.md

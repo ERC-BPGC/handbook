@@ -31,11 +31,10 @@ In the image above, after rearranging the connections, the path to the green poi
 The following is the pseudocode for the RRT* algorithm. An explanation of all the unique functions used in the pseudocode is explained below.
 
 ```python
-V = [x_init]
-E = []
-# G = (V, E)
-
 def RRT_Star(V, E, r, c):
+	V = [x_init]
+	E = []
+	# G = (V, E)
 	for i in range(1, n):
 		x_rand = SampleFree()
 		x_nearest = Nearest(V, E, x_rand)
@@ -62,7 +61,6 @@ def RRT_Star(V, E, r, c):
 					x_parent = Parent(x_near)
 					E.remove([x_parent, x_near])
 					E.append([x_new, x_near])
-					# E - [x_parent, x_near] + [x_new, x_near]
 					# remove all edges between nodes (in radius r) and their parents and join them with x_new
 					# this is the step of reconnection of edges
 	return V, E
@@ -94,7 +92,7 @@ where $argmin_{v \in V} ||x-v||$ means that the value $v$ in $V$ is returned suc
 
 ### `Near()`
 
-This function is used to find the node in the graph in a fixed radius in order to rearrange the connections such that we get the optimal path.
+This function is used to find the nodes in the graph in a fixed radius in order to rearrange the connections such that we get the optimal path.
 
 Let's say the radius is $r$ such that $r\in \mathbb{R}$. The function $Near:(G,x,r)\mapsto V'\subseteq V$ returns the vertices $V'$ in $V$ that are contained in a circle of radius $r$ centred $x$, i.e.,
 
@@ -135,7 +133,7 @@ Note that if $v_0$ is the start node or root vertex of $G$, then, by convention,
 
 ### `CollisionFree()`
 
-This function is defined in the same way as the `CollisionCheck()` function in RRT.
+`CollisionFree(x,x')` returns `True` if the line segment joining x and x' lies in $\mathcal{X_{free}}$, where $x,x'\in \mathcal{X}$ and `False` otherwise.
 &nbsp;
 
 ## Visual comparison between RRT and RRT*
