@@ -75,10 +75,10 @@ def PRM(n, r, x_init, x_goal):
 		U = Near(V, E, j, r)
 		V.append(j)
 		U.Sort(distance(j))
-		for u in U:
-			if [[j, u], [u, j]] not in E:
-				if CollisionFree(j, u):
-					E.append([[j, u], [u, j]])
+		u = U[0]
+		if [[j, u], [u, j]] not in E:
+			if CollisionFree(j, u):
+				E.append([[j, u], [u, j]])
 
 	return V, E
 ```
