@@ -28,6 +28,11 @@ In a given space, the first step is to **randomly generate a point**. It is then
 
 If it is in C-space, we add this point to the graph by connecting it to all the points in the graph that are within a specific radius from the generated point by a straight line. It also checks whether this line is in free space, and only forms this connection if it is.
 
+![Adaptation Algorithm of Geometric Graphs for Robot Motion Planning in  Dynamic Environments](https://static-01.hindawi.com/articles/mpe/volume-2016/3973467/figures/3973467.fig.007a.svgz)
+*Source: [Mathematical Problems in Engineering](https://www.hindawi.com/journals/mpe/2016/3973467/)*
+
+In the above diagram, a node $q_i$ was randomly generated. Nodes within the radius $r_{\eta}$ are searched for and connected to $q_i$ through edges.
+
 This process is then repeated as many times as necessary. As the number of samples tends to infinity, the likelihood that the graph is a true road map tends to 100%.
 
 Once this is done, we add the start node and the goal node by joining a line from each of the two to the closest node in the graph to each of them.
@@ -57,7 +62,7 @@ Let's now look at the pseudocode that describes the algorithm. The functions use
 The following pseudocode only performs the learning phase for the PRM algorithm. The query phase has not been included in the pseudocode.
 
 ```python
-def PRM(n, r):
+def PRM(n, r, x_init, x_goal):
 	V = []
 	E = []
 	for i in range(n):
@@ -69,7 +74,17 @@ def PRM(n, r):
 			if [[x_rand, u], [u, x_rand]] not in E:
 				if CollisionFree(x_rand, u):
 					E.append([[x_rand, u], [u, x_rand]])
-					
+
+	start_and_goal = [x_init, x_goal]
+	for j in start_and_goal:
+		U = Near(V, E, j, r)
+		V.append(j)
+		U.Sort(distance(j))
+		for u in U:
+			if [[j, u], [u, j]] not in E:
+				if CollisionFree(j, u):
+					E.append([[j, u], [u, j]])
+
 	return V, E
 ```
 
