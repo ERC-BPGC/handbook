@@ -106,6 +106,13 @@ You can program ESP32 using the Arduino IDE. You can refer to [this](https://www
 
 For more examples and initial projects for practice you can refer [here](https://dronebotworkshop.com/esp32-intro/ ).
 
+## References
+* [Video](https://youtu.be/xPlN_Tk3VLQ) on Introduction to ESP 32-Getting Started by DroneBot Workshop 
+* For more details you can refer to the website of DroneBot Workshop [here](https://dronebotworkshop.com/esp32-intro/).
+* ESP 32 [webpage](https://www.electronicshub.org/esp32-pinout/) by Electronics Hub 
+* Programming Guide to ESP 32 by [Electronics Hub](https://www.electronicshub.org/esp32-arduino-ide/) and [OpenLab](https://openlabpro.com/guide/led-blinking-on-esp32/).
+* Espressif Systems [documentation](https://docs.espressif.com/projects/esp-idf/en/stable/esp32/index.html)
+ on ESP 32 .
 
 
 
