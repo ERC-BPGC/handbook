@@ -94,6 +94,7 @@ nav:
       - Lidar: electronics/Sensors/lidar.md
     - Development Boards:
       - Arduino: electronics/Development_Boards/Arduino.md
+      - ESP32 : electronics/Development_Boards/ESP32.md
       - BluePill (STM32F103C8T6) : electronics/Development_Boards/STM32.md
       - Arduino vs STM32 : electronics/Development_Boards/STM32vsArduinoUNO.md
       - Pyboard - MicroPython : electronics/Development_Boards/Pyboard.md
