@@ -33,6 +33,7 @@
 
 **Merged pull requests:**
 
+- \[15/09/21\] Added section Sensors in Electronics, added a page on Lidar to Sensors   [\#61](https://github.com/ERC-BPGC/handbook/pull/61) ([TheRandomizer7](https://github.com/TheRandomizer7))
 - \[02/09/21\] Template markdown added [\#60](https://github.com/ERC-BPGC/handbook/pull/60) ([Ashutosh781](https://github.com/Ashutosh781))
 - \[02/09/2021\] Added content to introduction pages [\#59](https://github.com/ERC-BPGC/handbook/pull/59) ([pranavgo](https://github.com/pranavgo))
 - \[02/02/2021\] Revert "\[02/09/2021\] Added content in introduction pages" [\#58](https://github.com/ERC-BPGC/handbook/pull/58) ([pranavgo](https://github.com/pranavgo))
