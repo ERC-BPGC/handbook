@@ -97,7 +97,8 @@ nav:
       - BluePill (STM32F103C8T6) : electronics/Development_Boards/STM32.md
       - Arduino vs STM32 : electronics/Development_Boards/STM32vsArduinoUNO.md
       - Pyboard - MicroPython : electronics/Development_Boards/Pyboard.md
- 
+    - Motors :
+      - Servo Motors: electronics/Motors/ServoMotor.md  
   - Mechanical:
     - Introduction: mechanical/intro.md
     - Gears: mechanical/Gears.md
