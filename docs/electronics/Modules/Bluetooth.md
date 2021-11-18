@@ -2,7 +2,7 @@
 Bluetooth modules is one of the most used microcontrollers for data transfer in low range environment. It approximately has a range of 10 meters.HC-05 Bluetooth Module is commonly used for Bluetooth Communication. It provides wireless functionality which helps to communicate between other microcontrollers like Arduino with devices having bluetooth functionality like Phones and Laptops.
 HC-05 has two operating modes, one is the Data mode wherein sending and receiving of data takes place between Bluetooth devices and the other mode is called AT Command mode wherein default device settings can be changed. These modes can be changed using the key pin, in the diagram showed below:
 
-![HC-05 Pinout](images\HC-05-Bluetooth-Module-pinout.png)
+![HC-05 Pinout](images/HC-05-Bluetooth-Module-pinout.png)
 
 The connections are as follows: <br> 
 Rx pin of module is connected to Tx pin of microcontroller and Tx pin of module is connected to Rx pin of microcontroller.<br>
@@ -38,7 +38,7 @@ We also require a app named [BlueControl](https://play.google.com/store/apps/det
 
 **Steps:-**<br>
 1. Make the connections as shown in the above image. Don’t connect the RX & TX pins WHILE/BEFORE  uploading the code !<br>
-![image](images\bluetooh_connetion.jpg)
+![image](images/bluetooh_connetion.jpg)
 2. When you are connecting to the Bluetooth module for the first time, it will ask you the password. Enter 0000 OR 1234.<br>
 3. Copy the code given below:-<br>
 ```cpp
