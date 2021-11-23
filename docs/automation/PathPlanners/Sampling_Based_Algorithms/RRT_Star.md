@@ -8,7 +8,7 @@ Let's now look at the RRT* algorithm that was originally proposed in the paper a
 
 The following image shows the RRT* algorithm applied on a 2D graph.
 
-![](https://www.mathworks.com/matlabcentral/mlc-downloads/downloads/submissions/60993/versions/2/screenshot.png)
+![](images/rrt_star_visualisation.png)
 *Courtesy: [SAI VEMPRALA](https://www.mathworks.com/matlabcentral/profile/authors/4026649)*
 &nbsp;
 
@@ -20,8 +20,9 @@ However, the difference is where the connection is made. We assign every node a 
 
 We then rearrange the connections such that they **minimize the cost function** and optimize the path. This can rearrange the graph in such a way that we get the shortest path.
 
-![](https://1.bp.blogspot.com/-ERv_gsPPQEs/TWu6Qf1eEdI/AAAAAAAAAOg/qOrAou32pUc/s1600/rrt04.png)
+![](images/rrt_star_algo.png)
 *Courtesy: [Joon's lectures](https://joonlecture.blogspot.com/2011/02/improving-optimality-of-rrt-rrt.html)*
+
 
 In the image above, after rearranging the connections, the path to the green points, i.e., $q_{near}$ is shorter through the red connections than through the earlier connections.
 &nbsp;
@@ -140,7 +141,7 @@ Note that if $v_0$ is the start node or root vertex of $G$, then, by convention,
 
 The following image shows the RRT and RRT\* algorithms applied on a 2D graph with obstacles. The plot on the left is RRT and the plot on the right is RRT*. As one can see, the RRT\* algorithm provides a more optimal solution to the path planning problem.
 
-![A Comparison of the RRT (a) and RRT* (b) algorithms on an example (Karaman and Frazzoli, 2011)  ](https://www.researchgate.net/profile/Andras-Gyimesi/publication/289366294/figure/fig2/AS:333011515133957@1456407540665/A-Comparison-of-the-RRT-a-and-RRT-b-algorithms-on-an-example-Karaman-and-Frazzoli.png)
+![A Comparison of the RRT (a) and RRT* (b) algorithms on an example (Karaman and Frazzoli, 2011)](images/rrt_vs_rrt_star.png)
 *Courtesy: [András Gyimesi](https://www.researchgate.net/profile/Andras-Gyimesi)*
 &nbsp;
 
@@ -148,7 +149,7 @@ The following image shows the RRT and RRT\* algorithms applied on a 2D graph wit
 
 The following flowchart provides a visual summary of the optimal rapidly exploring random trees algorithm.
 
-![MEAQR RRT* Algorithm Flowchart ](https://www.researchgate.net/profile/Nir-Rikovitch/publication/268469501/figure/fig4/AS:614123901558785@1523429956120/4-MEAQR-RRT-Algorithm-Flowchart.png)
+![MEAQR RRT* Algorithm Flowchart ](images/rrt_star_summary.png)
 *Courtesy: [Nir Rikovitch](https://www.researchgate.net/profile/Nir-Rikovitch)*
 &nbsp;
 

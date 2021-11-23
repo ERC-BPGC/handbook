@@ -2,11 +2,11 @@
 
 ## Introduction
 
-The probabilistic roadmap method is a fairly simple sampling based path planning method, compared to the other sampling based algorithms, RRT and RRT\*. It was introduced in the paper titled *Probabilistic Roadmaps for Path Planning in High-Dimensional Configuration Spaces*, and the invention of the PRM method is credited to Lydia E. Kavraki
+The probabilistic roadmap method is a fairly simple sampling based path planning method, compared to the other sampling based algorithms, RRT and RRT\*. It was introduced in the paper titled *Probabilistic Roadmaps for Path Planning in High-Dimensional Configuration Spaces*, and the invention of the PRM method is credited to Lydia E. Kavraki.
 
 As this is a sampling based algorithm, it involves randomly sampling points in a given space.
 
-<center>![Probabilistic roadmap - Wikipedia](https://upload.wikimedia.org/wikipedia/commons/9/99/PRM_with_Ob-maps.gif)</center>
+<center>![Probabilistic roadmap - Wikipedia](images/prm_visualisation.gif)</center>
 *Source: [Wikipedia](https://en.wikipedia.org/wiki/Probabilistic_roadmap)*
 
 This algorithm is divided into two phases, namely, the **learning phase** and the **query phase**.
@@ -28,7 +28,7 @@ In a given space, the first step is to **randomly generate a point**. It is then
 
 If it is in C-space, we add this point to the graph by connecting it to all the points in the graph that are within a specific radius from the generated point by a straight line. It also checks whether this line is in free space, and only forms this connection if it is.
 
-<center>![Adaptation Algorithm of Geometric Graphs for Robot Motion Planning in  Dynamic Environments](https://static-01.hindawi.com/articles/mpe/volume-2016/3973467/figures/3973467.fig.007a.svgz)</center>
+<center>![Adaptation Algorithm of Geometric Graphs for Robot Motion Planning in  Dynamic Environments](images/prm_algo.svgz)</center>
 
 *Source: [Mathematical Problems in Engineering](https://www.hindawi.com/journals/mpe/2016/3973467/)*
 
@@ -47,7 +47,7 @@ Given the start and goal configurations, $s$ and $g$, the method tries to connec
 
 We have already covered graph based algorithms separately so you can refer to those for how they work.
 
-![2: Probabilistic Roadmaps. The blue nodes are the sampled collision... |  Download Scientific Diagram](https://www.researchgate.net/profile/Yogesh-Girdhar/publication/266338011/figure/fig3/AS:667811798065152@1536230148021/Probabilistic-Roadmaps-The-blue-nodes-are-the-sampled-collision-free-configurations.png)<center>Figure: Optimal path generated using some graph based algorithm on the roadmap. (*Courtesy: [Yogesh Girdhar](https://www.researchgate.net/profile/Yogesh-Girdhar)*)</center>
+![2: Probabilistic Roadmaps. The blue nodes are the sampled collision... |  Download Scientific Diagram](images/prm_query_phase.png)<center>Figure: Optimal path generated using some graph based algorithm on the roadmap. (*Courtesy: [Yogesh Girdhar](https://www.researchgate.net/profile/Yogesh-Girdhar)*)</center>
 
 One interesting thing to note is that the **learning phase and query phase can be interwoven**, i.e., the two phases don't need to be carried out sequentially.
 

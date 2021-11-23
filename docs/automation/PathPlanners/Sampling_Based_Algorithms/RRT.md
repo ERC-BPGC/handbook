@@ -13,7 +13,7 @@ The basic idea behind the algorithm is to start out at a start node and to gener
 
 There are a few key things to note here. Firstly, the points aren't joined directly. We take a **maximum distance between sampled node and nearest node** (called `DELTA` in the pseudocode). We extend the nearest node by this distance towards the randomly sampled node, if the sampled node is farther than this distance. Otherwise, if the sampled node is closer than this value, we directly connect the two nodes.
 
-![Joon&#39;s Lectures: Improving the Optimality of RRT: RRT*](http://4.bp.blogspot.com/-llC0qka-mpc/TWu6P9HjzZI/AAAAAAAAAOI/8i62sqfRUFE/s1600/rrt01.png)
+![Joon&#39;s Lectures: Improving the Optimality of RRT: RRT*](images/rrt01.png)
 
 *Courtesy: [Joon's Lectures](https://joonlecture.blogspot.com/2011/02/improving-optimality-of-rrt-rrt.html)*
 
