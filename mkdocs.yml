@@ -92,11 +92,18 @@ nav:
     - Introduction: electronics/intro.md
     - Basic Electronic Components: 
       - Breadboard: electronics/Basic_Electronic_Components/breadboard.md
+    - Sensors:
+      - Lidar: electronics/Sensors/lidar.md
     - Development Boards:
       - Arduino: electronics/Development_Boards/Arduino.md
+      - ESP32 : electronics/Development_Boards/ESP32.md
       - BluePill (STM32F103C8T6) : electronics/Development_Boards/STM32.md
       - Arduino vs STM32 : electronics/Development_Boards/STM32vsArduinoUNO.md
- 
+      - Pyboard - MicroPython : electronics/Development_Boards/Pyboard.md
+    - Modules:
+      - Wifi Module: electronics/Modules/wifi_module.md
+    - Motors :
+      - Servo Motors: electronics/Motors/ServoMotor.md  
   - Mechanical:
     - Introduction: mechanical/intro.md
     - Gears: mechanical/Gears.md
