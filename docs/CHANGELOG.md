@@ -33,6 +33,7 @@
 
 **Merged pull requests:**
 
+- Update Robot Description.md [\#71](https://github.com/ERC-BPGC/handbook/pull/71) ([Adonnes15](https://github.com/Adonnes15))
 - Added Wifi-Module [\#65](https://github.com/ERC-BPGC/handbook/pull/65) ([tanaypatni03](https://github.com/tanaypatni03))
 - \[21/09/21\] Added Page for ESP 32  [\#64](https://github.com/ERC-BPGC/handbook/pull/64) ([laukik29](https://github.com/laukik29))
 - \[19/09/21\] Added section Motors in Electronics, added a page on Servo Motor to Motors  [\#63](https://github.com/ERC-BPGC/handbook/pull/63) ([Spindrift66](https://github.com/Spindrift66))
