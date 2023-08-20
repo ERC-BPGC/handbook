@@ -74,12 +74,14 @@ nav:
       - Getting Started with ROS: automation/ROS/ros.md
       - ROS Parameters: automation/ROS/ros_p2.md
     - Path Planning:
-      - Introduction to Path Planning in Robotics: automation/PathPlanners/intro.md
+      - Introduction to Path Planning in Robotics: automation/PathPlanners/Introduction_to_Path_Planning_in_Robotics/intro.md
       - Graph Based Algorithms:
-        - A Star: automation/PathPlanners/Astar.md
-        - Dijkstra's Algorithm: automation/PathPlanners/Dijkstra.md
+        - A Star: automation/PathPlanners/Graph_Based_Algorithms/Astar.md
+        - Dijkstra's Algorithm: automation/PathPlanners/Graph_Based_Algorithms/Dijkstra.md
       - Sampling Based Algorithms:
-        - RRT: automation/PathPlanners/RRT.md
+        - RRT: automation/PathPlanners/Sampling_Based_Algorithms/RRT.md
+        - RRT Star: automation/PathPlanners/Sampling_Based_Algorithms/RRT_Star.md
+        - PRM: automation/PathPlanners/Sampling_Based_Algorithms/PRM.md
     - Control Theory:
       - Introduction to Control Theory: automation/ControlTheory/Control_Theory.md
       - PID Controller: automation/ControlTheory/PID_Controller.md

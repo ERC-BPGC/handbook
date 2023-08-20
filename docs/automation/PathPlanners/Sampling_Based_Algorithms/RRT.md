@@ -7,6 +7,20 @@
 4. There is no gaurantee regarding the optimality of the solution. The path produced my bot the the shortest path.
 5. Post processing of the path generated is required as the path generated is often very unordered or in zig-zag fashion.
 
+### Intuition
+
+The basic idea behind the algorithm is to start out at a start node and to generate random points in the configuration space and the tree is extended by connecting the randomly generated point to the closest node in the existing tree available.
+
+There are a few key things to note here. Firstly, the points aren't joined directly. We take a **maximum distance between sampled node and nearest node** (called `DELTA` in the pseudocode). We extend the nearest node by this distance towards the randomly sampled node, if the sampled node is farther than this distance. Otherwise, if the sampled node is closer than this value, we directly connect the two nodes.
+
+![Joon&#39;s Lectures: Improving the Optimality of RRT: RRT*](images/rrt01.png)
+
+*Courtesy: [Joon's Lectures](https://joonlecture.blogspot.com/2011/02/improving-optimality-of-rrt-rrt.html)*
+
+In the above image, $q_{rand}$ is the randomly sampled point, $q_{nearest}$ is the nearest (to $q_{rand}$) point in the tree. Since the distance between $q_{rand}$ and $q_{nearest}$ is greater than the maximum distance $v$, we connect $q_{nearest}$ to $q_{new}$, which is at a distance of $v$ from $q_{nearest}$.
+
+This process is continuously carried out for many iterations until the goal is reached. The tree expands rapidly, and hence the name.
+
 ### Collision Checking Function
 One important requirement of sampling algorithms, is the ability to check if a configuration is valid or not. To check if a configuration $X$ is valid in a _configuration free space_ $\mathbb{C}$, a function as such can be used:
 
