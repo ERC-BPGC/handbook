@@ -33,6 +33,8 @@
 
 **Merged pull requests:**
 
+- Rename Robot Description.md to Robot\_Description.md [\#73](https://github.com/ERC-BPGC/handbook/pull/73) ([Adonnes15](https://github.com/Adonnes15))
+- Rename Robot Description.md to Robot\_Description.md [\#72](https://github.com/ERC-BPGC/handbook/pull/72) ([Adonnes15](https://github.com/Adonnes15))
 - Update Robot Description.md [\#71](https://github.com/ERC-BPGC/handbook/pull/71) ([Adonnes15](https://github.com/Adonnes15))
 - Added Wifi-Module [\#65](https://github.com/ERC-BPGC/handbook/pull/65) ([tanaypatni03](https://github.com/tanaypatni03))
 - \[21/09/21\] Added Page for ESP 32  [\#64](https://github.com/ERC-BPGC/handbook/pull/64) ([laukik29](https://github.com/laukik29))
