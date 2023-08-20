@@ -36,6 +36,7 @@
 - Rename Robot Description.md to Robot\_Description.md [\#73](https://github.com/ERC-BPGC/handbook/pull/73) ([Adonnes15](https://github.com/Adonnes15))
 - Rename Robot Description.md to Robot\_Description.md [\#72](https://github.com/ERC-BPGC/handbook/pull/72) ([Adonnes15](https://github.com/Adonnes15))
 - Update Robot Description.md [\#71](https://github.com/ERC-BPGC/handbook/pull/71) ([Adonnes15](https://github.com/Adonnes15))
+- Added Sampling Based Path Planning Files [\#68](https://github.com/ERC-BPGC/handbook/pull/68) ([ajaykrishna1878](https://github.com/ajaykrishna1878))
 - Added Wifi-Module [\#65](https://github.com/ERC-BPGC/handbook/pull/65) ([tanaypatni03](https://github.com/tanaypatni03))
 - \[21/09/21\] Added Page for ESP 32  [\#64](https://github.com/ERC-BPGC/handbook/pull/64) ([laukik29](https://github.com/laukik29))
 - \[19/09/21\] Added section Motors in Electronics, added a page on Servo Motor to Motors  [\#63](https://github.com/ERC-BPGC/handbook/pull/63) ([Spindrift66](https://github.com/Spindrift66))
@@ -68,8 +69,6 @@
 - \[03/08/20\] Changelog Test 2 [\#20](https://github.com/ERC-BPGC/handbook/pull/20) ([veds12](https://github.com/veds12))
 - changelog test [\#19](https://github.com/ERC-BPGC/handbook/pull/19) ([veds12](https://github.com/veds12))
 - \[01/08/20\] Test1 for auto changelog generator [\#18](https://github.com/ERC-BPGC/handbook/pull/18) ([veds12](https://github.com/veds12))
-- \[01/08/20\] Added information about colcon in GETTING STARTED WITH ROS [\#17](https://github.com/ERC-BPGC/handbook/pull/17) ([veds12](https://github.com/veds12))
-- Update mkdocs.yml [\#12](https://github.com/ERC-BPGC/handbook/pull/12) ([Ashutosh781](https://github.com/Ashutosh781))
 
 
 
