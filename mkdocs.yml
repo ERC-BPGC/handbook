@@ -120,6 +120,7 @@ nav:
     - Introduction: simulation/intro.md
     - Gazebo:
       - Basics of Gazebo: simulation/gazebo/basics.md
+      - Robot Description: simulation/gazebo/Robot_Description.md
     - STDR Simulator:
       - Basics of STDR: simulation/stdr/Basics.md
 
