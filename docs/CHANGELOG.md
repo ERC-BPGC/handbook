@@ -33,6 +33,7 @@
 
 **Merged pull requests:**
 
+- added mechanical handbook section [\#75](https://github.com/ERC-BPGC/handbook/pull/75) ([akagam1](https://github.com/akagam1))
 - Update mkdocs.yml [\#74](https://github.com/ERC-BPGC/handbook/pull/74) ([Adonnes15](https://github.com/Adonnes15))
 - Rename Robot Description.md to Robot\_Description.md [\#73](https://github.com/ERC-BPGC/handbook/pull/73) ([Adonnes15](https://github.com/Adonnes15))
 - Rename Robot Description.md to Robot\_Description.md [\#72](https://github.com/ERC-BPGC/handbook/pull/72) ([Adonnes15](https://github.com/Adonnes15))
