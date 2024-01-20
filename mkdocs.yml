@@ -106,6 +106,7 @@ nav:
       - Servo Motors: electronics/Motors/ServoMotor.md  
   - Mechanical:
     - Introduction: mechanical/intro.md
+    - Mechanical 101: mechanical/mechanical_101.md
     - Gears: mechanical/Gears.md
     - Drive Mechanism: mechanical/drive_mechanism.md
     - Kinematics and Dynamics:
