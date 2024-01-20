@@ -69,7 +69,6 @@
 - \[31/08/2020\] Added PathPlanning, A\*, Dijkstra's, RRT [\#24](https://github.com/ERC-BPGC/handbook/pull/24) ([SuhrudhSarathy](https://github.com/SuhrudhSarathy))
 - \[04/08/20\] Added information about ROS Parameters [\#21](https://github.com/ERC-BPGC/handbook/pull/21) ([adbidwai](https://github.com/adbidwai))
 - \[03/08/20\] Changelog Test 2 [\#20](https://github.com/ERC-BPGC/handbook/pull/20) ([veds12](https://github.com/veds12))
-- changelog test [\#19](https://github.com/ERC-BPGC/handbook/pull/19) ([veds12](https://github.com/veds12))
 
 
 
