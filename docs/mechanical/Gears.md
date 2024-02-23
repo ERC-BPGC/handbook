@@ -116,13 +116,3 @@ The herringbone gear consists of two sets of gear teeth on the same gear, one ri
 A rack and pinion drive system consists of a rack (or a “linear gear”) and a pinion (or “circular gear”), which operate to convert rotational motion into linear motion. A rack and pinion drive can use both straight and helical gears. These systems provide high-speed travel over extremely long lengths and are frequently used in large gantry systems for material handling, machining, welding and assembly, especially in the automotive, machine tool, and packaging industries.
 
 <center>![gears9](images/gears9.png)</center>
-
-## Planetary Gear
-
-A planetary gear set is made up of three types of gears; a sun gear, planet gears, and a ring gear. The sun gear is located at the center, and transmits torque to the planet gears which are typically mounted on a moveable carrier. The planet gears orbit around the sun gear and mesh with an outer ring gear. Planetary gear systems can vary in complexity from very simple to intricate compound systems, depending on the application.
-
-<center>![gears10](images/gears10.png){: style="height:250px"}</center>
-
-Planetary gear systems are able to produce a lot of torque because the load is shared among multiple planet gears. This arrangement also creates more contact surfaces and a larger contact area between the gears than a traditional parallel axis gear system. Because of this, in the load is more evenly distributed and therefore the gears are more resistant to damage.
-
-Planetary gears are often used when space and weight are an issue, but a large amount of speed reduction and torque are needed. This requirement applies to a variety of industries, including tractors and construction equipment where a large amount of torque is needed to drive the wheels. Other places you will find planetary gear sets include turbine engines, automatic transmissions, and even electric screwdrivers.
